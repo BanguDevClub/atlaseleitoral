@@ -2,7 +2,6 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import SectionHeading from '@/components/SectionHeading.astro';
 import SourceChip from '@/components/SourceChip';
-import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
@@ -12,134 +11,124 @@ import { ORIENTATION_COLOR } from '@/components/OrientationBadge';
 const sections = [
   {
     id: 'fontes',
-    title: 'Fontes e citação',
+    title: 'Fontes e citação primária',
     body: [
-      'Toda afirmação de fato exibe a fonte original em um selo clicável: meio, data e link direto. Priorizamos fontes oficiais (TSE, Congresso em Foco/Senado, Câmara dos Deputados, programas de governo registrados) e a cobertura dos principais veículos (G1, Folha, Estadão, Valor, O Globo, BBC, Reuters, entre outros).',
-      'Citações em declarações são transcritas com a data e o contexto em que foram feitas. Quando não foi possível verificar uma informação em fonte acessível, ela não é publicada.',
+      'Toda afirmação de fato exibida no Atlas exibe a fonte original em um selo clicável: meio, data e link direto. Priorizamos fontes oficiais primárias (TSE, Congresso Nacional, Câmara dos Deputados, Senado Federal, diários oficiais e programas de governo registrados) combinadas com a cobertura apurada pelos principais veículos jornalísticos de referência.',
+      'Citações e declarações são transcritas com data exata e o contexto factual em que foram proferidas. Quando não foi possível verificar uma informação em fonte confiável e pública, ela não é incluída.',
     ],
   },
   {
     id: 'eixos',
-    title: 'Os dois eixos do compasso',
+    title: 'Os dois eixos do compasso político',
     body: [
-      'Eixo econômico (horizontal): de −10 (intervenção estatal ampla, estatização, regulação forte) a +10 (livre-mercado, privatização, desregulação e disciplina fiscal rígida).',
-      'Eixo social (vertical): de −10 (conservador: ordem, autoridade, valores tradicionais) a +10 (progressista: liberdades individuais, pautas sociais e derechos civis).',
-      'As coordenadas são uma síntese editorial: primeiro a evidência (votos relevantes, programa de governo, declarações), depois a posição que melhor descreve o conjunto. A ficha de cada candidato mostra o raciocínio e as fontes usadas.',
+      'Eixo econômico (horizontal): graduado de −10 (intervenção estatal ampla, fortalecimento de estatais, regulação e tributação progressiva) a +10 (livre-mercado, privatização, desregulamentação e austeridade fiscal estrita).',
+      'Eixo social (vertical): graduado de −10 (conservador: ordem, segurança institucional e valores tradicionais) a +10 (progressista: liberdades individuais, garantias fundamentais e pautas sociais inclusivas).',
+      'As coordenadas representam sínteses editoriais construídas a partir de evidências sólidas: primeiro o registro documental (votos, programa, declarações), depois a atribuição da coordenada que melhor sintetiza o conjunto. Cada ficha detalha as evidências consideradas.',
     ],
   },
   {
     id: 'confianca',
-    title: 'Nível de confiança',
+    title: 'Grau de confiança da classificação',
     body: [
-      'Alta: posição consistente em votações, programa e declarações. Média: evidência sólida, mas com menos registros ou alguns contrastes. Baixa: poucas fontes disponíveis — interpretação provisória, sujeita a revisão.',
+      'Alta: histórico extenso e consistente em mandatos prévios, votações no parlamento e programa oficial consolidado. Média: evidências sólidas com registros públicos consistentes, mas com menor histórico legislativo ou contradições pontuais. Baixa: poucas fontes primárias disponíveis até o momento — classificação preliminar sujeita a constante revisão.',
     ],
   },
   {
     id: 'cores',
-    title: 'Cores',
+    title: 'Sistema de cores e temas visuais',
     body: [
-      'A cor de cada candidato vem do eixo econômico: vermelho (esquerda) → roxo (centro) → azul (direita). A posição vertical (social) é lida pela localização no mapa, não pela cor.',
-      'As páginas usam a paleta Catppuccin em quatro variantes — Latte (claro), Frappé, Macchiato e Mocha (escuros) — selecionáveis no topo do site.',
+      'A identidade cromática de cada candidato reflete seu posicionamento no eixo econômico: tons avermelhados (esquerda) → roxo/violeta (centro) → azulados (direita). O eixo social é percebido pela posição espacial no mapa.',
+      'O design conta com suporte integral aos modos Claro e Escuro, construído sobre as variantes da paleta de alta harmonia Catppuccin — Latte (tema claro), Frappé, Macchiato e Mocha (temas escuros) — alternáveis pelo menu superior.',
     ],
   },
   {
     id: 'controversias',
-    title: 'Controvérsias e escândalos',
+    title: 'Documentação de controvérsias e processos',
     body: [
-      'Só entram na ficha casos documentados por fontes, sempre com o status atualizado: arquivado, processo em curso, condenação (com ou sem recurso), operação policial, acusação negada etc.',
-      'O verbete descreve o que é publicamente documentado, sem adjetivação. A ausência de casos não implica ausência de controvérsias — implica ausência de documentação verificável neste atlas.',
+      'São catalogados exclusivamente casos de repercussão pública documentados por fontes jornalísticas reconhecidas e registros jurídicos oficiais, informando sempre o status atualizado (inquérito arquivado, processo em andamento, absolvição ou condenação com recurso pendente).',
+      'A redação prioriza a estrita descrição factual, sem termos adjetivos ou juízo de culpa. A ausência de registro em uma ficha indica apenas inexistência de documentação qualificada nos critérios deste projeto.',
     ],
   },
   {
     id: 'limites',
-    title: 'Limites',
+    title: 'Independência e limites deste atlas',
     body: [
-      'Este é um projeto educacional, sem filiação partidária ou financiamento de candidatos. Erros ou correções podem ser ajustados quando novas evidências surgem — a data de atualização das pesquisas aparece na página de Pesquisas.',
-      'Pesquisas eleitorais têm margem de erro e retratam um momento; não são previsão de resultado.',
+      'O Atlas Eleitoral é uma iniciativa de utilidade pública e educação cívica, sem vínculos partidários ou financiamento de candidaturas. Erros e complementações factuais são corrigidos continuamente com novas evidências.',
+      'Pesquisas de intenção de voto representam retratos amostrais momentâneos da opinião pública e possuem margens estatísticas de erro; não constituem previsão antecipada de resultados nas urnas.',
     ],
   },
 ];
 ---
 
 <BaseLayout
-  title="Metodologia | Atlas Eleitoral"
-  description="Como o Atlas Eleitoral pesquisa, cita fontes e classifica os candidatos no compasso político de dois eixos."
+  title="Metodologia Editorial | Atlas Eleitoral"
+  description="Critérios de pesquisa, catalogação de fontes primárias e metodologia de classificação no compasso político de dois eixos."
 >
-  <main class="mx-auto max-w-4xl px-4 py-10 sm:px-6">
+  <main class="mx-auto max-w-4xl px-4 py-12 sm:px-6">
     <div class="mb-8">
       <SectionHeading
-        eyebrow="Transparência"
-        title="Metodologia"
-        description="O que cada dado neste site significa, de onde vem e como é interpretado."
+        eyebrow="Transparência e Rigor"
+        title="Metodologia Editorial e Apuração"
+        description="Conheça os critérios técnicos, éticos e documentais aplicados na classificação de candidaturas, agregação de pesquisas e fontes."
       />
     </div>
 
     <div class="flex flex-col gap-6">
       {
         sections.map((section) => (
-          <Card id={section.id}>
-            <CardHeader>
-              <CardTitle>{section.title}</CardTitle>
-            </CardHeader>
-            <CardContent className="flex flex-col gap-3">
+          <div id={section.id} class="glass-panel rounded-2xl p-6 sm:p-8 space-y-4">
+            <h3 class="font-heading text-lg font-bold text-foreground flex items-center gap-2.5">
+              <span class="size-2 rounded-full bg-ctp-mauve"></span>
+              {section.title}
+            </h3>
+            <div class="space-y-3">
               {section.body.map((paragraph) => (
                 <p class="text-sm leading-relaxed text-muted-foreground">{paragraph}</p>
               ))}
-            </CardContent>
-          </Card>
+            </div>
+          </div>
         ))
       }
 
-      <Card>
-        <CardHeader>
-          <CardTitle>Como a orientação é rotulada</CardTitle>
-          <CardDescription>Rótulos usados nas comparações e fichas</CardDescription>
-        </CardHeader>
-        <CardContent className="flex flex-wrap gap-2">
+      <div class="glass-panel rounded-2xl p-6 sm:p-8 space-y-4">
+        <div>
+          <h3 class="font-heading text-lg font-bold text-foreground">Classificação de orientação por tema</h3>
+          <p class="text-xs text-muted-foreground mt-1">Rótulos sintéticos utilizados nas fichas e comparações temáticas</p>
+        </div>
+        <div class="flex flex-wrap gap-2 pt-2">
           {(['esquerda', 'centro-esquerda', 'centro', 'centro-direita', 'direita'] as const).map((orientation) => (
             <span
-              class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-medium"
+              class="inline-flex items-center rounded-full border px-3 py-1 text-xs font-semibold uppercase tracking-wider"
               style={`color:${ORIENTATION_COLOR[orientation]};border-color:color-mix(in oklch, ${ORIENTATION_COLOR[orientation]} 45%, transparent);background:color-mix(in oklch, ${ORIENTATION_COLOR[orientation]} 12%, transparent)`}
             >
               {orientation}
             </span>
           ))}
-        </CardContent>
-      </Card>
+        </div>
+      </div>
     </div>
 
-    <Separator className="my-8" />
+    <Separator className="my-10" />
 
-    <section class="flex flex-col gap-3">
-      <h2 class="font-heading text-xl font-semibold">Fontes desta página</h2>
+    <section class="flex flex-col gap-4">
+      <h2 class="font-heading text-xl font-bold text-foreground">Bases de Dados e Fontes Primárias</h2>
       <div class="flex flex-wrap gap-2">
-        <Badge variant="outline">TSE</Badge>
-        <Badge variant="outline">Programas de governo</Badge>
+        <Badge variant="outline" className="font-semibold">TSE — DivulgaCandContas</Badge>
+        <Badge variant="outline" className="font-semibold">Programas de Governo Oficiais</Badge>
+        <Badge variant="outline" className="font-semibold">Diário Oficial da União</Badge>
         {
           electionFacts?.sources.map((source) => (
             <SourceChip source={source} />
           ))
         }
-        {
-          !electionFacts && (
-            <a
-              href="https://divulgacandcontas.tse.jus.br/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-ctp-blue underline underline-offset-4 text-sm"
-            >
-              Divulgação de Candidaturas — TSE
-            </a>
-          )
-        }
       </div>
-      <Alert className="mt-2">
-        <AlertTitle>Independentidade</AlertTitle>
-        <AlertDescription>
-          Sem filiação partidária. A ordem de exibição nunca favorece candidatura — listas ordenadas por número de
-          urna, nome ou coordenadas explícitas.
-        </AlertDescription>
-      </Alert>
+
+      <div class="mt-4 glass-panel rounded-2xl p-6 border-l-4 border-l-ctp-teal">
+        <h3 class="font-heading text-sm font-bold text-foreground">Compromisso com a Imparcialidade</h3>
+        <p class="mt-1 text-xs leading-relaxed text-muted-foreground">
+          Nenhuma candidatura é impulsionada ou priorizada visualmente. Listagens padrão seguem ordenações neutras por número de urna, ordem alfabética ou ordenação explícita escolhida pelo usuário.
+        </p>
+      </div>
     </section>
   </main>
 </BaseLayout>

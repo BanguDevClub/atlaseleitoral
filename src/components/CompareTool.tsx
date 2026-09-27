@@ -66,12 +66,14 @@ export function forComparison(candidate: Candidate): CompareCandidate {
 }
 
 function PositionCell({ position }: { position: KeyPosition | undefined }) {
-  if (!position) return <span className="text-muted-foreground">—</span>;
+  if (!position) return <span className="text-muted-foreground text-xs italic">Não documentado no programa</span>;
   return (
     <div className="flex flex-col gap-2">
-      <OrientationBadge orientation={position.orientation} />
-      <p className="text-sm leading-snug">{position.stance}</p>
-      <div className="flex flex-wrap gap-1.5">
+      <div>
+        <OrientationBadge orientation={position.orientation} />
+      </div>
+      <p className="text-xs leading-relaxed text-foreground/90">{position.stance}</p>
+      <div className="flex flex-wrap gap-1 pt-1">
         {position.sources.map((source) => (
           <SourceChip key={source.url} source={source} />
         ))}
@@ -90,11 +92,12 @@ export default function CompareTool({ candidates }: { candidates: CompareCandida
     .map((id) => candidates.find((c) => c.id === id))
     .filter((c): c is CompareCandidate => Boolean(c));
 
-  const cellClass = (index: number) => cn('border-t border-border/60 p-3 align-top', index % 2 === 1 && 'bg-muted/30');
+  const cellClass = (index: number) =>
+    cn('border-t border-border/70 p-4 align-top transition-colors', index % 2 === 1 && 'bg-muted/20');
 
   const renderRow = (label: string, cells: ReactNode[], rowIndex: number) => (
     <div key={label} className="contents">
-      <div className={cn(cellClass(rowIndex), 'text-xs font-medium tracking-wide text-muted-foreground uppercase')}>
+      <div className={cn(cellClass(rowIndex), 'text-xs font-bold tracking-wider text-muted-foreground uppercase')}>
         {label}
       </div>
       {cells.map((cell, i) => (
@@ -110,40 +113,53 @@ export default function CompareTool({ candidates }: { candidates: CompareCandida
       label: 'Compasso político',
       cells: chosen.map((c) => (
         <div key={c.id} className="flex flex-col gap-2">
-          <CompassGlyph social={c.compass.social} economic={c.compass.economic} size={72} />
-          <p className="font-mono text-xs text-muted-foreground">
-            social {formatScore(c.compass.social)} · econ. {formatScore(c.compass.economic)}
-          </p>
-          <p className="text-xs">{quadrantOf(c.compass.social, c.compass.economic).label}</p>
+          <div className="flex items-center gap-3">
+            <CompassGlyph social={c.compass.social} economic={c.compass.economic} size={64} />
+            <div className="flex flex-col text-xs">
+              <span className="font-bold text-foreground" style={{ color: candidateColor(c.compass.economic) }}>
+                {quadrantOf(c.compass.social, c.compass.economic).label}
+              </span>
+              <span className="font-mono text-muted-foreground">
+                soc. {formatScore(c.compass.social)} · econ. {formatScore(c.compass.economic)}
+              </span>
+              <span className="text-[10px] text-muted-foreground">
+                Confiança: <strong className="capitalize text-foreground">{c.compass.confidence}</strong>
+              </span>
+            </div>
+          </div>
         </div>
       )),
     },
     {
-      label: 'Partido',
+      label: 'Partido & Coligação',
       cells: chosen.map((c) => (
-        <div key={c.id} className="flex flex-col gap-1 text-sm">
-          <span className="font-medium">
+        <div key={c.id} className="flex flex-col gap-1 text-xs">
+          <span className="font-bold text-foreground">
             {c.party} — {c.partyFullName}
           </span>
-          {c.coalition && <span className="text-xs text-muted-foreground">Coligação: {c.coalition}</span>}
+          {c.coalition && <span className="text-muted-foreground">Coligação: {c.coalition}</span>}
         </div>
       )),
     },
     {
-      label: 'Chapa',
+      label: 'Chapa e Vice',
       cells: chosen.map((c) => (
-        <div key={c.id} className="flex flex-col gap-1 text-sm">
-          <span>Vice: {c.vice.name} ({c.vice.party})</span>
-          <span className="text-xs text-muted-foreground">Nº de urna {c.number}</span>
+        <div key={c.id} className="flex flex-col gap-1 text-xs">
+          <span className="text-foreground">
+            Vice: <strong>{c.vice.name}</strong> ({c.vice.party})
+          </span>
+          <span className="font-mono font-medium text-muted-foreground">Urna: nº {c.number}</span>
         </div>
       )),
     },
     {
-      label: 'Perfil',
+      label: 'Perfil & Idade',
       cells: chosen.map((c) => (
-        <div key={c.id} className="flex flex-col gap-1 text-sm">
-          <span>{c.age} anos · {c.occupation}</span>
-          <span className="text-xs text-muted-foreground">{c.headline}</span>
+        <div key={c.id} className="flex flex-col gap-1 text-xs">
+          <span className="font-medium text-foreground">
+            {c.age} anos · {c.occupation}
+          </span>
+          <span className="text-muted-foreground leading-relaxed">{c.headline}</span>
         </div>
       )),
     },
@@ -152,24 +168,26 @@ export default function CompareTool({ candidates }: { candidates: CompareCandida
       cells: chosen.map((c) => <PositionCell key={c.id} position={c.keyPositions.find((p) => p.topic === topic)} />),
     })),
     {
-      label: 'Declarações documentadas',
+      label: 'Declarações Documentadas',
       cells: chosen.map((c) => (
-        <span key={c.id} className="font-mono text-sm tabular-nums">
-          {c.statementCount}
+        <span key={c.id} className="font-mono text-sm font-bold text-foreground tabular-nums">
+          {c.statementCount} declarações apuradas
         </span>
       )),
     },
     {
-      label: 'Controvérsias registradas',
+      label: 'Controvérsias Registradas',
       cells: chosen.map((c) =>
         c.scandalTitles.length === 0 ? (
-          <span key={c.id} className="text-sm text-muted-foreground">
-            Nenhuma documentada
+          <span key={c.id} className="text-xs text-muted-foreground italic">
+            Nenhuma de ampla notoriedade documentada
           </span>
         ) : (
-          <ul key={c.id} className="flex list-disc flex-col gap-1 pl-4 text-sm">
+          <ul key={c.id} className="flex list-disc flex-col gap-1.5 pl-4 text-xs text-foreground/90">
             {c.scandalTitles.map((title) => (
-              <li key={title}>{title}</li>
+              <li key={title} className="leading-snug">
+                {title}
+              </li>
             ))}
           </ul>
         ),
@@ -179,7 +197,17 @@ export default function CompareTool({ candidates }: { candidates: CompareCandida
 
   return (
     <div className="flex flex-col gap-6">
-      <div className="flex flex-col gap-2">
+      {/* Candidate Selector Box */}
+      <div className="flex flex-col gap-3 rounded-2xl border border-border/80 bg-card p-5 shadow-xs">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <span className="text-xs font-bold uppercase tracking-wider text-muted-foreground">
+            Selecione de 2 a {MAX_SELECTED} candidatos para comparar:
+          </span>
+          <span className="text-xs text-muted-foreground">
+            {selected.length} de {MAX_SELECTED} selecionados
+          </span>
+        </div>
+
         <ToggleGroup
           multiple
           value={selected}
@@ -189,7 +217,7 @@ export default function CompareTool({ candidates }: { candidates: CompareCandida
           }}
           variant="outline"
           size="sm"
-          className="flex-wrap"
+          className="flex-wrap gap-1.5"
           aria-label="Selecionar candidatos para comparação"
         >
           {candidates.map((c) => (
@@ -197,40 +225,39 @@ export default function CompareTool({ candidates }: { candidates: CompareCandida
               key={c.id}
               value={c.id}
               disabled={!selected.includes(c.id) && selected.length >= MAX_SELECTED}
+              className="gap-1.5 rounded-xl border border-border/70 px-3 py-1.5 data-[state=on]:border-ctp-mauve data-[state=on]:bg-muted"
             >
               <span
                 aria-hidden
-                className="size-2 rounded-full"
+                className="size-2.5 rounded-full"
                 style={{ background: candidateColor(c.compass.economic) }}
               />
-              {c.ballotName}
+              <span className="font-medium">{c.ballotName}</span>
             </ToggleGroupItem>
           ))}
         </ToggleGroup>
-        <p className="text-xs text-muted-foreground">
-          Escolha de 2 a {MAX_SELECTED} candidatos — a comparação inclui posições, compasso e controvérsias com fontes.
-        </p>
       </div>
 
       {chosen.length < 2 ? (
-        <p className="rounded-lg border border-dashed border-border p-6 text-center text-sm text-muted-foreground">
-          Selecione ao menos dois candidatos para montar a comparação.
-        </p>
+        <div className="glass-panel rounded-2xl p-10 text-center text-sm text-muted-foreground">
+          Selecione ao menos dois candidatos acima para montar o painel comparativo lado a lado.
+        </div>
       ) : (
-        <div className="overflow-x-auto rounded-xl border border-border">
+        <div className="overflow-x-auto rounded-2xl border border-border/80 bg-card shadow-sm">
           <div
-            className="grid min-w-[820px]"
-            style={{ gridTemplateColumns: `150px repeat(${chosen.length}, minmax(200px, 1fr))` }}
+            className="grid min-w-[860px]"
+            style={{ gridTemplateColumns: `170px repeat(${chosen.length}, minmax(220px, 1fr))` }}
           >
-            <div className="bg-muted/50 p-3 text-xs font-medium tracking-wide text-muted-foreground uppercase">
-              Candidato
+            {/* Header Sticky Row */}
+            <div className="sticky top-0 z-20 bg-muted/60 p-4 text-xs font-bold tracking-wider text-muted-foreground uppercase backdrop-blur-md">
+              Critério
             </div>
             {chosen.map((c) => (
-              <div key={c.id} className="bg-muted/50 p-3">
-                <div className="flex items-center gap-2.5">
-                  <Avatar className="size-10 border border-border">
+              <div key={c.id} className="sticky top-0 z-20 bg-muted/60 p-4 backdrop-blur-md">
+                <div className="flex items-center gap-3">
+                  <Avatar className="size-11 rounded-xl border border-border/80 shadow-xs">
                     {c.photo && <AvatarImage src={c.photo} alt={`Foto de ${c.ballotName}`} className="object-cover" />}
-                    <AvatarFallback className="bg-background text-xs font-semibold">
+                    <AvatarFallback className="bg-card font-heading text-xs font-bold">
                       {c.ballotName
                         .split(/\s+/)
                         .map((w) => w[0])
@@ -239,16 +266,18 @@ export default function CompareTool({ candidates }: { candidates: CompareCandida
                     </AvatarFallback>
                   </Avatar>
                   <div className="min-w-0">
-                    <p className="truncate font-heading text-sm font-semibold" title={c.name}>
+                    <p className="truncate font-heading text-sm font-bold text-foreground" title={c.name}>
                       {c.ballotName}
                     </p>
-                    <p className="truncate text-xs text-muted-foreground">
+                    <p className="truncate text-xs font-medium text-muted-foreground">
                       {c.party} · nº {c.number}
                     </p>
                   </div>
                 </div>
               </div>
             ))}
+
+            {/* Comparison Rows */}
             {rows.map((row, rowIndex) => renderRow(row.label, row.cells, rowIndex + 1))}
           </div>
         </div>

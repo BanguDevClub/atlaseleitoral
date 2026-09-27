@@ -1,35 +1,45 @@
 ---
-import BaseLayout from '@/layouts/BaseLayout.astro';
-import SectionHeading from '@/components/SectionHeading.astro';
-import CompareTool, { forComparison } from '@/components/CompareTool';
-import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
-import { candidates } from '@/lib/candidates';
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import SectionHeading from "@/components/SectionHeading.astro";
+import CompareTool, { forComparison } from "@/components/CompareTool";
+import { candidates } from "@/lib/candidates";
+import { url } from "@/lib/base";
 
 const comparisonCandidates = candidates.map(forComparison);
 ---
 
 <BaseLayout
-  title="Comparar candidatos | Atlas Eleitoral"
-  description="Compare até 4 candidatos à Presidência de 2026 lado a lado: compasso político, posições por tema, perfil e controvérsias — com fontes."
+  title="Comparar Candidatos Lado a Lado | Atlas Eleitoral"
+  description="Compare até 4 candidatos à Presidência de 2026 lado a lado: posições documentadas por tema, coordenadas no compasso, histórico, chapa e controvérsias com fontes primárias."
 >
-  <main class="mx-auto max-w-7xl px-4 py-10 sm:px-6">
+  <main class="mx-auto max-w-7xl px-4 py-12 sm:px-6">
     <div class="mb-8">
       <SectionHeading
-        eyebrow="Ferramenta"
-        title="Comparação lado a lado"
-        description="Selecione de 2 a 4 candidatos para ver posições por tema, coordenadas no compasso, perfil de chapa e controvérsias registradas."
+        eyebrow="Painel Comparativo"
+        title="Comparação direta entre concorrentes"
+        description="Selecione de 2 a 4 candidatos para contrastar posições em 9 áreas temáticas, coordenadas no compasso e histórico público documentado."
       />
     </div>
 
     <CompareTool client:load candidates={comparisonCandidates} />
 
-    <Alert className="mt-8">
-      <AlertTitle>Leitura das posições</AlertTitle>
-      <AlertDescription>
-        Cada célula resume a posição documentada no programa de governo ou em declarações citadas. Orientação
-        (esquerda → direita) é um rótulo editorial derivado da própria evidência — veja a
-        <a href="/metodologia" class="underline underline-offset-4">metodologia</a>.
-      </AlertDescription>
-    </Alert>
+    <div
+      class="mt-10 glass-panel rounded-2xl p-6 border-l-4 border-l-ctp-mauve"
+    >
+      <h3 class="font-heading text-sm font-bold text-foreground">
+        Como interpretar as posições
+      </h3>
+      <p class="mt-1 text-xs leading-relaxed text-muted-foreground">
+        Cada célula resume a posição documentada em programa de governo oficial
+        ou em declarações públicas verificadas. A classificação de orientação
+        (esquerda a direita) deriva estritamente da evidência catalogada —
+        consulte os detalhes na&nbsp
+        <a
+          href={url('/metodologia')}
+          class="font-medium text-ctp-mauve underline underline-offset-4 hover:text-foreground"
+          >metodologia editorial</a
+        >.
+      </p>
+    </div>
   </main>
 </BaseLayout>

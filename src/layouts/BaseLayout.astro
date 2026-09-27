@@ -2,39 +2,61 @@
 import '@/styles/global.css';
 import SiteHeader from '@/components/SiteHeader.astro';
 import SiteFooter from '@/components/SiteFooter.astro';
+import { url } from '@/lib/base';
 
 interface Props {
   title: string;
   description?: string;
 }
 
-const { title, description = 'Atlas Eleitoral — dashboard das eleições presidenciais do Brasil' } = Astro.props;
+const { title, description = 'Atlas Eleitoral — dashboard das eleições presidenciais do Brasil de 2026' } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="description" content={description} />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#1e1e2e" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#eff1f5" media="(prefers-color-scheme: light)" />
+    <link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
     <title>{title}</title>
+
+    <!-- Prevent FOUC and initialize theme immediately -->
     <script is:inline>
       (function () {
-        var flavor = null;
+        var theme = null;
         try {
-          flavor = localStorage.getItem('atlas-flavor');
+          theme = localStorage.getItem('atlas-flavor');
         } catch (e) {}
-        if (flavor !== 'latte' && flavor !== 'frappe' && flavor !== 'macchiato' && flavor !== 'mocha') {
-          flavor = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'mocha' : 'latte';
+        var validThemes = ['light', 'dark', 'latte', 'frappe', 'macchiato', 'mocha'];
+        if (!theme || validThemes.indexOf(theme) === -1) {
+          theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
         }
         var root = document.documentElement;
-        root.setAttribute('data-theme', flavor);
-        if (flavor !== 'latte') root.classList.add('dark');
+        root.setAttribute('data-theme', theme);
+        var isDark = theme !== 'light' && theme !== 'latte';
+        if (isDark) {
+          root.classList.add('dark');
+        } else {
+          root.classList.remove('dark');
+        }
+
+        // Listen for OS scheme changes if not explicitly overridden
+        try {
+          window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
+            if (!localStorage.getItem('atlas-flavor')) {
+              var newTheme = e.matches ? 'dark' : 'light';
+              root.setAttribute('data-theme', newTheme);
+              root.classList.toggle('dark', e.matches);
+            }
+          });
+        } catch (err) {}
       })();
     </script>
   </head>
-  <body class="min-h-screen bg-background text-foreground antialiased">
+  <body class="min-h-screen bg-background text-foreground antialiased selection:bg-ctp-mauve/25 selection:text-foreground">
     <SiteHeader />
     <slot />
     <SiteFooter />

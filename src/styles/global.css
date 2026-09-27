@@ -5,7 +5,7 @@
 @import '@fontsource-variable/fraunces';
 @import '@fontsource-variable/jetbrains-mono';
 
-@custom-variant dark (&:is(.dark *));
+@custom-variant dark (&:where([data-theme='frappe'], [data-theme='macchiato'], [data-theme='mocha'], [data-theme='dark'], .dark, .dark *));
 
 @theme inline {
   --font-heading: 'Fraunces Variable', Georgia, serif;
@@ -44,7 +44,7 @@
   --color-foreground: var(--foreground);
   --color-background: var(--background);
 
-  /* Catppuccin raw palette utilities: bg-ctp-mauve, text-ctp-peach, fill-ctp-blue … */
+  /* Catppuccin raw palette utilities */
   --color-ctp-rosewater: var(--ctp-rosewater);
   --color-ctp-flamingo: var(--ctp-flamingo);
   --color-ctp-pink: var(--ctp-pink);
@@ -79,14 +79,224 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
+
+  /* Animations */
+  --animate-fade-in: fade-in 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-fade-in-up: fade-in-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-fade-in-down: fade-in-down 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-scale-in: scale-in 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-pulse-subtle: pulse-subtle 3s ease-in-out infinite;
+  --animate-float: float 4s ease-in-out infinite;
+  --animate-shimmer: shimmer 2.5s linear infinite;
+  --animate-glow: glow-pulse 3s ease-in-out infinite;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-down {
+  from {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.65; transform: scale(0.97); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes glow-pulse {
+  0%, 100% {
+    box-shadow: 0 0 15px -3px var(--glow-color, rgba(136, 57, 239, 0.25));
+  }
+  50% {
+    box-shadow: 0 0 25px 2px var(--glow-color, rgba(136, 57, 239, 0.45));
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Standard Themes: Clean neutral modern Light & Dark                 */
+/* ------------------------------------------------------------------ */
+
+:root,
+[data-theme='light'] {
+  color-scheme: light;
+  --radius: 0.75rem;
+
+  /* Standard neutral palette */
+  --ctp-rosewater: #e11d48;
+  --ctp-flamingo: #f43f5e;
+  --ctp-pink: #db2777;
+  --ctp-mauve: #7c3aed;
+  --ctp-red: #dc2626;
+  --ctp-maroon: #be123c;
+  --ctp-peach: #ea580c;
+  --ctp-yellow: #d97706;
+  --ctp-green: #16a34a;
+  --ctp-teal: #0d9488;
+  --ctp-sky: #0284c7;
+  --ctp-sapphire: #0891b2;
+  --ctp-blue: #2563eb;
+  --ctp-lavender: #6366f1;
+  --ctp-text: #0f172a;
+  --ctp-subtext1: #334155;
+  --ctp-subtext0: #475569;
+  --ctp-overlay2: #64748b;
+  --ctp-overlay1: #94a3b8;
+  --ctp-overlay0: #cbd5e1;
+  --ctp-surface2: #e2e8f0;
+  --ctp-surface1: #f1f5f9;
+  --ctp-surface0: #f8fafc;
+  --ctp-base: #ffffff;
+  --ctp-mantle: #f8fafc;
+  --ctp-crust: #f1f5f9;
+
+  /* Semantic shadcn tokens */
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+  --popover: #ffffff;
+  --popover-foreground: #0f172a;
+  --primary: #6366f1;
+  --primary-foreground: #ffffff;
+  --secondary: #f1f5f9;
+  --secondary-foreground: #0f172a;
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+  --accent: #f1f5f9;
+  --accent-foreground: #0f172a;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  --border: #e2e8f0;
+  --input: #e2e8f0;
+  --ring: #6366f1;
+  --chart-1: #2563eb;
+  --chart-2: #7c3aed;
+  --chart-3: #0d9488;
+  --chart-4: #ea580c;
+  --chart-5: #16a34a;
+  --sidebar: #f8fafc;
+  --sidebar-foreground: #0f172a;
+  --sidebar-primary: #6366f1;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f1f5f9;
+  --sidebar-accent-foreground: #0f172a;
+  --sidebar-border: #e2e8f0;
+  --sidebar-ring: #6366f1;
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+
+  /* Standard modern dark palette */
+  --ctp-rosewater: #fda4af;
+  --ctp-flamingo: #fb7185;
+  --ctp-pink: #f472b6;
+  --ctp-mauve: #a78bfa;
+  --ctp-red: #f87171;
+  --ctp-maroon: #fb7185;
+  --ctp-peach: #fb923c;
+  --ctp-yellow: #fbbf24;
+  --ctp-green: #4ade80;
+  --ctp-teal: #2dd4bf;
+  --ctp-sky: #38bdf8;
+  --ctp-sapphire: #22d3ee;
+  --ctp-blue: #60a5fa;
+  --ctp-lavender: #818cf8;
+  --ctp-text: #f8fafc;
+  --ctp-subtext1: #e2e8f0;
+  --ctp-subtext0: #cbd5e1;
+  --ctp-overlay2: #94a3b8;
+  --ctp-overlay1: #64748b;
+  --ctp-overlay0: #475569;
+  --ctp-surface2: #334155;
+  --ctp-surface1: #1e293b;
+  --ctp-surface0: #0f172a;
+  --ctp-base: #0f172a;
+  --ctp-mantle: #090d16;
+  --ctp-crust: #030712;
+
+  /* Semantic tokens */
+  --background: #090d16;
+  --foreground: #f8fafc;
+  --card: #0f172a;
+  --card-foreground: #f8fafc;
+  --popover: #0f172a;
+  --popover-foreground: #f8fafc;
+  --primary: #818cf8;
+  --primary-foreground: #090d16;
+  --secondary: #1e293b;
+  --secondary-foreground: #f8fafc;
+  --muted: #1e293b;
+  --muted-foreground: #94a3b8;
+  --accent: #1e293b;
+  --accent-foreground: #f8fafc;
+  --destructive: #f87171;
+  --destructive-foreground: #090d16;
+  --border: #1e293b;
+  --input: #1e293b;
+  --ring: #818cf8;
+  --chart-1: #60a5fa;
+  --chart-2: #a78bfa;
+  --chart-3: #2dd4bf;
+  --chart-4: #fb923c;
+  --chart-5: #4ade80;
+  --sidebar: #090d16;
+  --sidebar-foreground: #f8fafc;
+  --sidebar-primary: #818cf8;
+  --sidebar-primary-foreground: #090d16;
+  --sidebar-accent: #1e293b;
+  --sidebar-accent-foreground: #f8fafc;
+  --sidebar-border: #1e293b;
+  --sidebar-ring: #818cf8;
 }
 
 /* ------------------------------------------------------------------ */
 /* Catppuccin flavors — 4 themes. Latte = light; Frappé/Macchiato/Mocha = dark. */
 /* ------------------------------------------------------------------ */
 
-:root,
 [data-theme='latte'] {
+  color-scheme: light;
   --ctp-rosewater: #dc8a78;
   --ctp-flamingo: #dd7878;
   --ctp-pink: #ea76cb;
@@ -116,6 +326,7 @@
 }
 
 [data-theme='frappe'] {
+  color-scheme: dark;
   --ctp-rosewater: #f2d5cf;
   --ctp-flamingo: #eebebe;
   --ctp-pink: #f4b8e4;
@@ -145,6 +356,7 @@
 }
 
 [data-theme='macchiato'] {
+  color-scheme: dark;
   --ctp-rosewater: #f4dbd6;
   --ctp-flamingo: #f0c6c6;
   --ctp-pink: #f5bde6;
@@ -174,6 +386,7 @@
 }
 
 [data-theme='mocha'] {
+  color-scheme: dark;
   --ctp-rosewater: #f5e0dc;
   --ctp-flamingo: #f2cdcd;
   --ctp-pink: #f5c2e7;
@@ -202,13 +415,11 @@
   --ctp-crust: #11111b;
 }
 
-/* ------------------------------------------------------------------ */
-/* Semantic shadcn tokens — identical mapping for every flavor.        */
-/* Page = mantle (recessed), cards = base (elevated), wells = crust.   */
-/* ------------------------------------------------------------------ */
-
-html {
-  color-scheme: light;
+/* Catppuccin semantic token mappings */
+[data-theme='latte'],
+[data-theme='frappe'],
+[data-theme='macchiato'],
+[data-theme='mocha'] {
   --background: var(--ctp-mantle);
   --foreground: var(--ctp-text);
   --card: var(--ctp-base);
@@ -240,13 +451,123 @@ html {
   --sidebar-accent-foreground: var(--ctp-text);
   --sidebar-border: var(--ctp-surface0);
   --sidebar-ring: var(--ctp-blue);
-  --radius: 0.75rem;
 }
 
 [data-theme='frappe'],
 [data-theme='macchiato'],
-[data-theme='mocha'] {
+[data-theme='mocha'],
+[data-theme='dark'],
+.dark {
   color-scheme: dark;
+}
+
+/* Smooth theme transition */
+html.theme-transitioning,
+html.theme-transitioning *,
+html.theme-transitioning *::before,
+html.theme-transitioning *::after {
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+              border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+              color 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+              fill 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Glassmorphism and UI utility classes */
+.glass-panel {
+  background: color-mix(in srgb, var(--card) 85%, transparent);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid color-mix(in srgb, var(--border) 80%, transparent);
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+}
+
+.dark .glass-panel {
+  box-shadow: 0 4px 24px -2px rgba(0, 0, 0, 0.35);
+  border-color: color-mix(in srgb, var(--border) 60%, transparent);
+}
+
+.glass-nav {
+  background: color-mix(in srgb, var(--background) 82%, transparent);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid color-mix(in srgb, var(--border) 65%, transparent);
+}
+
+.interactive-card {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.interactive-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 32px -8px rgba(0, 0, 0, 0.08),
+              0 0 0 1px color-mix(in srgb, var(--primary) 30%, transparent);
+}
+
+.dark .interactive-card:hover {
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.45),
+              0 0 0 1px color-mix(in srgb, var(--primary) 35%, transparent);
+}
+
+.bg-ambient-glow {
+  background-image:
+    radial-gradient(ellipse 70% 50% at 50% -15%, color-mix(in srgb, var(--ctp-mauve) 14%, transparent), transparent 75%),
+    radial-gradient(ellipse 50% 40% at 90% 10%, color-mix(in srgb, var(--ctp-blue) 12%, transparent), transparent 70%),
+    radial-gradient(ellipse 40% 30% at 10% 25%, color-mix(in srgb, var(--ctp-teal) 8%, transparent), transparent 60%);
+}
+
+.dark .bg-ambient-glow {
+  background-image:
+    radial-gradient(ellipse 70% 50% at 50% -15%, color-mix(in srgb, var(--ctp-mauve) 18%, transparent), transparent 75%),
+    radial-gradient(ellipse 50% 40% at 90% 10%, color-mix(in srgb, var(--ctp-blue) 15%, transparent), transparent 70%),
+    radial-gradient(ellipse 40% 30% at 10% 25%, color-mix(in srgb, var(--ctp-teal) 10%, transparent), transparent 60%);
+}
+
+/* Custom modern scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--muted);
+  border-radius: 9999px;
+  border: 2px solid var(--background);
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--muted-foreground) 40%, transparent) transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  height: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: color-mix(in srgb, var(--muted) 40%, transparent);
+  border-radius: 9999px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--muted-foreground) 40%, transparent);
+  border-radius: 9999px;
+  border: 1px solid transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: var(--muted-foreground);
+}
+
+::selection {
+  background-color: color-mix(in srgb, var(--primary) 30%, transparent);
+  color: var(--foreground);
 }
 
 @layer base {
@@ -266,3 +587,4 @@ html {
     @apply font-heading;
   }
 }
+

@@ -1,12 +1,15 @@
 # Atlas Eleitoral
 
+[![Repositório GitHub](https://img.shields.io/badge/GitHub-BanguDevClub%2Fatlaseleitoral-181717?logo=github)](https://github.com/BanguDevClub/atlaseleitoral)
+
 Dashboard educacional e interativo sobre as **eleições presidenciais do Brasil de 2026**: fichas dos candidatos com biografia, posições por tema, declarações e controvérsias — **sempre com a fonte original clicável** —, compasso político de 2 eixos, ferramenta de comparação lado a lado e gráficos de intenção de voto.
 
+> Repositório oficial: [https://github.com/BanguDevClub/atlaseleitoral](https://github.com/BanguDevClub/atlaseleitoral)  
 > Projeto sem filiação partidária. A classificação no compasso é interpretação editorial baseada em evidências citadas (veja [Metodologia](src/data/research/) no site).
 
 ## Stack
 
-- **Astro 7** (site estático, ilhas React hidratadas sob demanda)
+- **Astro 7** (site estático, ilhas React hidratadas sob demanda, base path `/atlaseleitoral`)
 - **React 19** + **shadcn/ui** (base **Base UI**) + **Tailwind CSS v4**
 - **Recharts** (gráficos) via `Chart` do shadcn
 - **npm** · sem etapa de build custom além de `astro build`
@@ -15,9 +18,9 @@ Dashboard educacional e interativo sobre as **eleições presidenciais do Brasil
 
 ```bash
 npm install        # dependências
-npm run dev        # desenvolvimento em http://localhost:4321
+npm run dev        # desenvolvimento em http://localhost:4321/atlaseleitoral/
 npm run build      # build de produção em dist/
-npm run preview    # serve o build
+npm run preview    # serve o build em http://localhost:4321/atlaseleitoral/
 npx astro check    # type-check (0 erros)
 ```
 

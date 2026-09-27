@@ -1,23 +1,45 @@
-export type FlavorId = 'latte' | 'frappe' | 'macchiato' | 'mocha';
+export type StandardThemeId = 'light' | 'dark';
+export type CatppuccinFlavorId = 'latte' | 'frappe' | 'macchiato' | 'mocha';
+export type ThemeId = StandardThemeId | CatppuccinFlavorId;
+export type FlavorId = ThemeId; // alias for backwards compatibility
 
-export interface Flavor {
-  id: FlavorId;
+export interface ThemeOption {
+  id: ThemeId;
   label: string;
+  category: 'standard' | 'catppuccin';
   mode: 'light' | 'dark';
   /** base, mantle, primary accent — used by the theme switcher swatches */
   swatch: [string, string, string];
 }
 
-export const FLAVORS: Flavor[] = [
-  { id: 'latte', label: 'Latte', mode: 'light', swatch: ['#eff1f5', '#e6e9ef', '#8839ef'] },
-  { id: 'frappe', label: 'Frappé', mode: 'dark', swatch: ['#303446', '#292c3c', '#ca9ee6'] },
-  { id: 'macchiato', label: 'Macchiato', mode: 'dark', swatch: ['#24273a', '#1e2030', '#c6a0f6'] },
-  { id: 'mocha', label: 'Mocha', mode: 'dark', swatch: ['#1e1e2e', '#181825', '#cba6f7'] },
+export type Flavor = ThemeOption;
+
+export const THEMES: ThemeOption[] = [
+  // Standard clean neutral themes
+  { id: 'light', label: 'Claro (Padrão)', category: 'standard', mode: 'light', swatch: ['#ffffff', '#f8fafc', '#6366f1'] },
+  { id: 'dark', label: 'Escuro (Padrão)', category: 'standard', mode: 'dark', swatch: ['#0f172a', '#090d16', '#818cf8'] },
+
+  // Catppuccin flavors
+  { id: 'latte', label: 'Catppuccin Latte', category: 'catppuccin', mode: 'light', swatch: ['#eff1f5', '#e6e9ef', '#8839ef'] },
+  { id: 'mocha', label: 'Catppuccin Mocha', category: 'catppuccin', mode: 'dark', swatch: ['#1e1e2e', '#181825', '#cba6f7'] },
+  { id: 'macchiato', label: 'Catppuccin Macchiato', category: 'catppuccin', mode: 'dark', swatch: ['#24273a', '#1e2030', '#c6a0f6'] },
+  { id: 'frappe', label: 'Catppuccin Frappé', category: 'catppuccin', mode: 'dark', swatch: ['#303446', '#292c3c', '#ca9ee6'] },
 ];
 
-export function isFlavorId(value: string | null | undefined): value is FlavorId {
-  return value === 'latte' || value === 'frappe' || value === 'macchiato' || value === 'mocha';
+export const FLAVORS: ThemeOption[] = THEMES;
+
+export function isThemeId(value: string | null | undefined): value is ThemeId {
+  return (
+    value === 'light' ||
+    value === 'dark' ||
+    value === 'latte' ||
+    value === 'frappe' ||
+    value === 'macchiato' ||
+    value === 'mocha'
+  );
 }
+
+export const isFlavorId = isThemeId;
 
 /**
  * Candidate identity color derived from the economic axis:

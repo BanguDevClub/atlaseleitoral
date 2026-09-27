@@ -1,6 +1,7 @@
 import type { ComponentProps } from 'react';
 
 import { Button } from '@/components/ui/button';
+import { url } from '@/lib/base';
 
 type LinkButtonProps = Omit<ComponentProps<typeof Button>, 'render'> & { href: string };
 
@@ -10,7 +11,7 @@ type LinkButtonProps = Omit<ComponentProps<typeof Button>, 'render'> & { href: s
  */
 export default function LinkButton({ href, children, ...props }: LinkButtonProps) {
   return (
-    <Button render={<a href={href} />} {...props}>
+    <Button render={<a href={url(href)} />} {...props}>
       {children}
     </Button>
   );

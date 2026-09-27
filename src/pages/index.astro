@@ -34,44 +34,135 @@ const secondRound = electionFacts?.secondRound ?? '2026-10-25';
 const eligibleVoters = electionFacts?.eligibleVoters ?? 158_745_463;
 
 const stats = [
-  { label: 'Candidatos deferidos', value: String(candidates.length || electionFacts?.registeredCandidates || 13), hint: 'TSE, 1ª instância' },
-  { label: 'Eleitores aptos', value: eligibleVoters.toLocaleString('pt-BR'), hint: 'todo o país' },
-  { label: 'Primeiro turno', value: formatDate(firstRound), hint: '8h às 17h' },
-  { label: 'Segundo turno', value: formatDate(secondRound), hint: 'se necessário' },
+  {
+    label: 'Candidatos deferidos',
+    value: String(candidates.length || electionFacts?.registeredCandidates || 13),
+    hint: 'TSE, 1ª instância',
+    icon: 'user-check',
+  },
+  {
+    label: 'Eleitores aptos',
+    value: eligibleVoters.toLocaleString('pt-BR'),
+    hint: 'todo o país',
+    icon: 'users',
+  },
+  {
+    label: 'Primeiro turno',
+    value: formatDate(firstRound),
+    hint: '8h às 17h (domingo)',
+    icon: 'calendar',
+  },
+  {
+    label: 'Segundo turno',
+    value: formatDate(secondRound),
+    hint: 'se necessário',
+    icon: 'vote',
+  },
 ];
 ---
 
-<BaseLayout title="Atlas Eleitoral — dashboard das eleições presidenciais de 2026">
-  <main>
-    <!-- Hero -->
-    <section class="border-b border-border/60">
-      <div class="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1.2fr_1fr] lg:items-center lg:py-20">
-        <div class="flex flex-col gap-5">
-          <p class="text-xs font-medium tracking-widest text-ctp-mauve uppercase">
-            Eleições presidenciais · Brasil · {formatDate(firstRound)}
-          </p>
-          <h1 class="text-4xl font-semibold tracking-tight text-balance sm:text-5xl">
-            A disputa de 2026 com <span class="text-ctp-blue">fontes</span>, posições e contexto
+<BaseLayout title="Atlas Eleitoral — Dashboard das Eleições Presidenciais de 2026">
+  <main class="relative overflow-hidden">
+    <!-- Hero Section -->
+    <section class="relative border-b border-border/60 bg-ambient-glow transition-colors">
+      <div class="mx-auto grid max-w-7xl gap-12 px-4 py-16 sm:px-6 lg:grid-cols-[1.2fr_1fr] lg:items-center lg:py-24">
+        <!-- Hero Left Column -->
+        <div class="flex flex-col gap-6 animate-fade-in-up">
+          <div class="flex items-center gap-2">
+            <span class="inline-flex items-center gap-2 rounded-full border border-ctp-mauve/30 bg-ctp-mauve/10 px-3 py-1 text-xs font-semibold tracking-wider text-ctp-mauve uppercase">
+              <span class="relative flex size-2">
+                <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-ctp-mauve opacity-75"></span>
+                <span class="relative inline-flex size-2 rounded-full bg-ctp-mauve"></span>
+              </span>
+              Eleições 2026 · Brasil · Fontes Verificadas
+            </span>
+          </div>
+
+          <h1 class="font-heading text-4xl font-bold tracking-tight text-balance sm:text-5xl lg:text-6xl text-foreground">
+            A disputa presidencial com <span class="bg-gradient-to-r from-ctp-mauve via-ctp-blue to-ctp-teal bg-clip-text text-transparent font-extrabold">fontes verificadas</span>, posições e contexto
           </h1>
-          <p class="max-w-xl text-base text-muted-foreground sm:text-lg">
-            Cada afirmação desta página aponta para a origem: TSE, programa de governo, votações e a cobertura das
-            principais veículos. Explore o compasso político de dois eixos, compare candidatos lado a lado e siga o
-            rastro de cada declaração.
+
+          <p class="max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
+            Cada coordenada e afirmação aponta para o registro primário: TSE, programas de governo, histórico parlamentar e cobertura apurada. Explore o compasso político de dois eixos, compare candidatos lado a lado e fiscalize as propostas.
           </p>
-          <div class="flex flex-wrap gap-3">
-            <LinkButton href="/candidatos">Ver candidatos</LinkButton>
-            <LinkButton href="/compasso" variant="outline">
-              Explorar o compasso
+
+          <div class="flex flex-wrap items-center gap-3 pt-2">
+            <LinkButton
+              href="/candidatos"
+              size="lg"
+              className="shadow-md shadow-primary/20 hover:shadow-lg hover:shadow-primary/30 hover:-translate-y-0.5 transition-all duration-200"
+            >
+              Explorar candidatos
+              <svg viewBox="0 0 24 24" class="size-4 ml-1" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </LinkButton>
+
+            <LinkButton
+              href="/compasso"
+              variant="outline"
+              size="lg"
+              className="border-border/80 hover:border-ctp-mauve/50 hover:bg-muted/80 hover:-translate-y-0.5 transition-all duration-200"
+            >
+              <svg viewBox="0 0 24 24" class="size-4 mr-1 text-ctp-mauve" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+              </svg>
+              Mapa do Compasso
+            </LinkButton>
+
+            <LinkButton
+              href="/comparar"
+              variant="ghost"
+              size="lg"
+              className="text-muted-foreground hover:text-foreground"
+            >
+              Comparar lado a lado →
             </LinkButton>
           </div>
         </div>
 
-        <div class="grid grid-cols-2 gap-3">
+        <!-- Hero Right Column: Stats Grid -->
+        <div class="grid grid-cols-2 gap-3 sm:gap-4 animate-fade-in-up [animation-delay:150ms]">
           {
             stats.map((stat) => (
-              <div class="rounded-xl border border-border bg-card p-4 sm:p-5">
-                <p class="font-mono text-2xl font-semibold tracking-tight tabular-nums sm:text-3xl">{stat.value}</p>
-                <p class="mt-1 text-sm font-medium">{stat.label}</p>
+              <div class="interactive-card glass-panel rounded-2xl p-5 border border-border/70 hover:border-ctp-mauve/40 transition-all duration-300">
+                <div class="mb-3 flex size-8 items-center justify-center rounded-xl bg-ctp-mauve/10 text-ctp-mauve">
+                  {stat.icon === 'user-check' && (
+                    <svg viewBox="0 0 24 24" class="size-4" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                      <polyline points="16 11 18 13 22 9"></polyline>
+                    </svg>
+                  )}
+                  {stat.icon === 'users' && (
+                    <svg viewBox="0 0 24 24" class="size-4" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                  )}
+                  {stat.icon === 'calendar' && (
+                    <svg viewBox="0 0 24 24" class="size-4" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                      <line x1="16" y1="2" x2="16" y2="6"></line>
+                      <line x1="8" y1="2" x2="8" y2="6"></line>
+                      <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                  )}
+                  {stat.icon === 'vote' && (
+                    <svg viewBox="0 0 24 24" class="size-4" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="m9 12 2 2 4-4"></path>
+                      <path d="M5 7c0-1.1.9-2 2-2h10a2 2 0 0 1 2 2v12H5V7Z"></path>
+                      <path d="M22 19H2"></path>
+                    </svg>
+                  )}
+                </div>
+                <p class="font-mono text-2xl font-bold tracking-tight text-foreground tabular-nums sm:text-3xl">
+                  {stat.value}
+                </p>
+                <p class="mt-1 text-sm font-semibold text-foreground/90">{stat.label}</p>
                 <p class="text-xs text-muted-foreground">{stat.hint}</p>
               </div>
             ))
@@ -80,26 +171,26 @@ const stats = [
       </div>
     </section>
 
-    <!-- Polls -->
+    <!-- Polls Section -->
     {
       pollsFile && pollsFile.polls.length > 0 ? (
-        <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6">
-          <div class="mb-6 flex flex-wrap items-end justify-between gap-3">
+        <section class="mx-auto max-w-7xl px-4 py-16 sm:px-6">
+          <div class="mb-8 flex flex-wrap items-end justify-between gap-4">
             <SectionHeading
-              eyebrow="Pesquisas"
-              title="Intenção de voto"
-              description={`Últimos levantamentos publicados até ${formatDate(pollsFile.asOf)}.`}
+              eyebrow="Pesquisas Eleitorais"
+              title="Intenção de voto consolidada"
+              description={`Últimos levantamentos públicos registrados até ${formatDate(pollsFile.asOf)}.`}
             />
-            <LinkButton href="/pesquisas" variant="ghost" size="sm">
-              Ver todas as pesquisas →
+            <LinkButton href="/pesquisas" variant="outline" size="sm" className="hover:border-ctp-blue/50">
+              Ver histórico completo →
             </LinkButton>
           </div>
-          <div class="rounded-xl border border-border bg-card p-4 sm:p-6">
+          <div class="glass-panel rounded-2xl p-5 sm:p-8 transition-all">
             <PollsPanel client:visible polls={pollsFile.polls} people={people} />
           </div>
         </section>
       ) : (
-        <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6">
+        <section class="mx-auto max-w-7xl px-4 py-16 sm:px-6">
           <Alert>
             <AlertTitle>Pesquisas em atualização</AlertTitle>
             <AlertDescription>Os dados mais recentes de intenção de voto serão exibidos aqui.</AlertDescription>
@@ -108,57 +199,66 @@ const stats = [
       )
     }
 
-    <!-- Compass -->
-    <section class="border-y border-border/60 bg-card/40">
-      <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6">
-        <div class="mb-6 flex flex-wrap items-end justify-between gap-3">
+    <!-- Compass Section -->
+    <section class="border-y border-border/60 bg-card/40 py-16 transition-colors">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6">
+        <div class="mb-8 flex flex-wrap items-end justify-between gap-4">
           <SectionHeading
-            eyebrow="Compasso político"
-            title="Dois eixos, treze candidatos"
-            description="Eixo econômico (Estado ↔ mercado) e eixo social (conservador ↔ progressista). Classificação baseada em evidências citadas — cada ficha explica o porquê."
+            eyebrow="Compasso Político"
+            title="Dois eixos, treze candidaturas"
+            description="Eixo horizontal: modelo econômico (intervenção estatal ↔ livre-mercado). Eixo vertical: valores sociais (conservador ↔ progressista). Evidências documentadas em cada ficha."
           />
-          <LinkButton href="/compasso" variant="ghost" size="sm">
-            Abrir em tela cheia →
+          <LinkButton href="/compasso" variant="outline" size="sm" className="hover:border-ctp-mauve/50">
+            Explorar mapa interativo →
           </LinkButton>
         </div>
-        <div class="rounded-xl border border-border bg-card p-4 sm:p-6">
+        <div class="glass-panel rounded-2xl p-5 sm:p-8">
           <CompassMap client:visible candidates={compassPoints} />
         </div>
       </div>
     </section>
 
-    <!-- Featured candidates -->
-    <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6">
-      <div class="mb-6 flex flex-wrap items-end justify-between gap-3">
+    <!-- Featured Candidates Section -->
+    <section class="mx-auto max-w-7xl px-4 py-16 sm:px-6">
+      <div class="mb-8 flex flex-wrap items-end justify-between gap-4">
         <SectionHeading
-          eyebrow="Fichas"
-          title="Candidatos em destaque"
-          description="Perfis, posições, declarações e controvérsias — todos com referência de origem."
+          eyebrow="Fichas de Candidatos"
+          title="Principais candidaturas em destaque"
+          description="Perfis detalhados, posições por tema, declarações textuais e controvérsias com fontes primárias."
         />
-        <LinkButton href="/candidatos" variant="ghost" size="sm">
-          Ver todos →
+        <LinkButton href="/candidatos" variant="outline" size="sm" className="hover:border-ctp-mauve/50">
+          Ver todas as fichas ({candidates.length}) →
         </LinkButton>
       </div>
+
       {featured.length > 0 && <FeaturedGrid client:visible candidates={featured} />}
       {featured.length === 0 && (
         <p class="text-sm text-muted-foreground">As fichas dos candidatos estão sendo carregadas.</p>
       )}
     </section>
 
-    <!-- Methodology -->
-    <section class="mx-auto max-w-7xl px-4 pb-4 sm:px-6">
-      <Alert>
-        <AlertTitle>Como lemos este atlas</AlertTitle>
-        <AlertDescription className="flex flex-col gap-2">
-          <p>
-            A posição no compasso é interpretação editorial a partir de evidências verificáveis (votos, programa de
-            governo, declarações). Não há candidatura patrocinada ou preferência editorial.
+    <!-- Methodology Alert / Notice -->
+    <section class="mx-auto max-w-7xl px-4 pb-12 sm:px-6">
+      <div class="glass-panel rounded-2xl p-6 border-l-4 border-l-ctp-mauve">
+        <div class="flex flex-col gap-3">
+          <div class="flex items-center gap-2">
+            <svg viewBox="0 0 24 24" class="size-5 text-ctp-mauve" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="16" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg>
+            <h3 class="font-heading text-base font-semibold text-foreground">Critério editorial e transparência</h3>
+          </div>
+          <p class="text-sm leading-relaxed text-muted-foreground">
+            A posição no compasso é síntese editorial baseada em dados públicos e verificáveis (votações nominais, programas de governo registrados no TSE e declarações públicas). Não há impulsionamento pago, patrocínio ou preferência por candidato.
           </p>
-          <LinkButton href="/metodologia" variant="link" size="sm" className="h-auto p-0 justify-start">
-            Ler a metodologia completa →
-          </LinkButton>
-        </AlertDescription>
-      </Alert>
+          <div>
+            <LinkButton href="/metodologia" variant="link" size="sm" className="h-auto p-0 font-medium text-ctp-blue hover:text-foreground">
+              Conheça a metodologia detalhada de apuração e fontes →
+            </LinkButton>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 </BaseLayout>

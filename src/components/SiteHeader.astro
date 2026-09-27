@@ -1,57 +1,182 @@
 ---
 import ThemeSwitcher from '@/components/ThemeSwitcher';
+import { url, REPO_URL } from '@/lib/base';
 
 const links = [
-  { href: '/', label: 'Início' },
-  { href: '/candidatos', label: 'Candidatos' },
-  { href: '/compasso', label: 'Compasso' },
-  { href: '/comparar', label: 'Comparar' },
-  { href: '/pesquisas', label: 'Pesquisas' },
-  { href: '/metodologia', label: 'Metodologia' },
+  { href: url('/'), label: 'Início', raw: '/' },
+  { href: url('/candidatos'), label: 'Candidatos', raw: '/candidatos' },
+  { href: url('/compasso'), label: 'Compasso', raw: '/compasso' },
+  { href: url('/comparar'), label: 'Comparar', raw: '/comparar' },
+  { href: url('/pesquisas'), label: 'Pesquisas', raw: '/pesquisas' },
+  { href: url('/metodologia'), label: 'Metodologia', raw: '/metodologia' },
 ];
 
-const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
+const homePath = url('/').replace(/\/$/, '');
 ---
 
-<header class="sticky top-0 z-40 border-b border-border/60 bg-background/85 backdrop-blur-md">
-  <div class="mx-auto flex h-14 max-w-7xl items-center gap-3 px-4 sm:px-6">
-    <a href="/" class="flex shrink-0 items-center gap-2" aria-label="Atlas Eleitoral — início">
-      <svg viewBox="0 0 24 24" class="size-7" aria-hidden>
-        <circle cx="12" cy="12" r="10" fill="none" stroke="var(--ctp-mauve)" stroke-width="1.6"></circle>
-        <path d="M12 3.2 14 10.2 20.8 12 14 13.8 12 20.8 10 13.8 3.2 12 10 10.2Z" fill="var(--ctp-mauve)"></path>
-        <circle cx="12" cy="12" r="1.7" fill="var(--ctp-base)"></circle>
-      </svg>
-      <span class="font-heading text-lg font-semibold tracking-tight">Atlas Eleitoral</span>
+<header class="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-xl transition-colors">
+  <div class="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6">
+    <!-- Brand Logo -->
+    <a
+      href={url('/')}
+      class="group flex shrink-0 items-center gap-2.5 transition-transform duration-200 active:scale-95"
+      aria-label="Atlas Eleitoral — início"
+    >
+      <div class="relative flex size-8 items-center justify-center rounded-xl bg-gradient-to-tr from-ctp-mauve/20 to-ctp-blue/20 p-1 ring-1 ring-border group-hover:ring-ctp-mauve/50 transition-all duration-300">
+        <svg viewBox="0 0 24 24" class="size-6 transition-transform duration-500 ease-out group-hover:rotate-45" aria-hidden="true">
+          <circle cx="12" cy="12" r="10" fill="none" stroke="var(--ctp-mauve)" stroke-width="1.6"></circle>
+          <path d="M12 3.2 14 10.2 20.8 12 14 13.8 12 20.8 10 13.8 3.2 12 10 10.2Z" fill="var(--ctp-mauve)"></path>
+          <circle cx="12" cy="12" r="1.7" fill="var(--ctp-base)"></circle>
+        </svg>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="font-heading text-lg font-bold tracking-tight text-foreground">Atlas Eleitoral</span>
+        <span class="hidden sm:inline-flex items-center gap-1 rounded-full border border-border/60 bg-muted/50 px-2 py-0.5 text-[10px] font-mono font-medium text-muted-foreground">
+          <span class="size-1.5 rounded-full bg-ctp-green animate-pulse"></span>2026
+        </span>
+      </div>
     </a>
 
-    <nav class="min-w-0 flex-1 overflow-x-auto" aria-label="Navegação principal">
-      <ul class="flex items-center gap-1">
-        {
-          links.map((link) => {
-            const active = path === link.href.replace(/\/$/, '') || (link.href !== '/' && path.startsWith(link.href));
-            return (
-              <li>
-                <a
-                  href={link.href}
-                  aria-current={active ? 'page' : undefined}
-                  class:list={[
-                    'inline-flex h-8 items-center rounded-md px-2.5 text-sm whitespace-nowrap transition-colors',
-                    active
-                      ? 'bg-muted font-medium text-foreground'
-                      : 'text-muted-foreground hover:bg-muted/60 hover:text-foreground',
-                  ]}
-                >
-                  {link.label}
-                </a>
-              </li>
-            );
-          })
-        }
-      </ul>
+    <!-- Desktop Navigation -->
+    <nav class="hidden md:flex items-center gap-1" aria-label="Navegação principal">
+      {
+        links.map((link) => {
+          const cleanLink = link.href.replace(/\/$/, '');
+          const active =
+            link.raw === '/'
+              ? currentPath === homePath || currentPath === `${homePath}/` || currentPath === '/'
+              : currentPath.startsWith(cleanLink);
+          return (
+            <a
+              href={link.href}
+              aria-current={active ? 'page' : undefined}
+              class:list={[
+                'relative inline-flex h-9 items-center rounded-lg px-3 text-sm font-medium transition-all duration-200',
+                active
+                  ? 'bg-muted text-foreground shadow-xs font-semibold'
+                  : 'text-muted-foreground hover:bg-muted/60 hover:text-foreground',
+              ]}
+            >
+              {link.label}
+              {active && (
+                <span
+                  class="absolute -bottom-1 left-3 right-3 h-0.5 rounded-full bg-ctp-mauve"
+                  aria-hidden="true"
+                />
+              )}
+            </a>
+          );
+        })
+      }
     </nav>
 
-    <div class="shrink-0">
+    <!-- Right Controls: GitHub Repo, Theme Switcher & Mobile Menu Trigger -->
+    <div class="flex items-center gap-2">
+      <a
+        href={REPO_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Repositório no GitHub (BanguDevClub/atlaseleitoral)"
+        title="Código-fonte no GitHub"
+        class="group relative flex size-8 items-center justify-center rounded-lg border border-border/70 bg-card text-foreground transition-all duration-200 hover:border-ctp-mauve/50 hover:bg-muted/80 hover:scale-105 active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+      >
+        <svg viewBox="0 0 24 24" class="size-4 fill-current" aria-hidden="true">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+        </svg>
+      </a>
+
       <ThemeSwitcher client:load />
+
+      <!-- Mobile Hamburger Button -->
+      <button
+        type="button"
+        id="mobile-menu-btn"
+        aria-label="Abrir menu de navegação"
+        aria-expanded="false"
+        aria-controls="mobile-nav"
+        class="inline-flex size-9 items-center justify-center rounded-lg border border-border/70 bg-card text-foreground md:hidden transition-colors hover:bg-muted/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+      >
+        <svg id="hamburger-icon" class="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="4" y1="6" x2="20" y2="6"></line>
+          <line x1="4" y1="12" x2="20" y2="12"></line>
+          <line x1="4" y1="18" x2="20" y2="18"></line>
+        </svg>
+        <svg id="close-icon" class="hidden size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Drawer Navigation -->
+  <div
+    id="mobile-nav"
+    class="hidden border-b border-border/60 bg-background/95 backdrop-blur-xl md:hidden animate-in slide-in-from-top-2 duration-200"
+    role="region"
+    aria-label="Menu móvel"
+  >
+    <div class="space-y-1 px-4 py-3 sm:px-6">
+      {
+        links.map((link) => {
+          const cleanLink = link.href.replace(/\/$/, '');
+          const active =
+            link.raw === '/'
+              ? currentPath === homePath || currentPath === `${homePath}/` || currentPath === '/'
+              : currentPath.startsWith(cleanLink);
+          return (
+            <a
+              href={link.href}
+              aria-current={active ? 'page' : undefined}
+              class:list={[
+                'flex h-10 items-center justify-between rounded-lg px-3 text-sm font-medium transition-colors',
+                active
+                  ? 'bg-muted text-foreground font-semibold'
+                  : 'text-muted-foreground hover:bg-muted/60 hover:text-foreground',
+              ]}
+            >
+              <span>{link.label}</span>
+              {active && <span class="size-1.5 rounded-full bg-ctp-mauve" />}
+            </a>
+          );
+        })
+      }
+      <a
+        href={REPO_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="flex h-10 items-center justify-between rounded-lg px-3 text-sm font-medium text-muted-foreground hover:bg-muted/60 hover:text-foreground transition-colors border-t border-border/40 mt-2 pt-2"
+      >
+        <span class="flex items-center gap-2">
+          <svg viewBox="0 0 24 24" class="size-4 fill-current" aria-hidden="true">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+          </svg>
+          <span>GitHub</span>
+        </span>
+        <span class="text-xs text-muted-foreground/70">↗</span>
+      </a>
     </div>
   </div>
 </header>
+
+<script is:inline>
+  (function () {
+    const btn = document.getElementById('mobile-menu-btn');
+    const nav = document.getElementById('mobile-nav');
+    const hamburgerIcon = document.getElementById('hamburger-icon');
+    const closeIcon = document.getElementById('close-icon');
+
+    if (!btn || !nav) return;
+
+    btn.addEventListener('click', () => {
+      const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!isExpanded));
+      nav.classList.toggle('hidden');
+      if (hamburgerIcon && closeIcon) {
+        hamburgerIcon.classList.toggle('hidden');
+        closeIcon.classList.toggle('hidden');
+      }
+    });
+  })();
+</script>
