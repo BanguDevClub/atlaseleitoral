@@ -1,0 +1,238 @@
+{
+  "id": "leonardo-avalanche",
+  "slug": "leonardo-avalanche",
+  "name": "Leonardo Alves de Araújo",
+  "ballotName": "Leonardo Avalanche",
+  "number": 28,
+  "party": "PRTB",
+  "partyFullName": "Partido Renovador Trabalhista Brasileiro",
+  "coalition": "Brasil Próspero",
+  "vice": { "name": "Silvia Hellen da Silva Pereira", "party": "PRTB" },
+  "status": "Pendente de julgamento",
+  "age": 48,
+  "occupation": "empresário",
+  "headline": "O empresário goiano que assumiu a vaga de Marçal no PRTB e promete um imposto único de 3,5%.",
+  "photo": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/07/Leonardo-Avalanche.jpg",
+  "birth": { "city": "Anápolis", "state": "GO", "year": 1977 },
+  "politicalJourney": "Empresário nascido em Anápolis (GO) e residente em Goiânia, Leonardo Avalanche é analista de sistemas e bacharel em Direito, filho de pastor e herdou do pai o sobrenome \"Avalanche\" para construir sua própria identidade política. Presidiu a campanha de Pablo Marçal à Prefeitura de São Paulo em 2024 e assumiu a presidência nacional do PRTB em fevereiro de 2024, após uma sequência de disputas internas na legenda. Foi lançado pré-candidato pelo partido em 14 de julho de 2026 e oficializado como candidato à Presidência na convenção nacional do PRTB em Goiânia, em 29 de julho de 2026. Inicialmente era o vice na chapa \"Brasil Próspero\" com Marçal; após o TSE indeferir por unanimidade o registro do ex-coach em 11 de setembro e a renúncia deste, Avalanche foi promovido à cabeça de chapa com protocolo no tribunal em 14 de setembro, tendo a relatora, ministra Estela Aranha, deferido o DRAP do PRTB e dado voto favorável à troca. No registro do TSE, sua situação consta como pendente de julgamento pelo colegiado.",
+  "bio": [
+    "Leonardo Alves de Araújo, que usa o nome de urna Leonardo Avalanche, nasceu em Anápolis, em Goiás, em 1977, e mora em Goiânia. Formou-se em sistemas e cursou Direito, atuou no setor privado e preside nacionalmente o PRTB desde fevereiro de 2024. É casado e pai de Miguel e Gabriel. Em 2024, além de comandar o partido, coordenou a campanha de Pablo Marçal à Prefeitura de São Paulo.",
+    "A candidatura de 2026 é a sua primeira disputa a um cargo executivo: o PRTB o lançou como alternativa depois que Marçal ficou inelegível e deixou a sigla. O plano de governo de Avalanche, batizado de chapa Brasil Próspero, propõe reduzir a carga tributária, criar um imposto único de 3,5%, zerar a fila do SUS com mutirões e telemedicina e transformar o Brasil em um polo tecnológico. Sua trajetória no partido, porém, é marcada por processos: foi denunciado pela Justiça em janeiro de 2026 por alegada fraude na eleição interna do PRTB e sofreu expulsão revertida pela Justiça Eleitoral em fevereiro de 2026."
+  ],
+  "compass": {
+    "social": -4.5,
+    "economic": 6.5,
+    "confidence": "média",
+    "rationale": "O programa econômico de Avalanche prevê redução progressiva da carga tributária e um imposto único de 3,5% no lugar de ICMS, ISS, IPI, PIS, Cofins, IOF, IRPJ, CSLL, IRPF e INSS, o que o coloca claramente no campo de livre mercado. No eixo social, o PRTB se apresenta como \"o único partido conservador que, de fato, se mantém antissistema\", e a plataforma enfatiza reconhecimento facial, um Sistema Único Nacional de Segurança, mais policiais nas ruas, homeschooling e incentivo ao agro — pautas conservadoras. A confiança é média porque a trajetória pública do candidato é curta e as evidências vêm de um programa de governo e de poucos pronunciamentos.",
+    "sources": [
+      {
+        "title": "PRTB oficializa Leonardo Avalanche como candidato à Presidência",
+        "publisher": "Poder360",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/prtb-oficializa-leonardo-avalanche-como-candidato-a-presidencia/",
+        "date": "2026-08-03"
+      },
+      {
+        "title": "Leonardo Avalanche quer reduzir impostos e zerar fila do SUS",
+        "publisher": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/leonardo-avalanche-quer-reduzir-impostos-e-zerar-fila-do-sus",
+        "date": "2026-09-18"
+      },
+      {
+        "title": "PRTB lança candidatura de Leonardo Avalanche à Presidência da República em evento em Goiás",
+        "publisher": "G1",
+        "url": "https://g1.globo.com/go/goias/eleicoes/2026/noticia/2026/07/29/prtb-lanca-candidatura-de-leonardo-avalanche-a-presidencia-em-goias.ghtml",
+        "date": "2026-07-29"
+      }
+    ]
+  },
+  "keyPositions": [
+    {
+      "topic": "Economia e tributos",
+      "stance": "Criar um imposto único de 3,5% substituindo ICMS, ISS, IPI, PIS, Cofins, IOF, IRPJ, CSLL, IRPF e o INSS, com redução progressiva da carga sobre produção e investimento e IPVA federal de R$ 50 mensais por veículo.",
+      "orientation": "direita",
+      "sources": [
+        {
+          "title": "Leonardo Avalanche quer reduzir impostos e zerar fila do SUS",
+          "publisher": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/leonardo-avalanche-quer-reduzir-impostos-e-zerar-fila-do-sus",
+          "date": "2026-09-18"
+        },
+        {
+          "title": "Leonardo Avalanche 28 (PRTB): candidato a Presidente em 2026",
+          "publisher": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/candidatos/br/presidente/leonardo-avalanche-prtb-28/",
+          "date": null
+        }
+      ]
+    },
+    {
+      "topic": "Trabalho e renda",
+      "stance": "Adotar o trabalho por hora, criar o programa Meu Primeiro Emprego — no qual o governo completa o salário de jovens treinados por empresas — e financiar motoristas de aplicativo com isenção de imposto sobre o veículo.",
+      "orientation": "centro-direita",
+      "sources": [
+        {
+          "title": "PRTB lança candidatura de Leonardo Avalanche à Presidência da República em evento em Goiás",
+          "publisher": "G1",
+          "url": "https://g1.globo.com/go/goias/eleicoes/2026/noticia/2026/07/29/prtb-lanca-candidatura-de-leonardo-avalanche-a-presidencia-em-goias.ghtml",
+          "date": "2026-07-29"
+        },
+        {
+          "title": "Leonardo Avalanche quer reduzir impostos e zerar fila do SUS",
+          "publisher": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/leonardo-avalanche-quer-reduzir-impostos-e-zerar-fila-do-sus",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "topic": "Segurança pública",
+      "stance": "Criar um Sistema Único Nacional de Segurança com reconhecimento facial, ampliar o número de policiais nas ruas e usar câmeras de monitoramento em escala nacional.",
+      "orientation": "direita",
+      "sources": [
+        {
+          "title": "Leonardo Avalanche quer reduzir impostos e zerar fila do SUS",
+          "publisher": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/leonardo-avalanche-quer-reduzir-impostos-e-zerar-fila-do-sus",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "topic": "Saúde",
+      "stance": "Zerar a fila do SUS com mutirões, telemedicina e parcerias com hospitais privados ociosos, além de usar inteligência artificial para monitorar o estoque de medicamentos em tempo real.",
+      "orientation": "centro",
+      "sources": [
+        {
+          "title": "Leonardo Avalanche quer reduzir impostos e zerar fila do SUS",
+          "publisher": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/leonardo-avalanche-quer-reduzir-impostos-e-zerar-fila-do-sus",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "topic": "Educação",
+      "stance": "Usar inteligência artificial para personalizar o ensino com foco em educação financeira, tecnologia e empreendedorismo desde o ensino fundamental, apoiar a regulamentação do homeschooling e criar crédito de qualificação para jovens a partir de 25 anos.",
+      "orientation": "centro-direita",
+      "sources": [
+        {
+          "title": "Leonardo Avalanche quer reduzir impostos e zerar fila do SUS",
+          "publisher": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/leonardo-avalanche-quer-reduzir-impostos-e-zerar-fila-do-sus",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "topic": "Direitos sociais",
+      "stance": "Defende tolerância zero à violência doméstica e ao feminicídio com fiscalização real de medidas protetivas, o programa Abraço Azul para crianças autistas e ampliação da atenção ginecológica preventiva.",
+      "orientation": "centro",
+      "sources": [
+        {
+          "title": "Leonardo Avalanche quer reduzir impostos e zerar fila do SUS",
+          "publisher": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/leonardo-avalanche-quer-reduzir-impostos-e-zerar-fila-do-sus",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "topic": "Democracia e instituições",
+      "stance": "Se apresenta como candidato de um partido \"conservador antissistema\" que promete gestão técnica e limpa, com discurso crítico ao sistema político tradicional e ao uso do dinheiro público de publicidade.",
+      "orientation": "direita",
+      "sources": [
+        {
+          "title": "PRTB oficializa Leonardo Avalanche como candidato à Presidência",
+          "publisher": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/prtb-oficializa-leonardo-avalanche-como-candidato-a-presidencia/",
+          "date": "2026-08-03"
+        },
+        {
+          "title": "Leonardo Avalanche quer reduzir impostos e zerar fila do SUS",
+          "publisher": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/leonardo-avalanche-quer-reduzir-impostos-e-zerar-fila-do-sus",
+          "date": "2026-09-18"
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "quote": "Nós temos que reindustrializar o nosso país, investir no agro, porque o agro é que produz riqueza, é que produz o alimento",
+      "date": "2026-07-29",
+      "context": "Entrevista ao g1 durante a convenção nacional do PRTB em Goiânia, onde sua candidatura foi lançada.",
+      "source": {
+        "title": "PRTB lança candidatura de Leonardo Avalanche à Presidência da República em evento em Goiás",
+        "publisher": "G1",
+        "url": "https://g1.globo.com/go/goias/eleicoes/2026/noticia/2026/07/29/prtb-lanca-candidatura-de-leonardo-avalanche-a-presidencia-em-goias.ghtml",
+        "date": "2026-07-29"
+      }
+    },
+    {
+      "quote": "Nós estamos aqui hoje com as mãos dadas, com todas as seções, apresentando uma proposta para revolucionar o nosso país",
+      "date": "2026-07-29",
+      "context": "Discurso na convenção do PRTB em Goiânia, ao defender o imposto único de 3,5% e o trabalho por hora.",
+      "source": {
+        "title": "PRTB lança candidatura de Leonardo Avalanche à Presidência da República em evento em Goiás",
+        "publisher": "G1",
+        "url": "https://g1.globo.com/go/goias/eleicoes/2026/noticia/2026/07/29/prtb-lanca-candidatura-de-leonardo-avalanche-a-presidencia-em-goias.ghtml",
+        "date": "2026-07-29"
+      }
+    },
+    {
+      "quote": "Lutamos até o último minuto para manter o Pablo na disputa. Tentamos de todas as formas possíveis, mas o sistema inteiro se colocou contra nós. Diante disso, eu e o Pablo decidimos, juntos, não desistir do Brasil. Como o nome dele não foi aprovado, vamos seguir o projeto com o meu nome — carregando tudo aquilo que sempre defendemos, lado a lado, até o fim dessa disputa",
+      "date": "2026-09-15",
+      "context": "Nota após o indeferimento do registro de Pablo Marçal pelo TSE e a promoção de Avalanche à cabeça da chapa do PRTB.",
+      "source": {
+        "title": "Após TSE barrar Pablo Marçal, PRTB quer Leonardo Avalanche como candidato à Presidência; troca tem voto favorável de relatora",
+        "publisher": "G1",
+        "url": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/09/15/prtb-anuncia-avalanche-como-substituto-de-marcal-na-corrida-presidencial-troca-ja-tem-voto-favoravel-de-relatora-no-tse.ghtml",
+        "date": "2026-09-15"
+      }
+    }
+  ],
+  "scandals": [
+    {
+      "title": "Denúncia por fraude em eleição interna do PRTB e assédio a filiada",
+      "period": "2026",
+      "summary": "Em janeiro de 2026, o Ministério Público de São Paulo denunciou Avalanche por alegados crimes cometidos para assumir o controle da legenda, e a Justiça aceitou a denúncia, tornando-o réu. O promotor Renato Kim Barbosa afirmou que seu grupo \"orquestrou uma fraude na eleição interna do PRTB\", realizada em fevereiro de 2024, e o acusou de assediar, ameaçar, constranger e humilhar uma filiada de outra vertente da sigla.",
+      "status": "processo em curso (réu)",
+      "sources": [
+        {
+          "title": "PRTB lança candidatura de Leonardo Avalanche à Presidência da República em evento em Goiás",
+          "publisher": "G1",
+          "url": "https://g1.globo.com/go/goias/eleicoes/2026/noticia/2026/07/29/prtb-lanca-candidatura-de-leonardo-avalanche-a-presidencia-em-goias.ghtml",
+          "date": "2026-07-29"
+        }
+      ]
+    },
+    {
+      "title": "Áudios sobre suposta influência na soltura do traficante André do Rap",
+      "period": "2024",
+      "summary": "Durante a campanha municipal de 2024, foram divulgados áudios nos quais o dirigente afirmava ter influência sobre a soltura de André do Rap, uma das principais autoridades do PCC. A revelação levou ao afastamento de Avalanche do comando do PRTB. Ele negou a veracidade dos áudios e alegou que o conteúdo havia sido gerado por inteligência artificial; na época, Marçal, então aliado, defendeu publicamente Avalanche diante de jornalistas.",
+      "status": "acusação negada; autenticidade do áudio contestada",
+      "sources": [
+        {
+          "title": "Quem é Leonardo Avalanche, candidato à Presidência da República pelo PRTB",
+          "publisher": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/quem-e-leonardo-avalanche-candidato-a-presidencia-da-republica-pelo-prtb/",
+          "date": "2026-09-16"
+        }
+      ]
+    },
+    {
+      "title": "Expulsão do PRTB revertida pela Justiça Eleitoral",
+      "period": "2024-2026",
+      "summary": "O PRTB alegou que Avalanche respondia por tentativa de fraude processual, apresentação de documentos adulterados e litigância de má-fé, e o expulsou do partido; a decisão foi homologada pela Justiça Eleitoral de Goiás em setembro de 2025. Em fevereiro de 2026, a Justiça Eleitoral determinou a reversão da expulsão, e o dirigente voltou à presidência da legenda.",
+      "status": "expulsão anulada pela Justiça Eleitoral em fevereiro de 2026",
+      "sources": [
+        {
+          "title": "Quem é Leonardo Avalanche, candidato à Presidência da República pelo PRTB",
+          "publisher": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/quem-e-leonardo-avalanche-candidato-a-presidencia-da-republica-pelo-prtb/",
+          "date": "2026-09-16"
+        }
+      ]
+    }
+  ]
+}

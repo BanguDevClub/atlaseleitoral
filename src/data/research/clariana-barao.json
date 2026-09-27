@@ -1,0 +1,114 @@
+{
+  "id": "clariana-barao",
+  "slug": "clariana-barao",
+  "name": "Clariana Zacarkim Barão",
+  "ballotName": "CLARIANA BARÃO",
+  "number": 27,
+  "party": "DC",
+  "partyFullName": "Democracia Cristã",
+  "coalition": null,
+  "vice": { "name": "Fabiana Torquato", "party": "DC" },
+  "status": "Deferido",
+  "age": 39,
+  "occupation": "advogada",
+  "headline": "Advogada mato-grossense e mãe, estreia na política na cabeça da chapa 100% feminina do DC com o mote “Proteger hoje, transformar o amanhã”.",
+  "photo": "https://upload.wikimedia.org/wikipedia/commons/1/13/2026_CLARIANA_BARAO_CANDIDATA_PRESIDENTE_TSE_%28280002552484%29.jpg",
+  "birth": { "city": "Cuiabá", "state": "Mato Grosso", "year": 1987 },
+  "politicalJourney": "Advogada formada pela Univag (Centro Universitário de Várzea Grande), Clariana Barão atuou em direito administrativo e gestão pública e presidiu a Comissão de Solidariedade e Assistência Social da OAB de Várzea Grande, chegando à presidência da Subseção local em 2025. Sem histórico eleitoral anterior, construiu imagem em causas sociais — petição pelo Hemocentro de Várzea Grande, apoio às vítimas das enchentes do Rio Grande do Sul em 2024 e defesa dos direitos das mulheres —, assumiu em 2026 a presidência do diretório estadual do DC em Mato Grosso e foi anunciada como pré-candidata presidencial em julho de 2026, após as desistências de Aldo Rebelo e do ex-ministro do STF Joaquim Barbosa. Foi oficializada em 5 de agosto, em convenção nacional em São Paulo, com a também advogada Fabiana Torquato como vice — a segunda chapa 100% feminina da disputa e a primeira em que o DC não lança seu fundador José Maria Eymael desde 1995.",
+  "bio": [
+    "Clariana Zacarkim Barão nasceu em Cuiabá (MT), é mãe solteira e advogada formada pelo Centro Universitário de Várzea Grande (Univag), com especialização em direito administrativo e gestão pública. Foi presidente da Comissão de Solidariedade e Assistência Social da OAB de Várzea Grande e representa a entidade em conselhos municipais de saúde, assistência social e saneamento; em 2023 foi homenageada no prêmio Top Empresarial pelo trabalho assistencial com crianças das comunidades.",
+    "Em 2025 ficou conhecida pela defesa dos direitos das mulheres e pela campanha de doação de medula óssea, sendo responsável pela petição que levou à aprovação de um hemocentro em Várzea Grande. Em 2026 assumiu a presidência do diretório estadual do Democracia Cristã em Mato Grosso e disputa a Presidência pela primeira vez, encabeçando uma chapa formada exclusivamente por mulheres."
+  ],
+  "compass": {
+    "social": -2.0,
+    "economic": 2.0,
+    "confidence": "média",
+    "rationale": "Sem votações e sem mandato prévio, a colocação se apoia no plano de governo “Proteger hoje, transformar o amanhã” e na tradição da legenda: o DC se apresenta como defensor dos “valores da família, da vida e da liberdade”, o que puxa o eixo social para o lado conservador. Na economia, seu programa combina ajuste fiscal, crítica à Selic de 14% ao ano e defesa do crédito ao pequeno empreendedor, sem propostas intervencionistas, o que a situa no centro-direita econômica. No eixo social, a centralidade da proteção de mulheres e crianças contra o feminicídio é uma pauta progressista, mas embutida numa agenda cristã de família e vida, daí um resultado levemente conservador, com confiança média por se tratar de candidata estreante e programa pouco detalhado em pontos polêmicos.",
+    "sources": [
+      { "title": "Plano de governo de Clariana Barão | Propostas 27", "publisher": "Clariana Barão 27 (site oficial de campanha)", "url": "https://clarianabarao.com.br/propostas", "date": null },
+      { "title": "Clariana Barão, candidata à Presidência pelo Democracia Cristã, fala sobre propostas de governo", "publisher": "G1 / Jornal Nacional", "url": "https://g1.globo.com/jornal-nacional/noticia/2026/09/05/clariana-barao-candidata-a-presidencia-pelo-democracia-crista-fala-sobre-propostas-de-governo.ghtml", "date": "2026-09-05" },
+      { "title": "Clariana é a indicada na Convenção Nacional, para Presidência da Republica pela Democracia Cristã!", "publisher": "Democracia Cristã", "url": "https://www.democraciacrista.org.br/clariana-e-a-indicada-na-convencao-nacional-para-presidencia-da-republica-pela-democracia-crista/", "date": "2026-08-07" },
+      { "title": "Clariana Barão é oficializada como candidata do DC à Presidência da República", "publisher": "G1", "url": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/08/05/clariana-barao-e-oficializada-como-candidata-do-dc-a-presidencia-da-republica.ghtml", "date": "2026-08-05" }
+    ]
+  },
+  "keyPositions": [
+    {
+      "topic": "Direitos sociais",
+      "stance": "Eixo transversal “Mulheres e crianças em primeiro lugar”: rede nacional de proteção e resposta à violência, centros únicos de atendimento à mulher vítima de violência com delegacia e profissionalização no mesmo local, primeira infância como prioridade nacional e autonomia econômica das mulheres.",
+      "orientation": "centro",
+      "sources": [
+        { "title": "Plano de governo de Clariana Barão | Propostas 27", "publisher": "Clariana Barão 27 (site oficial de campanha)", "url": "https://clarianabarao.com.br/propostas", "date": null },
+        { "title": "Clariana Barão, candidata à Presidência pelo Democracia Cristã, fala sobre propostas de governo", "publisher": "G1 / Jornal Nacional", "url": "https://g1.globo.com/jornal-nacional/noticia/2026/09/05/clariana-barao-candidata-a-presidencia-pelo-democracia-crista-fala-sobre-propostas-de-governo.ghtml", "date": "2026-09-05" }
+      ]
+    },
+    {
+      "topic": "Economia e tributos",
+      "stance": "Defende ajuste fiscal com revisão de gastos considerados indevidos e critica a Selic de 14% ao ano, que eleva os juros e trava o crédito para famílias e pequenos empreendedores; o plano prega uma “economia que deixa trabalhar”, sem propostas de estatização.",
+      "orientation": "centro-direita",
+      "sources": [
+        { "title": "Clariana Barão, candidata à Presidência pelo Democracia Cristã, fala sobre propostas de governo", "publisher": "G1 / Jornal Nacional", "url": "https://g1.globo.com/jornal-nacional/noticia/2026/09/05/clariana-barao-candidata-a-presidencia-pelo-democracia-crista-fala-sobre-propostas-de-governo.ghtml", "date": "2026-09-05" },
+        { "title": "Plano de governo de Clariana Barão | Propostas 27", "publisher": "Clariana Barão 27 (site oficial de campanha)", "url": "https://clarianabarao.com.br/propostas", "date": null }
+      ]
+    },
+    {
+      "topic": "Segurança pública",
+      "stance": "Combate ao narcotráfico e ao tráfico de armas com fronteiras inteligentes (sensores, radares e drones), asfixia financeira das facções por inteligência antilavagem, uso de dados e mapas de risco para proteger mulheres, escolas e áreas vulneráveis e isolamento de lideranças criminosas nos presídios.",
+      "orientation": "centro-direita",
+      "sources": [
+        { "title": "Combater facções, proteger mulheres e se inspirar em El Salvador: veja o que os candidatos à Presidência propõem para a segurança pública", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/24/propostas-candidatos-presidente-seguranca-publica.ghtml", "date": "2026-09-24" }
+      ]
+    },
+    {
+      "topic": "Saúde",
+      "stance": "O plano dedica um capítulo à saúde sob a lógica de prevenção — “cuidar antes da doença” —, com a premissa de que prevenir custa menos e salva mais e com metas de execução por etapas (primeiros 100 dias, ano 1, anos 2 a 3 e ano 4).",
+      "orientation": "centro",
+      "sources": [
+        { "title": "Plano de governo de Clariana Barão | Propostas 27", "publisher": "Clariana Barão 27 (site oficial de campanha)", "url": "https://clarianabarao.com.br/propostas", "date": null }
+      ]
+    },
+    {
+      "topic": "Educação",
+      "stance": "Capítulo “Educação: preparar para o futuro”, com a proposta de fazer os estudantes “aprenderem de verdade, na idade certa”, organizada em metas e indicadores de acompanhamento em vez de reestruturações radicais do sistema.",
+      "orientation": "centro",
+      "sources": [
+        { "title": "Plano de governo de Clariana Barão | Propostas 27", "publisher": "Clariana Barão 27 (site oficial de campanha)", "url": "https://clarianabarao.com.br/propostas", "date": null }
+      ]
+    },
+    {
+      "topic": "Democracia e instituições",
+      "stance": "Sob o capítulo “Estado que funciona”, promete gestão com metas, entrega e transparência, painéis de indicadores e avaliação trimestral das políticas, apresentando-se como quem entrou na política para enfrentar “a corrupção e a incompetência”.",
+      "orientation": "centro",
+      "sources": [
+        { "title": "Clariana Barão Presidente 27 | Democracia Cristã", "publisher": "Clariana Barão 27 (site oficial de campanha)", "url": "https://clarianabarao.com.br/", "date": null },
+        { "title": "Plano de governo de Clariana Barão | Propostas 27", "publisher": "Clariana Barão 27 (site oficial de campanha)", "url": "https://clarianabarao.com.br/propostas", "date": null }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "quote": "Nenhuma mulher deveria enfrentar a violência sozinha. Precisamos fortalecer a rede de proteção, ampliar o acolhimento e investir em prevenção para romper esse ciclo que ainda atinge milhares de brasileiras",
+      "date": "2026-08-05",
+      "context": "Declaração da campanha citada pelo g1 na oficialização da chapa do DC, centrada no combate à violência doméstica.",
+      "source": { "title": "Clariana Barão é oficializada como candidata do DC à Presidência da República", "publisher": "G1", "url": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/08/05/clariana-barao-e-oficializada-como-candidata-do-dc-a-presidencia-da-republica.ghtml", "date": "2026-08-05" }
+    },
+    {
+      "quote": "Eu que venho do Mato Grosso, um estado que é líder pelo terceiro ano consecutivo no feminicídio, tragicamente recordista e supera seus índices a cada ano, eu não posso levantar outra bandeira que não seja cuidar das mulheres e das crianças desse país. Essa bandeira é a base, a sustentação do país, porque, se a gente cuidar das mulheres e das crianças, o Brasil tem jeito.",
+      "date": "2026-08-05",
+      "context": "Discurso na convenção nacional do DC em São Paulo, que oficializou a chapa; registrado pela CNN Brasil.",
+      "source": { "title": "DC oficializa Clariana Barão como candidata à Presidência", "publisher": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/dc-oficializa-clariana-barao-como-candidata-a-presidencia/", "date": "2026-08-07" }
+    },
+    {
+      "quote": "A nossa convenção foi a prova de que existe um Brasil que acredita no diálogo, no cuidado com as pessoas e na força da esperança",
+      "date": "2026-08-05",
+      "context": "Publicação nas redes sociais de Clariana após a convenção nacional do DC, noticiada pela CNN Brasil.",
+      "source": { "title": "DC oficializa Clariana Barão como candidata à Presidência", "publisher": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/dc-oficializa-clariana-barao-como-candidata-a-presidencia/", "date": "2026-08-07" }
+    },
+    {
+      "quote": "Nós temos hoje no Brasil gastos que são indevidos, que oneram a conta pública e que a gente precisa revisar. A gente tem uma Selic hoje de 14% ao ano, que tem trazido um juro altíssimo e vem prejudicando substancialmente o povo, impedindo as pessoas de contratarem um financiamento a juro baixo, ou aquele cidadão que pretende abrir uma vendinha, que precisa de uma linha de crédito para empreender e não tem acesso ou, se tem, é com juro altíssimo. Então, nós vamos trabalhar, sim, toda essa revisão de ajuste fiscal.",
+      "date": "2026-09-05",
+      "context": "Resposta à Globo, no Jornal Nacional, sobre de onde viriam os cortes do ajuste fiscal proposto.",
+      "source": { "title": "Clariana Barão, candidata à Presidência pelo Democracia Cristã, fala sobre propostas de governo", "publisher": "G1 / Jornal Nacional", "url": "https://g1.globo.com/jornal-nacional/noticia/2026/09/05/clariana-barao-candidata-a-presidencia-pelo-democracia-crista-fala-sobre-propostas-de-governo.ghtml", "date": "2026-09-05" }
+    }
+  ],
+  "scandals": []
+}

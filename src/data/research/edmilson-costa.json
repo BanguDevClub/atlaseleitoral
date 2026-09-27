@@ -1,0 +1,119 @@
+{
+  "id": "edmilson-costa",
+  "slug": "edmilson-costa",
+  "name": "Edmilson Silva Costa",
+  "ballotName": "EDMILSON COSTA",
+  "number": 21,
+  "party": "PCB",
+  "partyFullName": "Partido Comunista Brasileiro",
+  "coalition": null,
+  "vice": { "name": "Cleusa Santos", "party": "PCB" },
+  "status": "Deferido",
+  "age": 76,
+  "occupation": "economista, escritor e professor",
+  "headline": "Secretário-geral do PCB e doutor em economia pela Unicamp, leva ao Planalto o programa anticapitalista do partido: estatização da financeira e fim da escala 6x1.",
+  "photo": "https://upload.wikimedia.org/wikipedia/commons/6/64/2026_EDMILSON_COSTA_CANDIDATO_PRESIDENTE_TSE_%28280002551975%29.jpg",
+  "birth": { "city": "Pedreiras", "state": "Maranhão", "year": 1950 },
+  "politicalJourney": "Militante do PCB desde os anos 1970, Edmilson Costa formou-se em comunicação social pela UFMA em 1974 e atuou como jornalista, colaborando nos anos 1980 com o Voz da Unidade, principal veículo do partido. Foi dirigente estudantil e sofreu perseguição política na ditadura militar; em 1992 obteve o doutorado em economia pela Unicamp com a tese sobre a política salarial de 1964 a 1985 e tornou-se um dos nomes do processo de “Reconstrução Revolucionária” do PCB após a cisão partidária. Membro da Comissão Política Nacional desde 2001, foi candidato a prefeito de São Paulo (2008), a vice-presidente na chapa de Ivan Pinheiro (2010), à vice-prefeitura da capital (2012) e ao Senado (2014); em 17 de outubro de 2016 assumiu a secretaria-geral do partido, cargo que ocupa até hoje. Foi anunciado como pré-candidato pelo Comitê Central em fevereiro de 2026 e oficializado na convenção nacional de 1º de agosto, em São Paulo, com a professora Cleusa Santos como vice.",
+  "bio": [
+    "Edmilson Silva Costa nasceu em Pedreiras (MA), é doutor em economia pela Unicamp, com pós-doutorado no Instituto de Filosofia e Ciências Humanas da mesma universidade, e trabalhou como professor universitário em instituições privadas. É autor de livros como “O Imperialismo” (1989), “A Política Salarial no Brasil” (1997), “A Globalização e o Capitalismo Contemporâneo” (2009), “Reflexões sobre a crise brasileira” (2020) e “Um perfil da juventude brasileira” (2025), além de obras de poesia, e é diretor de pesquisa e formação do Instituto Caio Prado Júnior.",
+    "Na vida partidária, ocupou as secretarias de Relações Internacionais e Política do PCB em São Paulo até 2016, quando se tornou secretário-geral, sucedendo Ivan Pinheiro. A chapa de 2026 conta com Cleusa Santos, professora titular aposentada da Escola de Serviço Social da UFRJ, doutora em Serviço Social pela PUC-SP e dirigente sindical e feminista ligada ao PCB."
+  ],
+  "compass": {
+    "social": 6.5,
+    "economic": -9.0,
+    "confidence": "alta",
+    "rationale": "O programa da campanha prevê estatização do sistema financeiro com criação do Banco dos Trabalhadores, reestatização das empresas privatizadas, suspensão do pagamento da dívida pública e controle estatal do câmbio, do comércio exterior e da tributação progressiva — uma posição interventora extrema no eixo econômico. No plano social, o PCB defende descriminalização do uso de drogas, desmilitarização e unificação das polícias e políticas públicas contra machismo, racismo, LGBTfobia e capacitismo, o que o coloca claramente à esquerda progressista. A confiança é alta porque o candidato tem meio século de trajetória no partido, votações e um programa detalhado e público.",
+    "sources": [
+      { "title": "Edmilson Costa pré-candidato à presidência do Brasil", "publisher": "PCB", "url": "https://pcb.org.br/portal2/33675", "date": "2026-02-24" },
+      { "title": "PCB oficializa candidaturas à Presidência", "publisher": "PCB", "url": "https://pcb.org.br/portal2/34109", "date": "2026-08-03" },
+      { "title": "Combater facções, proteger mulheres e se inspirar em El Salvador: veja o que os candidatos à Presidência propõem para a segurança pública", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/24/propostas-candidatos-presidente-seguranca-publica.ghtml", "date": "2026-09-24" },
+      { "title": "Edmilson Costa, candidato à Presidência pelo PCB, fala sobre propostas de governo", "publisher": "G1 / Jornal Nacional", "url": "https://g1.globo.com/jornal-nacional/noticia/2026/09/03/edmilson-costa-candidato-a-presidencia-pelo-pcb-fala-sobre-propostas-de-governo.ghtml", "date": "2026-09-03" }
+    ]
+  },
+  "keyPositions": [
+    {
+      "topic": "Economia e tributos",
+      "stance": "Estatização do sistema financeiro com criação de um Banco dos Trabalhadores para gerir fundos previdenciários e de seguridade social, suspensão do pagamento dos juros da dívida pública, controle do câmbio e do comércio exterior, reestatização das empresas estratégicas privatizadas e tributação progressiva.",
+      "orientation": "esquerda",
+      "sources": [
+        { "title": "Edmilson Costa pré-candidato à presidência do Brasil", "publisher": "PCB", "url": "https://pcb.org.br/portal2/33675", "date": "2026-02-24" },
+        { "title": "PCB oficializa Edmilson Costa e Cleusa Santos como candidatos à Presidência e à Vice-Presidência", "publisher": "G1", "url": "https://g1.globo.com/politica/noticia/2026/08/01/edmilson-costa-e-cleusa-santos-sao-oficializados-pelo-pcb-como-candidatos-a-presidente-e-vice-presidente.ghtml", "date": "2026-08-01" }
+      ]
+    },
+    {
+      "topic": "Trabalho e renda",
+      "stance": "Fim da escala 6x1 e redução da jornada para 30 horas semanais sem redução salarial, recomposição do salário mínimo até o piso do Dieese em quatro anos, isenção de Imposto de Renda até um salário mínimo, revogação das reformas trabalhista e previdenciária e piso salarial para trabalhadores de aplicativos.",
+      "orientation": "esquerda",
+      "sources": [
+        { "title": "PCB oficializa candidaturas à Presidência", "publisher": "PCB", "url": "https://pcb.org.br/portal2/34109", "date": "2026-08-03" },
+        { "title": "Edmilson Costa, candidato do PCB à Presidência, faz campanha no Rio", "publisher": "G1 / Jornal Nacional", "url": "https://g1.globo.com/jornal-nacional/noticia/2026/08/28/edmilson-costa-candidato-do-pcb-a-presidencia-faz-campanha-no-rio.ghtml", "date": "2026-08-28" },
+        { "title": "Salário mínimo e aposentadoria: confira quais são as propostas dos candidatos a presidente", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/19/salario-minimo-e-aposentadoria-propostas-candidatos-presidente.ghtml", "date": "2026-09-19" }
+      ]
+    },
+    {
+      "topic": "Democracia e instituições",
+      "stance": "Extinção do Senado Federal com parlamento unicameral, criação de Conselhos Populares eleitos em locais de trabalho, moradia e estudo, democratização dos meios de comunicação com fim dos monopólios privados e mandatos com tempo definido para tribunais.",
+      "orientation": "esquerda",
+      "sources": [
+        { "title": "Edmilson Costa pré-candidato à presidência do Brasil", "publisher": "PCB", "url": "https://pcb.org.br/portal2/33675", "date": "2026-02-24" },
+        { "title": "PCB oficializa Edmilson Costa e Cleusa Santos como candidatos à Presidência e à Vice-Presidência", "publisher": "G1", "url": "https://g1.globo.com/politica/noticia/2026/08/01/edmilson-costa-e-cleusa-santos-sao-oficializados-pelo-pcb-como-candidatos-a-presidente-e-vice-presidente.ghtml", "date": "2026-08-01" }
+      ]
+    },
+    {
+      "topic": "Segurança pública",
+      "stance": "Desmilitarização e unificação de todas as corporações policiais em uma só, substituição da lógica de segurança pública por uma “segurança dos direitos”, descriminalização do uso de drogas e ocupação de territórios dominados pelo crime com escolas, unidades de saúde e centros culturais.",
+      "orientation": "esquerda",
+      "sources": [
+        { "title": "Combater facções, proteger mulheres e se inspirar em El Salvador: veja o que os candidatos à Presidência propõem para a segurança pública", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/24/propostas-candidatos-presidente-seguranca-publica.ghtml", "date": "2026-09-24" }
+      ]
+    },
+    {
+      "topic": "Saúde",
+      "stance": "Tornar público todo o sistema de saúde, integrando assistência, pesquisa e produção de medicamentos, vacinas e equipamentos, com fortalecimento da atenção básica em todos os bairros, fim das terceirizações e das privatizações e valorização dos profissionais do setor.",
+      "orientation": "esquerda",
+      "sources": [
+        { "title": "Edmilson Costa pré-candidato à presidência do Brasil", "publisher": "PCB", "url": "https://pcb.org.br/portal2/33675", "date": "2026-02-24" },
+        { "title": "PCB oficializa candidaturas à Presidência", "publisher": "PCB", "url": "https://pcb.org.br/portal2/34109", "date": "2026-08-03" }
+      ]
+    },
+    {
+      "topic": "Educação",
+      "stance": "Educação 100% pública e gratuita, com estatização do sistema privado de ensino, ampliação dos Institutos Federais e Escolas Técnicas e valorização dos profissionais da educação, garantindo acesso universal.",
+      "orientation": "esquerda",
+      "sources": [
+        { "title": "Edmilson Costa pré-candidato à presidência do Brasil", "publisher": "PCB", "url": "https://pcb.org.br/portal2/33675", "date": "2026-02-24" }
+      ]
+    },
+    {
+      "topic": "Política externa",
+      "stance": "Compromisso com internacionalismo e autodeterminação dos povos: solidariedade a Cuba, Palestina, Irã e Venezuela contra o que o partido chama de ações dos EUA e de Israel, defesa da soberania nacional e luta por uma nova ordem internacional.",
+      "orientation": "esquerda",
+      "sources": [
+        { "title": "Edmilson Costa pré-candidato à presidência do Brasil", "publisher": "PCB", "url": "https://pcb.org.br/portal2/33675", "date": "2026-02-24" },
+        { "title": "PCB oficializa candidaturas à Presidência", "publisher": "PCB", "url": "https://pcb.org.br/portal2/34109", "date": "2026-08-03" }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "quote": "Estamos propondo o fim da escala 6x1 e a instituição da jornada de trabalho de 30 horas sem redução de salário. Estamos propondo também a recomposição do poder de compra dos salários, especialmente do salário mínimo, de forma a que esse salário, no prazo de quatro anos, ele tenha o mesmo valor do salário mínimo do Dieese.",
+      "date": "2026-08-28",
+      "context": "Entrevista ao Jornal Nacional durante campanha no bairro do Maracanã, na Zona Norte do Rio de Janeiro.",
+      "source": { "title": "Edmilson Costa, candidato do PCB à Presidência, faz campanha no Rio", "publisher": "G1 / Jornal Nacional", "url": "https://g1.globo.com/jornal-nacional/noticia/2026/08/28/edmilson-costa-candidato-do-pcb-a-presidencia-faz-campanha-no-rio.ghtml", "date": "2026-08-28" }
+    },
+    {
+      "quote": "Nós estamos colocando o fim, a revogação de todas as reformas neoliberais ocorridas nos últimos 35 anos. Nós estamos propondo a estatização do sistema financeiro e a construção do Banco dos Trabalhadores. Estamos propondo ainda a retomada ao patrimônio público de todas as empresas que foram privatizadas e deter a sangria da dívida interna.",
+      "date": "2026-09-03",
+      "context": "Prioridades de governo apresentadas ao Jornal Nacional, na série de entrevistas com os candidatos à Presidência.",
+      "source": { "title": "Edmilson Costa, candidato à Presidência pelo PCB, fala sobre propostas de governo", "publisher": "G1 / Jornal Nacional", "url": "https://g1.globo.com/jornal-nacional/noticia/2026/09/03/edmilson-costa-candidato-a-presidencia-pelo-pcb-fala-sobre-propostas-de-governo.ghtml", "date": "2026-09-03" }
+    },
+    {
+      "quote": "Em vez de você pagar cerca de R$ 1 trilhão de juros, como foi pago de janeiro de 2025 a janeiro de 2026, você reduziria de maneira drástica esse pagamento. E os recursos que hoje vão para os rentistas, eles seriam alocados para as áreas sociais",
+      "date": "2026-09-12",
+      "context": "Campanha em Guarulhos (SP), ao defender a revogação da Lei de Responsabilidade Fiscal e o redirecionamento dos recursos de juros para saúde e educação.",
+      "source": { "title": "Edmilson Costa, candidato à Presidência pelo PCB, faz campanha em São Paulo", "publisher": "G1 / Jornal Nacional", "url": "https://g1.globo.com/jornal-nacional/noticia/2026/09/12/edmilson-costa-candidato-a-presidencia-pelo-pcb-faz-campanha-em-sao-paulo.ghtml", "date": "2026-09-12" }
+    }
+  ],
+  "scandals": []
+}

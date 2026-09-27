@@ -1,0 +1,174 @@
+{
+  "id": "zema",
+  "slug": "zema",
+  "name": "Romeu Zema Neto",
+  "ballotName": "Romeu Zema",
+  "number": 30,
+  "party": "NOVO",
+  "partyFullName": "Partido Novo",
+  "coalition": null,
+  "vice": { "name": "Eduardo Girão", "party": "NOVO" },
+  "status": "Deferido",
+  "age": 61,
+  "occupation": "empresário e administrador",
+  "headline": "Empresário e ex-governador de Minas, o liberal de mercado que quer privatizar todas as estatais e “varrer o PT do mapa”.",
+  "photo": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Romeu_Zema%2C_December_2024_%28cropped%29.jpg",
+  "birth": { "city": "Araxá", "state": "MG", "year": 1964 },
+  "politicalJourney": "Herdeiro do Grupo Zema — varejo, combustíveis, concessionárias e serviços financeiros fundado pelo bisavô italiano Domenico Zema —, Romeu Zema administrou a empresa familiar por 26 anos antes de ingressar na política pelo Partido Novo. Eleito governador de Minas Gerais em 2018 no segundo turno contra Antonio Anastasia e reeleito em 2022 com 56,18% dos votos válidos, conduziu uma agenda de ajuste fiscal, reduziu as secretarias de 21 para 12 e reformou a previdência estadual. Lançou pré-candidatura à Presidência em 16 de agosto de 2025, renunciou ao governo de MG em 22 de março de 2026 para se dedicar à campanha, teve a candidatura oficializada pelo NOVO em convenção de 27 de julho de 2026, registrou a chapa com Eduardo Girão no TSE em 7 de agosto e teve o registro aprovado por unanimidade do plenário do TSE em 2 de setembro de 2026.",
+  "bio": [
+    "Romeu Zema Neto nasceu em Araxá, Minas Gerais, em 28 de outubro de 1964, filho de Ricardo e Maria Lúcia Zema. Formou-se em Administração de Empresas pela Fundação Getulio Vargas de São Paulo em 1986 e presidiu o conselho de administração do Grupo Zema, negócio de família com atuação em varejo de móveis e eletrodomésticos, distribuição de combustíveis, concessionárias de veículos, serviços financeiros e autopeças, até o fim de 2016. Filhou-se ao NOVO após mais de 18 anos de filiação a PL e PR; é divorciado de Ivana Scarpellini e pai de Catharina e Domenico.",
+    "Como governador (2019-2026), Zema fez da austeridade sua marca: cortou secretarias e cargos comissionados, encampou a reforma da previdência estadual com idade mínima de 65 anos para homens e fechou em 2021 o acordo com a Vale pelo rompimento de barragem em Brumadinho, que prevera o pagamento de R$ 37,68 bilhões ao Estado. Seu segundo mandato concentrou-se em infraestrutura — rodovias, saneamento e a conclusão do Hospital Regional de Teófilo Otoni — e na expansão nacional do Partido Novo nas municipais de 2024. Em campanha à Presidência, apresentou o “Plano Implacável” (81 páginas, 20 áreas), com privatização de todas as estatais, regime trabalhista alternativo à CLT, saída do Brasil do BRICS e endurecimento radical na segurança pública."
+  ],
+  "compass": {
+    "social": -4.0,
+    "economic": 9.0,
+    "confidence": "alta",
+    "rationale": "O “Plano Implacável”, registrado no TSE, é de livre-mercado extremo: privatiza todas as estatais, cria regime de contratação alternativo à CLT, acaba com os fundos Eleitoral e Partidário e prevê redução progressiva da carga tributária, o que o coloca no polo mais econômico da disputa. Na dimensão social, pesam para o conservadorismo sua agenda de segurança (encarceramento em massa, facções como terroristas, maioridade penal a 16 anos, porte de armas no campo), temperada por um discurso liberal individualista, como a descriminalização de injúria e difamação e a defesa da liberdade de expressão. As posições vêm do programa oficial de governo, de sua gestão em MG (2019-2026) e de declarações de campanha registradas pela imprensa.",
+    "sources": [
+      { "title": "Plano de governo: Zema quer arma no campo e privatizar estatais", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/11/plano-de-governo-romeu-zema-eleicoes-2026-propostas.ghtml", "date": "2026-08-11" },
+      { "title": "Plano de Zema prioriza segurança, privatizações e reforma do Estado", "publisher": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/geral/audio/2026-08/plano-de-zema-prioriza-seguranca-privatizacoes-e-reforma-do-estado", "date": "2026-08-27" },
+      { "title": "Zema lança pré-candidatura ao Planalto e fala em “varrer PT do mapa”", "publisher": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/politica/zema-lanca-pre-candidatura-ao-planalto-e-fala-em-varrer-pt-do-mapa/", "date": "2025-08-16" }
+    ]
+  },
+  "keyPositions": [
+    {
+      "topic": "Economia e tributos",
+      "stance": "Propõe privatizar todas as empresas estatais, ampliar parcerias público-privadas e fixar metas progressivas de redução da carga tributária, mantendo a Petrobras apenas com separação de operações de produção, refino e transporte.",
+      "orientation": "direita",
+      "sources": [
+        { "title": "Plano de governo: Zema quer arma no campo e privatizar estatais", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/11/plano-de-governo-romeu-zema-eleicoes-2026-propostas.ghtml", "date": "2026-08-11" },
+        { "title": "Plano de Zema prioriza segurança, privatizações e reforma do Estado", "publisher": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/geral/audio/2026-08/plano-de-zema-prioriza-seguranca-privatizacoes-e-reforma-do-estado", "date": "2026-08-27" }
+      ]
+    },
+    {
+      "topic": "Trabalho e renda",
+      "stance": "Quer criar um regime de contratação alternativo à CLT, com prevalência do negociado sobre o legislado e liberdade para as partes definirem remuneração e regras do contrato, além de desregulamentar profissões sem risco à saúde ou segurança.",
+      "orientation": "direita",
+      "sources": [
+        { "title": "Plano de governo: Zema quer arma no campo e privatizar estatais", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/11/plano-de-governo-romeu-zema-eleicoes-2026-propostas.ghtml", "date": "2026-08-11" }
+      ]
+    },
+    {
+      "topic": "Segurança pública",
+      "stance": "Defende enquadrar PCC, Comando Vermelho e outras facções como organizações terroristas, usar Forças Armadas e Força Nacional na retomada de territórios, reduzir a maioridade penal para 16 anos e adotar modelo de “encarceramento em massa” inspirado em El Salvador.",
+      "orientation": "direita",
+      "sources": [
+        { "title": "Zema defende modelo de El Salvador com “encarceramento em massa” contra o crime", "publisher": "G1", "url": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/05/25/zema-defende-modelo-de-el-salvador-com-encarceramento-em-massa-contra-o-crime.ghtml", "date": "2026-05-25" },
+        { "title": "Plano de Zema prioriza segurança, privatizações e reforma do Estado", "publisher": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/geral/audio/2026-08/plano-de-zema-prioriza-seguranca-privatizacoes-e-reforma-do-estado", "date": "2026-08-27" }
+      ]
+    },
+    {
+      "topic": "Saúde",
+      "stance": "Prevê prontuário eletrônônico nacional, expansão da telemedicina, uso de inteligência artificial nas filas e maior uso de contratos com hospitais e clínicas privadas para reduzir esperas no SUS, além de internação involuntária de dependentes em situação de rua.",
+      "orientation": "centro-direita",
+      "sources": [
+        { "title": "Plano de governo: Zema quer arma no campo e privatizar estatais", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/11/plano-de-governo-romeu-zema-eleicoes-2026-propostas.ghtml", "date": "2026-08-11" },
+        { "title": "Plano de Zema prioriza segurança, privatizações e reforma do Estado", "publisher": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/geral/audio/2026-08/plano-de-zema-prioriza-seguranca-privatizacoes-e-reforma-do-estado", "date": "2026-08-27" }
+      ]
+    },
+    {
+      "topic": "Educação",
+      "stance": "Propõe regulamentar o ensino domiciliar, ampliar escolas cívico-militares, transferir o ensino superior do MEC para o Ministério da Ciência e Tecnologia e ampliar creches e pré-escolas com parcerias do setor privado.",
+      "orientation": "centro-direita",
+      "sources": [
+        { "title": "Plano de governo: Zema quer arma no campo e privatizar estatais", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/11/plano-de-governo-romeu-zema-eleicoes-2026-propostas.ghtml", "date": "2026-08-11" },
+        { "title": "Plano de Zema prioriza segurança, privatizações e reforma do Estado", "publisher": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/geral/audio/2026-08/plano-de-zema-prioriza-seguranca-privatizacoes-e-reforma-do-estado", "date": "2026-08-27" }
+      ]
+    },
+    {
+      "topic": "Meio ambiente",
+      "stance": "Defende nova lei de licenciamento ambiental com prazos e simplificação para atividades de baixo risco, cumprimento do Código Florestal sem novas restrições sem base técnica, protagonismo em biocombustíveis e combate à grilagem por sensoriamento satelital.",
+      "orientation": "direita",
+      "sources": [
+        { "title": "Propostas para o agro de Zema e Caiado nas eleições 2026", "publisher": "SpaceMoney", "url": "https://www.spacemoney.com.br/politica/zema-caiado-propostas-agro/", "date": "2026-09-04" }
+      ]
+    },
+    {
+      "topic": "Democracia e instituições",
+      "stance": "Propõe elevar para 60 anos a idade mínima de ministros do STF, criar corregedoria da Corte, acabar com liminares monocráticas que suspendam leis, restringir foro privilegiado ao presidente, extinguir os fundos Eleitoral e Partidário e adotar o voto distrital misto com candidaturas independentes.",
+      "orientation": "direita",
+      "sources": [
+        { "title": "Plano de governo: Zema quer arma no campo e privatizar estatais", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/11/plano-de-governo-romeu-zema-eleicoes-2026-propostas.ghtml", "date": "2026-08-11" },
+        { "title": "Plano de Zema prioriza segurança, privatizações e reforma do Estado", "publisher": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/geral/audio/2026-08/plano-de-zema-prioriza-seguranca-privatizacoes-e-reforma-do-estado", "date": "2026-08-27" }
+      ]
+    },
+    {
+      "topic": "Política externa",
+      "stance": "Quer retirar o Brasil do BRICS de forma diplomática preservando relações comerciais, retomar a adesão à OCDE, transformar o Mercosul em zona de livre comércio com negociações individuais e isentar de visto turistas de países considerados seguros.",
+      "orientation": "direita",
+      "sources": [
+        { "title": "Plano de governo: Zema quer arma no campo e privatizar estatais", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/11/plano-de-governo-romeu-zema-eleicoes-2026-propostas.ghtml", "date": "2026-08-11" },
+        { "title": "Plano de Zema prioriza segurança, privatizações e reforma do Estado", "publisher": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/geral/audio/2026-08/plano-de-zema-prioriza-seguranca-privatizacoes-e-reforma-do-estado", "date": "2026-08-27" }
+      ]
+    },
+    {
+      "topic": "Direitos sociais",
+      "stance": "Mantém o Bolsa Família com condicionalidades extras para adultos aptos ao trabalho, prevê R$ 5 mil a famílias que deixarem o programa por faixa de renda e cria o “Sócios do Brasil”, com depósito de R$ 1 mil por brasileiro ao nascer, sacável aos 18 anos.",
+      "orientation": "centro-direita",
+      "sources": [
+        { "title": "Plano de governo: Zema quer arma no campo e privatizar estatais", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/11/plano-de-governo-romeu-zema-eleicoes-2026-propostas.ghtml", "date": "2026-08-11" }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "quote": "Esse é o Brasil real, o Brasil que não espera, que não aceita favor, nem esquema. É o Brasil que nós queremos: que trabalha, inventa, arrisca. E é com esse Brasil bravo que vamos chegar à Brasília para varrer o PT do mapa, para acabar com os abusos e perseguições de Alexandre de Moraes, para libertar o Brasil",
+      "date": "2025-08-16",
+      "context": "Discurso de lançamento da pré-candidatura à Presidência, em evento do Partido Novo em São Paulo; na ocasião também defendeu a saída do Brasil do BRICS.",
+      "source": { "title": "Zema lança pré-candidatura ao Planalto e fala em “varrer PT do mapa”", "publisher": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/politica/zema-lanca-pre-candidatura-ao-planalto-e-fala-em-varrer-pt-do-mapa/", "date": "2025-08-16" }
+    },
+    {
+      "quote": "Flávio Bolsonaro, ouvir você cobrando dinheiro do Vorcaro é imperdoável. É um tapa na cara dos brasileiros de bem. Não adianta nada criticar as práticas de Lula e do PT e fazer a mesma coisa",
+      "date": "2026-05-13",
+      "context": "Reação à publicação de mensagens e áudio em que o senador Flávio Bolsonaro pede recursos ao banqueiro Daniel Vorcaro para financiar filme sobre Jair Bolsonaro; o episódio rompeu a proximidade política entre os dois.",
+      "source": { "title": "Zema critica Flávio Bolsonaro: “Ouvir você cobrando dinheiro do Vorcaro é imperdoável”", "publisher": "G1", "url": "https://g1.globo.com/politica/noticia/2026/05/13/zema-critica-flavio-bolsonaro-ouvir-voce-cobrando-dinheiro-do-vorcaro-e-imperdoavel.ghtml", "date": "2026-05-13" }
+    },
+    {
+      "quote": "Se alguém era de alguma facção ou de alguma organização criminosa era enquadrado como terrorista. E, se é enquadrado como terrorista, pena mínima de 25 anos sem direito a nenhum tipo de benefício. Encarceramento em massa. Bandido atrás das grades",
+      "date": "2026-05-25",
+      "context": "Durante debate promovido pela Amcham em São Paulo, elogiou a política de segurança de El Salvador e defendeu a adoção de medidas semelhantes no Brasil, incluindo classificação de facções como terroristas.",
+      "source": { "title": "Zema defende modelo de El Salvador com “encarceramento em massa” contra o crime", "publisher": "G1", "url": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/05/25/zema-defende-modelo-de-el-salvador-com-encarceramento-em-massa-contra-o-crime.ghtml", "date": "2026-05-25" }
+    },
+    {
+      "quote": "Privatizar todas as empresas estatais para que o governo possa se concentrar naquilo que de fato lhe cabe, como segurança pública e educação, reduzindo o espaço para escândalos de corrupção e garantindo maior eficiência no uso dos recursos públicos e mais competição na economia brasileira",
+      "date": "2026-08-11",
+      "context": "Trecho do plano de governo “Plano Implacável”, documento de 81 páginas em 20 áreas enviado ao TSE e divulgado pela imprensa; o programa prevê ainda regime alternativo à CLT, saída do BRICS e fim dos fundos Eleitoral e Partidário.",
+      "source": { "title": "Plano de governo: Zema quer arma no campo e privatizar estatais", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/11/plano-de-governo-romeu-zema-eleicoes-2026-propostas.ghtml", "date": "2026-08-11" }
+    },
+    {
+      "quote": "Na véspera da eleição que ele está fazendo isso? Está reajustando o Bolsa Família e teve mais medidas populistas. Ele deveria ter feito isso antes e não agora, que é véspera de eleição. É populismo puro, é compra de votos.",
+      "date": "2026-09-26",
+      "context": "Entrevista à Rádio Itatiaia Sul de Minas, em Varginha, criticando a proibição de bets anunciada pelo governo Lula às vésperas do pleito; Zema chamou as plataformas de “cocaína digital”, defendeu o fim das apostas online e disse que “onde o PT estiver, eu estarei contra ele”.",
+      "source": { "title": "Zema critica bets e diz que ação do governo Lula para acabar com apostas é “populismo puro, compra de votos”", "publisher": "G1", "url": "https://g1.globo.com/mg/sul-de-minas/eleicoes/2026/noticia/2026/09/26/zema-critica-bets-e-diz-que-acao-do-governo-lula-para-acabar-com-apostas-e-populismo-puro-compra-de-votos.ghtml", "date": "2026-09-26" }
+    }
+  ],
+  "scandals": [
+    {
+      "title": "Multa do TSE por propaganda institucional fora do período eleitoral",
+      "period": "2022-2024",
+      "summary": "O TSE aplicou multa a Zema por divulgação de propaganda institucional fora do período permitido nas eleições de 2022. Em julgamento de recurso em maio de 2024, a maioria dos ministros rejeitou os pedidos de cassação de mandato e de inelegibilidade, mantendo apenas a penalidade por conduta vedada a agente público.",
+      "status": "multa aplicada; cassação de mandato e inelegibilidade rejeitadas pelo TSE",
+      "sources": [
+        { "title": "TSE decide multar governador Romeu Zema por propaganda fora do período em 2022", "publisher": "G1", "url": "https://g1.globo.com/politica/noticia/2024/05/14/tse-decide-multar-governador-romeu-zema-por-propaganda-fora-do-periodo-em-2022.ghtml", "date": "2024-05-14" }
+      ]
+    },
+    {
+      "title": "Aumento de quase 300% no próprio salário de governador",
+      "period": "2023",
+      "summary": "Zema elevou sua remuneração de cerca de R$ 10,5 mil para R$ 41,8 mil, medida considerada irregular pelo conselho de supervisão do regime de recuperação fiscal de Minas Gerais. O governo alegou corrigir inconstitucionalidade no sistema de teto salarial — alguns secretários ganhavam mais que o governador — e protocolou justificativa no STF em outubro de 2023.",
+      "status": "questionado por órgãos de supervisão; governo apresentou justificativa ao STF",
+      "sources": [
+        { "title": "Zema justifica aumento de salário em 300% ao STF como solução para sanar inconstitucionalidade", "publisher": "G1", "url": "https://g1.globo.com/mg/minas-gerais/noticia/2023/10/18/zema-justifica-aumento-de-salario-em-300percent-ao-stf-como-solucao-para-sanar-inconstitucionalidade.ghtml", "date": "2023-10-18" }
+      ]
+    },
+    {
+      "title": "Declaração favorável ao trabalho infantil e recuo no dia seguinte",
+      "period": "2026",
+      "summary": "Em entrevista ao podcast Inteligência Ltda no Dia do Trabalho (1º de maio), Zema disse querer mudar a proibição do trabalho infantil e afirmou que “a esquerda criou essa noção de que trabalhar prejudica a criança”, citando o exemplo de crianças entregando jornal nos Estados Unidos. A fala repercutiu com críticas e, no dia seguinte, o candidato publicou vídeo dizendo que se referia a adolescentes e ao trabalho como aprendiz.",
+      "status": "declaração polêmica; candidato esclareceu e recuou no dia seguinte",
+      "sources": [
+        { "title": "Zema defende que crianças possam trabalhar no Brasil", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/05/01/zema-trabalho-criancas.ghtml", "date": "2026-05-01" }
+      ]
+    }
+  ]
+}

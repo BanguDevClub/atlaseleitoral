@@ -1,0 +1,145 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import SectionHeading from '@/components/SectionHeading.astro';
+import SourceChip from '@/components/SourceChip';
+import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
+import { Badge } from '@/components/ui/badge';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Separator } from '@/components/ui/separator';
+import { electionFacts } from '@/lib/candidates';
+import { ORIENTATION_COLOR } from '@/components/OrientationBadge';
+
+const sections = [
+  {
+    id: 'fontes',
+    title: 'Fontes e citação',
+    body: [
+      'Toda afirmação de fato exibe a fonte original em um selo clicável: meio, data e link direto. Priorizamos fontes oficiais (TSE, Congresso em Foco/Senado, Câmara dos Deputados, programas de governo registrados) e a cobertura dos principais veículos (G1, Folha, Estadão, Valor, O Globo, BBC, Reuters, entre outros).',
+      'Citações em declarações são transcritas com a data e o contexto em que foram feitas. Quando não foi possível verificar uma informação em fonte acessível, ela não é publicada.',
+    ],
+  },
+  {
+    id: 'eixos',
+    title: 'Os dois eixos do compasso',
+    body: [
+      'Eixo econômico (horizontal): de −10 (intervenção estatal ampla, estatização, regulação forte) a +10 (livre-mercado, privatização, desregulação e disciplina fiscal rígida).',
+      'Eixo social (vertical): de −10 (conservador: ordem, autoridade, valores tradicionais) a +10 (progressista: liberdades individuais, pautas sociais e derechos civis).',
+      'As coordenadas são uma síntese editorial: primeiro a evidência (votos relevantes, programa de governo, declarações), depois a posição que melhor descreve o conjunto. A ficha de cada candidato mostra o raciocínio e as fontes usadas.',
+    ],
+  },
+  {
+    id: 'confianca',
+    title: 'Nível de confiança',
+    body: [
+      'Alta: posição consistente em votações, programa e declarações. Média: evidência sólida, mas com menos registros ou alguns contrastes. Baixa: poucas fontes disponíveis — interpretação provisória, sujeita a revisão.',
+    ],
+  },
+  {
+    id: 'cores',
+    title: 'Cores',
+    body: [
+      'A cor de cada candidato vem do eixo econômico: vermelho (esquerda) → roxo (centro) → azul (direita). A posição vertical (social) é lida pela localização no mapa, não pela cor.',
+      'As páginas usam a paleta Catppuccin em quatro variantes — Latte (claro), Frappé, Macchiato e Mocha (escuros) — selecionáveis no topo do site.',
+    ],
+  },
+  {
+    id: 'controversias',
+    title: 'Controvérsias e escândalos',
+    body: [
+      'Só entram na ficha casos documentados por fontes, sempre com o status atualizado: arquivado, processo em curso, condenação (com ou sem recurso), operação policial, acusação negada etc.',
+      'O verbete descreve o que é publicamente documentado, sem adjetivação. A ausência de casos não implica ausência de controvérsias — implica ausência de documentação verificável neste atlas.',
+    ],
+  },
+  {
+    id: 'limites',
+    title: 'Limites',
+    body: [
+      'Este é um projeto educacional, sem filiação partidária ou financiamento de candidatos. Erros ou correções podem ser ajustados quando novas evidências surgem — a data de atualização das pesquisas aparece na página de Pesquisas.',
+      'Pesquisas eleitorais têm margem de erro e retratam um momento; não são previsão de resultado.',
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title="Metodologia | Atlas Eleitoral"
+  description="Como o Atlas Eleitoral pesquisa, cita fontes e classifica os candidatos no compasso político de dois eixos."
+>
+  <main class="mx-auto max-w-4xl px-4 py-10 sm:px-6">
+    <div class="mb-8">
+      <SectionHeading
+        eyebrow="Transparência"
+        title="Metodologia"
+        description="O que cada dado neste site significa, de onde vem e como é interpretado."
+      />
+    </div>
+
+    <div class="flex flex-col gap-6">
+      {
+        sections.map((section) => (
+          <Card id={section.id}>
+            <CardHeader>
+              <CardTitle>{section.title}</CardTitle>
+            </CardHeader>
+            <CardContent className="flex flex-col gap-3">
+              {section.body.map((paragraph) => (
+                <p class="text-sm leading-relaxed text-muted-foreground">{paragraph}</p>
+              ))}
+            </CardContent>
+          </Card>
+        ))
+      }
+
+      <Card>
+        <CardHeader>
+          <CardTitle>Como a orientação é rotulada</CardTitle>
+          <CardDescription>Rótulos usados nas comparações e fichas</CardDescription>
+        </CardHeader>
+        <CardContent className="flex flex-wrap gap-2">
+          {(['esquerda', 'centro-esquerda', 'centro', 'centro-direita', 'direita'] as const).map((orientation) => (
+            <span
+              class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-medium"
+              style={`color:${ORIENTATION_COLOR[orientation]};border-color:color-mix(in oklch, ${ORIENTATION_COLOR[orientation]} 45%, transparent);background:color-mix(in oklch, ${ORIENTATION_COLOR[orientation]} 12%, transparent)`}
+            >
+              {orientation}
+            </span>
+          ))}
+        </CardContent>
+      </Card>
+    </div>
+
+    <Separator className="my-8" />
+
+    <section class="flex flex-col gap-3">
+      <h2 class="font-heading text-xl font-semibold">Fontes desta página</h2>
+      <div class="flex flex-wrap gap-2">
+        <Badge variant="outline">TSE</Badge>
+        <Badge variant="outline">Programas de governo</Badge>
+        {
+          electionFacts?.sources.map((source) => (
+            <SourceChip source={source} />
+          ))
+        }
+        {
+          !electionFacts && (
+            <a
+              href="https://divulgacandcontas.tse.jus.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-ctp-blue underline underline-offset-4 text-sm"
+            >
+              Divulgação de Candidaturas — TSE
+            </a>
+          )
+        }
+      </div>
+      <Alert className="mt-2">
+        <AlertTitle>Independentidade</AlertTitle>
+        <AlertDescription>
+          Sem filiação partidária. A ordem de exibição nunca favorece candidatura — listas ordenadas por número de
+          urna, nome ou coordenadas explícitas.
+        </AlertDescription>
+      </Alert>
+    </section>
+  </main>
+</BaseLayout>

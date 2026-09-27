@@ -1,0 +1,22 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import SectionHeading from '@/components/SectionHeading.astro';
+import CandidateExplorer from '@/components/CandidateExplorer';
+import { candidates } from '@/lib/candidates';
+---
+
+<BaseLayout
+  title="Candidatos | Atlas Eleitoral"
+  description="Fichas completas dos candidatos à Presidência do Brasil em 2026: biografia, posições, declarações e controvérsias com fontes."
+>
+  <main class="mx-auto max-w-7xl px-4 py-10 sm:px-6">
+    <div class="mb-8">
+      <SectionHeading
+        eyebrow="Fichas"
+        title="Candidatos à Presidência"
+        description="Busque por nome, partido ou tema; ordene pelo número de urna ou pela posição no compasso político."
+      />
+    </div>
+    <CandidateExplorer client:load candidates={candidates} />
+  </main>
+</BaseLayout>

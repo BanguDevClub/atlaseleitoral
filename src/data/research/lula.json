@@ -1,0 +1,183 @@
+{
+  "id": "lula",
+  "slug": "lula",
+  "name": "Luiz Inácio Lula da Silva",
+  "ballotName": "Lula",
+  "number": 13,
+  "party": "PT",
+  "partyFullName": "Partido dos Trabalhadores",
+  "coalition": "Brasil Pronto pra Mais",
+  "vice": { "name": "Geraldo Alckmin", "party": "PSB" },
+  "status": "Deferido",
+  "age": 80,
+  "occupation": "presidente da República, ex-metalúrgico e sindicalista",
+  "headline": "Ex-metalúrgico do ABC que virou o primeiro operário na Presidência disputa um quarto mandato pela chapa de frente ampla 'Brasil Pronto pra Mais'.",
+  "photo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28ombros%29_denoise.jpg",
+  "birth": { "city": "Garanhuns", "state": "Pernambuco", "year": 1945 },
+  "politicalJourney": "Nascido em Caetés, distrito de Garanhuns (PE), migrou criança para o ABC paulista, tornou-se torneiro mecânico e sindicalista, presidiu o Sindicato dos Metalúrgicos de São Bernardo do Campo e liderou as greves de 1978-1981 na ditadura militar. Fundou o PT em 1980, foi deputado federal constituinte (1987-1991) e disputou a Presidência em 1989, 1994 e 1998 antes de vencer em 2002 e ser reeleito em 2006. Após condenações na Operação Lava Jato (2017-2019), preso em 2018 e solto em 2019, teve as condenações anuladas pelo STF em 2021 e venceu a eleição de 2022 no segundo turno contra Jair Bolsonaro. Reeleito presidente em 2022, disputa em 2026 sua sétima eleição presidencial, com Geraldo Alckmin (PSB) como vice na coligação Brasil Pronto pra Mais.",
+  "bio": [
+    "Luiz Inácio da Silva nasceu em 27 de outubro de 1945 em Caetés, no interior de Pernambuco, sétimo dos oito filhos de Aristides Inácio da Silva e Eurídice Ferreira de Melo. Aos sete anos mudou-se com a mãe para São Paulo; trabalhou desde criança e em 1961 ingressou no SENAI, formando-se torneiro mecânico. Tornou-se dirigente do Sindicato dos Metalúrgicos de São Bernardo do Campo, foi preso 31 dias pelo DOPS durante as greves do ABC e ajudou a fundar o Partido dos Trabalhadores em 1980.",
+    "Eleito deputado federal com votação recorde em 1986, Lula concorreu cinco vezes à Presidência antes de vencer, em 2002, com a 'Carta ao povo brasileiro' e o programa Fome Zero/Bolsa Família. Nos mandatos de 2003 a 2010 manteve o tripé macroeconômico, expandiu transferências de renda, o PAC e o Minha Casa Minha Vida, e deixou o cargo com aprovação superior a 80%. Condenado na Lava Jato pelo juiz Sergio Moro em 2017 e preso em 2018, teve todas as condenações anuladas pelo STF em 2021. Reeleito em 2022, seu terceiro mandato (2023-) marcou o novo arcabouço fiscal, a reforma tributária, a retomada do combate ao desmatamento na Amazônia e a COP30, em 2025."
+  ],
+  "compass": {
+    "social": -6.0,
+    "economic": -5.5,
+    "confidence": "alta",
+    "rationale": "Na Constituinte (1987-1988) votou por direitos trabalhistas, reforma agrária, licença-paternidade e nacionalização do petróleo, e nos dois primeiros mandatos concentrou a agenda em combate à fome e à desigualdade. No terceiro manteve responsabilidade fiscal (novo arcabouço, metas de superávit) somada a gatilhos sociais — expansão do Bolsa Família, isenção de IRPF até R$ 5 mil e valorização real do salário mínimo — , ao passo que endureceu a pauta de segurança com a Lei Antifacção e a PEC da Segurança Pública. O resultado é uma esquerda moderada no plano econômico e progressista nas pautas de gênero, direitos sociais e política externa sul-sul.",
+    "sources": [
+      { "title": "Governo Lula (2023–presente)", "publisher": "Wikipédia", "url": "https://pt.wikipedia.org/wiki/Governo_Lula_(2023%E2%80%93presente)", "date": null },
+      { "title": "Luiz Inácio Lula da Silva", "publisher": "Wikipédia", "url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva", "date": null },
+      { "title": "'Guerra ainda não começou': PT oficializa a sétima disputa eleitoral de Lula à Presidência", "publisher": "BBC News Brasil", "url": "https://www.bbc.com/portuguese/articles/c4gj753lewko", "date": "2026-08-02" },
+      { "title": "Lula não descarta participar de eleições de 2026 para 'evitar trogloditas de volta'", "publisher": "CBN", "url": "https://cbn.globo.com/politica/noticia/2024/06/18/lula-nao-descarta-participar-de-eleicoes-de-2026.ghtml", "date": "2024-06-18" }
+    ]
+  },
+  "keyPositions": [
+    {
+      "topic": "Economia e tributos",
+      "stance": "Defende estabilidade fiscal com viés social: conduziu a reforma tributária sobre o consumo, substituiu o teto de gastos pelo novo arcabouço fiscal e propôs isenção de IRPF para quem ganha até R$ 5 mil, sempre com valorização real do salário mínimo.",
+      "orientation": "esquerda",
+      "sources": [
+        { "title": "Governo Lula (2023–presente)", "publisher": "Wikipédia", "url": "https://pt.wikipedia.org/wiki/Governo_Lula_(2023%E2%80%93presente)", "date": null },
+        { "title": "Novo Desenrola: governo Lula planeja R$ 15 bi para comprar dívidas dos bancos e aliviar bolso das famílias", "publisher": "BBC News Brasil", "url": "https://www.bbc.com/portuguese/articles/crpd00x808eyo", "date": "2026-09-25" }
+      ]
+    },
+    {
+      "topic": "Trabalho e renda",
+      "stance": "Transformou o fim da escala 6x1 em prioridade legislativa: incluiu a pauta na mensagem ao Congresso de 2026, enviou projeto de redução da jornada de 44 para 40 horas semanais em abril de 2026 e celebrou a aprovação na Câmara em maio de 2026, sem redução salarial.",
+      "orientation": "esquerda",
+      "sources": [
+        { "title": "Comissão aprova o fim da escala 6x1 e a redução da jornada de 44 para 40 horas semanais", "publisher": "Câmara dos Deputados", "url": "https://www.camara.leg.br/noticias/1277012-comissao-aprova-o-fim-da-escala-6x1-e-reducao-da-jornada-de-44-para-40-horas-semanais/", "date": null },
+        { "title": "Governo Lula (2023–presente)", "publisher": "Wikipédia", "url": "https://pt.wikipedia.org/wiki/Governo_Lula_(2023%E2%80%93presente)", "date": null }
+      ]
+    },
+    {
+      "topic": "Segurança pública",
+      "stance": "Adotou linha dura contra o crime organizado: sancionou a Lei Antifacção em março de 2026, com penas endurecidas e bloqueio de bens de facções, e colocou em tramitação a PEC da Segurança Pública que institucionaliza o SUSP e amplia atribuições da Polícia Federal.",
+      "orientation": "centro-esquerda",
+      "sources": [
+        { "title": "Lula sanciona lei contra facções criminosas com vetos, após pressão e divergências no Congresso", "publisher": "G1", "url": "https://g1.globo.com/politica/noticia/2026/03/24/lula-sanciona-lei-contra-faccoes-criminosas-com-veto-apos-pressao-e-divergencias-no-congresso.ghtml", "date": "2026-03-24" },
+        { "title": "Câmara aprova PEC da Segurança Pública em 2º turno", "publisher": "Câmara dos Deputados", "url": "https://www.camara.leg.br/noticias/1250434-camara-aprova-pec-da-seguranca-publica-em-2o-turno/", "date": "2026-03-04" }
+      ]
+    },
+    {
+      "topic": "Saúde",
+      "stance": "O plano de reeleição mantém o investimento contínuo nas redes de saúde pública e a defesa do SUS como eixo social do governo, herdeiro da expansão do acesso a atendimento verificada desde 2003.",
+      "orientation": "esquerda",
+      "sources": [
+        { "title": "Campanha presidencial de Lula em 2026", "publisher": "Wikipédia", "url": "https://pt.wikipedia.org/wiki/Campanha_presidencial_de_Lula_em_2026", "date": null },
+        { "title": "Luiz Inácio Lula da Silva", "publisher": "Wikipédia", "url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva", "date": null }
+      ]
+    },
+    {
+      "topic": "Educação",
+      "stance": "Promete 'resolver definitivamente o papel da educação neste país' e construiu sua marca com SISU, ampliação do FIES, Prouni e a criação de 18 universidades federais e 173 campi entre 2003 e 2010.",
+      "orientation": "esquerda",
+      "sources": [
+        { "title": "'Guerra ainda não começou': PT oficializa a sétima disputa eleitoral de Lula à Presidência", "publisher": "BBC News Brasil", "url": "https://www.bbc.com/portuguese/articles/c4gj753lewko", "date": "2026-08-02" },
+        { "title": "Luiz Inácio Lula da Silva", "publisher": "Wikipédia", "url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva", "date": null }
+      ]
+    },
+    {
+      "topic": "Meio ambiente",
+      "stance": "Relançou o Fundo Amazônia, reforçou o combate ao desmatamento sob comando de Marina Silva e sediou a COP30 em 2025; dados do INPE indicam queda de mais de 50% do desmatamento da Amazônia entre 2022 e 2024.",
+      "orientation": "esquerda",
+      "sources": [
+        { "title": "Luiz Inácio Lula da Silva", "publisher": "Wikipédia", "url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva", "date": null }
+      ]
+    },
+    {
+      "topic": "Democracia e instituições",
+      "stance": "Seu terceiro mandato nasceu da resposta ao intento golpista de 8 de Janeiro de 2023 e mantém a pauta de defesa da democracia, com indicações ao STF (Cristiano Zanin e Flávio Dino) e a derrota da indicação de Jorge Messias pelo Senado em 2026.",
+      "orientation": "esquerda",
+      "sources": [
+        { "title": "Luiz Inácio Lula da Silva", "publisher": "Wikipédia", "url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva", "date": null },
+        { "title": "'Guerra ainda não começou': PT oficializa a sétima disputa eleitoral de Lula à Presidência", "publisher": "BBC News Brasil", "url": "https://www.bbc.com/portuguese/articles/c4gj753lewko", "date": "2026-08-02" }
+      ]
+    },
+    {
+      "topic": "Política externa",
+      "stance": "Aposta na ampliação dos BRICS, na reaproximação sul-sul com África e América Latina e na resposta ao tarifço dos Estados Unidos, que classificou como ingerência externa, anunciando crédito a exportadores atingidos.",
+      "orientation": "esquerda",
+      "sources": [
+        { "title": "Luiz Inácio Lula da Silva", "publisher": "Wikipédia", "url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva", "date": null }
+      ]
+    },
+    {
+      "topic": "Direitos sociais",
+      "stance": "Prioriza a expansão do Bolsa Família, o Minha Casa Minha Vida e a pauta de proteção às mulheres, com o pacto nacional contra o feminicídio liderado pela primeira-dama Janja Lula como bandeira da campanha.",
+      "orientation": "esquerda",
+      "sources": [
+        { "title": "Campanha presidencial de Lula em 2026", "publisher": "Wikipédia", "url": "https://pt.wikipedia.org/wiki/Campanha_presidencial_de_Lula_em_2026", "date": null },
+        { "title": "'Guerra ainda não começou': PT oficializa a sétima disputa eleitoral de Lula à Presidência", "publisher": "BBC News Brasil", "url": "https://www.bbc.com/portuguese/articles/c4gj753lewko", "date": "2026-08-02" }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "quote": "Não fique preocupado com pesquisa. A guerra não começou",
+      "date": "2026-08-02",
+      "context": "Na convenção nacional do PT que oficializou sua candidatura à reeleição, em São Paulo, Lula minimizou as pesquisas que mostram disputa apertada com Flávio Bolsonaro.",
+      "source": { "title": "'Guerra ainda não começou': PT oficializa a sétima disputa eleitoral de Lula à Presidência", "publisher": "BBC News Brasil", "url": "https://www.bbc.com/portuguese/articles/c4gj753lewko", "date": "2026-08-02" }
+    },
+    {
+      "quote": "O homem vai ter que escolher, ou ele vota em mim, ou ele bate na mulher. Se bate na mulher, não precisa votar em mim",
+      "date": "2026-08-02",
+      "context": "Reforçando o discurso de Janja Lula sobre violência de gênero, Lula fez um aceno direto ao eleitorado feminino, onde a candidatura de Flávio Bolsonaro tem maior rejeição.",
+      "source": { "title": "'Guerra ainda não começou': PT oficializa a sétima disputa eleitoral de Lula à Presidência", "publisher": "BBC News Brasil", "url": "https://www.bbc.com/portuguese/articles/c4gj753lewko", "date": "2026-08-02" }
+    },
+    {
+      "quote": "Peço desculpas pelas coisas que eu não fiz. Peço desculpas pelos erros que cometi",
+      "date": "2026-08-02",
+      "context": "Frase de encerramento do discurso de mais de uma hora na convenção do PT, em que também não citou uma única vez o adversário Flávio Bolsonaro.",
+      "source": { "title": "'Guerra ainda não começou': PT oficializa a sétima disputa eleitoral de Lula à Presidência", "publisher": "BBC News Brasil", "url": "https://www.bbc.com/portuguese/articles/c4gj753lewko", "date": "2026-08-02" }
+    },
+    {
+      "quote": "Não vou ganhar o penta",
+      "date": "2026-08-02",
+      "context": "Ao lembrar que 2026 será sua sétima e provavelmente última disputa presidencial, Lula brincou com a analogia esportiva das Copas do Mundo: se vencer, será seu quarto pleito vencido.",
+      "source": { "title": "'Guerra ainda não começou': PT oficializa a sétima disputa eleitoral de Lula à Presidência", "publisher": "BBC News Brasil", "url": "https://www.bbc.com/portuguese/articles/c4gj753lewko", "date": "2026-08-02" }
+    },
+    {
+      "quote": "a ser governado por um fascista e negacionista",
+      "date": "2024-06-18",
+      "context": "Declarando que não descartava disputar 2026 para impedir o retorno de seus adversários ao poder, disse que não permitiria que o Brasil voltasse a ser governado por um fascista e negacionista, chamando os opositores de 'trogloditas'.",
+      "source": { "title": "Lula não descarta participar de eleições de 2026 para 'evitar trogloditas de volta'", "publisher": "CBN", "url": "https://cbn.globo.com/politica/noticia/2024/06/18/lula-nao-descarta-participar-de-eleicoes-de-2026.ghtml", "date": "2024-06-18" }
+    },
+    {
+      "quote": "essa não é uma vitória minha, não é uma vitória só do PT. Essa foi uma vitória de todas as mulheres e homens que amam a democracia, que querem liberdade, que querem um país mais justo. Essa foi a vitória das pessoas que querem mais cultura, que querem mais educação, que querem mais fraternidade, mais igualdade",
+      "date": "2022-10-30",
+      "context": "Discurso de vitória no segundo turno da eleição de 2022, em que derrotou Jair Bolsonaro por 50,9% contra 49,1% e tornou-se o primeiro candidato a derrotar um presidente em reeleição.",
+      "source": { "title": "Luiz Inácio Lula da Silva", "publisher": "Wikipédia", "url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva", "date": null }
+    }
+  ],
+  "scandals": [
+    {
+      "title": "Escândalo do Mensalão",
+      "period": "2005",
+      "summary": "Esquema de pagamento de propina a parlamentares para votos favoráveis ao governo, revelado em 2005 no primeiro mandato de Lula. O ex-presidente negou conhecimento do esquema e se comprometeu a colaborar com as investigações.",
+      "status": "25 réus condenados pelo STF; Lula não foi denunciado criminalmente no caso",
+      "sources": [
+        { "title": "Luiz Inácio Lula da Silva", "publisher": "Wikipédia", "url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva", "date": null }
+      ]
+    },
+    {
+      "title": "Operação Lava Jato e condenações na justiça",
+      "period": "2014-2021",
+      "summary": "Condenado em 2017 pelo juiz Sergio Moro a 9 anos e 6 meses por corrupção passiva e lavagem de dinheiro (caso da Série B, propina da OAS), pena ampliada em 2018 para 12 anos e 1 mês; preso em abril de 2018 e solto em novembro de 2019. Também foi condenado em 2019 no caso do triplex do Guarujá. Lula sempre negou as acusações e alegou parcialidade da Justiça.",
+      "status": "condenações anuladas pelo STF em 2021 (ministro Edson Fachin); sem condenação com trânsito em julgado; considerado juridicamente inocente",
+      "sources": [
+        { "title": "Luiz Inácio Lula da Silva", "publisher": "Wikipédia", "url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva", "date": null }
+      ]
+    },
+    {
+      "title": "Inquéritos do STF contra o filho Lulinha",
+      "period": "2026",
+      "summary": "Em 30 e 31 de julho de 2026, o ministro André Mendonça, sorteado relator no STF, autorizou a abertura de dois inquéritos para investigar Fábio Luís Lula da Silva, filho do presidente, por tráfico de influência e corrupção — um para apurar negócios com o lobista Antônio Carlos Camilo Antunes, o 'careca do INSS', e outro por contratos da Dataprev. Analistas avaliam que os negócios do filho podem ter impacto, ainda que limitado, na campanha de reeleição do pai.",
+      "status": "inquéritos em curso no STF (autorizados em julho de 2026)",
+      "sources": [
+        { "title": "'Guerra ainda não começou': PT oficializa a sétima disputa eleitoral de Lula à Presidência", "publisher": "BBC News Brasil", "url": "https://www.bbc.com/portuguese/articles/c4gj753lewko", "date": "2026-08-02" },
+        { "title": "Lulinha investigado por tráfico de influência e corrupção: do INSS à Lava Jato, o que pesa contra o filho de Lula", "publisher": "BBC News Brasil", "url": "https://www.bbc.com/portuguese/articles/c4g8wvvjdgjo", "date": "2026-07-31" }
+      ]
+    }
+  ]
+}

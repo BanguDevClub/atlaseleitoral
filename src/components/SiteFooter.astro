@@ -1,0 +1,25 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="mt-16 border-t border-border/60">
+  <div class="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-8 text-sm text-muted-foreground sm:flex-row sm:items-start sm:justify-between sm:px-6">
+    <div class="max-w-2xl space-y-1">
+      <p class="font-medium text-foreground">Atlas Eleitoral</p>
+      <p>
+        Dashboard educacional sobre as eleições presidenciais do Brasil de 2026. Toda afirmação exibe a fonte
+        original. A classificação no compasso político é uma interpretação editorial baseada em evidências
+        citadas — veja a <a href="/metodologia" class="underline underline-offset-4 hover:text-foreground">metodologia</a>.
+      </p>
+    </div>
+    <div class="space-y-1 text-sm">
+      <p>
+        Dados de candidaturas:
+        <a href="https://divulgacandcontas.tse.jus.br/" target="_blank" rel="noopener noreferrer" class="underline underline-offset-4 hover:text-foreground">
+          TSE — Divulgação de Candidaturas
+        </a>
+      </p>
+      <p>Sem filiação partidária · {year}</p>
+    </div>
+  </div>
+</footer>

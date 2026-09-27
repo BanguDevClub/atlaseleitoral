@@ -1,0 +1,42 @@
+---
+import '@/styles/global.css';
+import SiteHeader from '@/components/SiteHeader.astro';
+import SiteFooter from '@/components/SiteFooter.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'Atlas Eleitoral — dashboard das eleições presidenciais do Brasil' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title}</title>
+    <script is:inline>
+      (function () {
+        var flavor = null;
+        try {
+          flavor = localStorage.getItem('atlas-flavor');
+        } catch (e) {}
+        if (flavor !== 'latte' && flavor !== 'frappe' && flavor !== 'macchiato' && flavor !== 'mocha') {
+          flavor = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'mocha' : 'latte';
+        }
+        var root = document.documentElement;
+        root.setAttribute('data-theme', flavor);
+        if (flavor !== 'latte') root.classList.add('dark');
+      })();
+    </script>
+  </head>
+  <body class="min-h-screen bg-background text-foreground antialiased">
+    <SiteHeader />
+    <slot />
+    <SiteFooter />
+  </body>
+</html>

@@ -1,0 +1,279 @@
+{
+  "id": "rui-costa-pimenta",
+  "slug": "rui-costa-pimenta",
+  "name": "Rui Costa Pimenta",
+  "ballotName": "Rui Costa Pimenta",
+  "number": 29,
+  "party": "PCO",
+  "partyFullName": "Partido da Causa Operária",
+  "coalition": null,
+  "vice": { "name": "Antônio Carlos Silva", "party": "PCO" },
+  "status": "Deferido",
+  "age": 69,
+  "occupation": "jornalista",
+  "headline": "O trotskista do PCO que disputa a Presidência pela quarta vez, agora sob operação da Polícia Federal.",
+  "photo": "https://upload.wikimedia.org/wikipedia/commons/2/27/Rui_Costa_Pimenta_Close.jpg",
+  "birth": { "city": "São Paulo", "state": "SP", "year": 1957 },
+  "politicalJourney": "Jornalista formado pela Faculdade Cásper Líbero, Rui Costa Pimenta começou a militância política na ditadura militar, em 1976, como estudante de Letras na USP. Participou do Congresso de Refundação da UNE em 1980 e foi um dos fundadores do PT naquele ano, integrando a corrente Causa Operária; na década de 1980 atuou no movimento sindical contra o governo Sarney e, em 1985, foi eleito diretor da CUT na Grande São Paulo. Após a ruptura da Causa Operária com o PT, fundou o PCO em 1995 e preside o partido nacionalmente desde então, além de editar o jornal Causa Operária. Já disputou (ou tentou) a Presidência em 2002, 2010 e 2014 — em 2006 teve o registro indeferido pelo TSE — e 2026 marca a quarta candidatura pelo PCO, oficializada na convenção nacional de 1º de agosto de 2026, em meio a uma operação da Polícia Federal deflagrada dez dias depois.",
+  "bio": [
+    "Rui Costa Pimenta nasceu em São Paulo em 25 de junho de 1957, é neto do ex-deputado João da Costa Pimenta, casado com a militante do PCO Anaí Caproni e tem três filhos. É editor do jornal e do Diário Causa Operária, se define como militante trotskista e publicou livros sobre marxismo e trotskismo. Em 2010 e 2014 concorreu à Presidência pelo PCO, obtendo cerca de 12 mil votos em cada disputa; em 2006, o TSE negou seu registro com base na prestação de contas de 2002.",
+    "O programa de 2026, definido pelo próprio partido como um \"programa de luta\" de 15 pontos, defende aumento emergencial de 50% dos salários, salário mínimo de pelo menos R$ 7.500, jornada de 35 horas semanais, anulação das dívidas dos trabalhadores com o sistema financeiro, estatização do sistema financeiro e do ensino privado, reforma agrária com expropriação do latifúndio, dissolução da Polícia Militar e fim do STF com eleição popular de juízes. A candidatura ocorre sob investigação: em junho de 2026 a PF o indiciou e, em 11 de agosto, deflagrou a Operação Causa Própria, que apura desvio de recursos do Fundo Partidário e do fundo eleitoral."
+  ],
+  "compass": {
+    "social": -2.0,
+    "economic": -9.5,
+    "confidence": "alta",
+    "rationale": "O programa de 15 pontos do PCO é explicitamente estatizante: banco estatal único, cancelamento de dívidas externa e interna, fim dos impostos sobre consumo e salários, estatização do ensino privado, cancelamento das privatizações e salário mínimo de R$ 7.500, o que o ancora na extrema esquerda econômica. No eixo social, Rui combina posições libertárias — liberdade de expressão irrestrita, oposição à regulação estatal de conteúdos e defesa do armamento civil — com posições conservadoras em questões de gênero, como oposição a identidades de gênero e ao uso de banheiros femininos por mulheres trans, além de defender a anistia a Bolsonaro, resultando em um saldo ligeiramente conservador. A confiança é alta por haver programa oficial detalhado e múltiplas declarações documentadas.",
+    "sources": [
+      {
+        "title": "Um programa de luta em defesa do povo trabalhador e da revolução",
+        "publisher": "Diário Causa Operária",
+        "url": "https://causaoperaria.org.br/2026/um-programa-de-luta-em-defesa-do-povo-trabalhador-e-da-revolucao/",
+        "date": "2026-08-10"
+      },
+      {
+        "title": "Quem é Rui Costa Pimenta, candidato do PCO à Presidência pela quarta vez",
+        "publisher": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/quem-e-rui-costa-pimenta-candidato-do-pco-a-presidencia-pela-quarta-vez/",
+        "date": "2026-09-09"
+      },
+      {
+        "title": "Quem é Rui Costa Pimenta, candidato do PCO à Presidência em 2026",
+        "publisher": "GZH",
+        "url": "https://gauchazh.clicrbs.com.br/politica/eleicoes/noticia/2026/08/quem-e-rui-costa-pimenta-candidato-do-pco-a-presidencia-em-2026-cmp1mrvoy00bi013xd027glxo.html",
+        "date": "2026-08-19"
+      },
+      {
+        "title": "Candidato pela 4ª vez pelo PCO, Rui Costa Pimenta defende armar população e dissolver PM",
+        "publisher": "Folha de S.Paulo",
+        "url": "https://www1.folha.uol.com.br/poder/2026/08/candidato-pela-4a-vez-pelo-pco-rui-costa-pimenta-defende-armar-populacao-e-dissolver-pm.shtml",
+        "date": "2026-08-29"
+      }
+    ]
+  },
+  "keyPositions": [
+    {
+      "topic": "Economia e tributos",
+      "stance": "Estatizar o sistema financeiro com banco estatal único, cancelar as dívidas externa e interna, extinguir os impostos sobre consumo e salários e taxar grandes fortunas e ganhos de capital; salário mínimo não inferior a R$ 7.500.",
+      "orientation": "esquerda",
+      "sources": [
+        {
+          "title": "Um programa de luta em defesa do povo trabalhador e da revolução",
+          "publisher": "Diário Causa Operária",
+          "url": "https://causaoperaria.org.br/2026/um-programa-de-luta-em-defesa-do-povo-trabalhador-e-da-revolucao/",
+          "date": "2026-08-10"
+        },
+        {
+          "title": "Rui Costa Pimenta propõe salário mínimo de R$ 7,5 mil e estatização do ensino privado",
+          "publisher": "GRU Diário",
+          "url": "https://grudiario.com.br/rui-costa-pimenta-propoe-salario-minimo-de-r-75-mil-e-estatizacao-do-ensino-privado/",
+          "date": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "topic": "Trabalho e renda",
+      "stance": "Aumento emergencial de 50% de todos os salários e aposentadorias, reposição integral das perdas salariais, jornada máxima de 7 horas diárias em 5 dias por semana (35 horas), proibição de demissões e salário-desemprego igual ao último salário recebido.",
+      "orientation": "esquerda",
+      "sources": [
+        {
+          "title": "Um programa de luta em defesa do povo trabalhador e da revolução",
+          "publisher": "Diário Causa Operária",
+          "url": "https://causaoperaria.org.br/2026/um-programa-de-luta-em-defesa-do-povo-trabalhador-e-da-revolucao/",
+          "date": "2026-08-10"
+        },
+        {
+          "title": "Rui Costa Pimenta propõe salário mínimo de R$ 7,5 mil e estatização do ensino privado",
+          "publisher": "GRU Diário",
+          "url": "https://grudiario.com.br/rui-costa-pimenta-propoe-salario-minimo-de-r-75-mil-e-estatizacao-do-ensino-privado/",
+          "date": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "topic": "Segurança pública",
+      "stance": "Defende a dissolução da Polícia Militar e de todo o aparato repressivo, a criação de comitês de autodefesa dos trabalhadores e o direito ao armamento dos trabalhadores do campo e dos indígenas.",
+      "orientation": "esquerda",
+      "sources": [
+        {
+          "title": "Um programa de luta em defesa do povo trabalhador e da revolução",
+          "publisher": "Diário Causa Operária",
+          "url": "https://causaoperaria.org.br/2026/um-programa-de-luta-em-defesa-do-povo-trabalhador-e-da-revolucao/",
+          "date": "2026-08-10"
+        },
+        {
+          "title": "Candidato pela 4ª vez pelo PCO, Rui Costa Pimenta defende armar população e dissolver PM",
+          "publisher": "Folha de S.Paulo",
+          "url": "https://www1.folha.uol.com.br/poder/2026/08/candidato-pela-4a-vez-pelo-pco-rui-costa-pimenta-defende-armar-populacao-e-dissolver-pm.shtml",
+          "date": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "topic": "Saúde",
+      "stance": "Ampliar sem limite os gastos com saúde pública, retomar o Mais Médicos, abrir centenas de cursos públicos de medicina e enfermagem sem vestibular e elevar o piso salarial dos profissionais da saúde para R$ 8 mil.",
+      "orientation": "esquerda",
+      "sources": [
+        {
+          "title": "Um programa de luta em defesa do povo trabalhador e da revolução",
+          "publisher": "Diário Causa Operária",
+          "url": "https://causaoperaria.org.br/2026/um-programa-de-luta-em-defesa-do-povo-trabalhador-e-da-revolucao/",
+          "date": "2026-08-10"
+        },
+        {
+          "title": "Quem é Rui Costa Pimenta, candidato do PCO à Presidência pela quarta vez",
+          "publisher": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/quem-e-rui-costa-pimenta-candidato-do-pco-a-presidencia-pela-quarta-vez/",
+          "date": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "topic": "Educação",
+      "stance": "Estatizar o ensino privado, acabar com os vestibulares, garantir verbas públicas somente ao ensino público e estabelecer piso salarial nacional de R$ 8,5 mil para professores, com jornada máxima de 30 horas semanais.",
+      "orientation": "esquerda",
+      "sources": [
+        {
+          "title": "Um programa de luta em defesa do povo trabalhador e da revolução",
+          "publisher": "Diário Causa Operária",
+          "url": "https://causaoperaria.org.br/2026/um-programa-de-luta-em-defesa-do-povo-trabalhador-e-da-revolucao/",
+          "date": "2026-08-10"
+        },
+        {
+          "title": "Rui Costa Pimenta propõe salário mínimo de R$ 7,5 mil e estatização do ensino privado",
+          "publisher": "GRU Diário",
+          "url": "https://grudiario.com.br/rui-costa-pimenta-propoe-salario-minimo-de-r-75-mil-e-estatizacao-do-ensino-privado/",
+          "date": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "topic": "Democracia e instituições",
+      "stance": "Propõe o fim do STF, a eleição popular de juízes e procuradores com mandatos revogáveis, o fim do Senado e do TSE, ao mesmo tempo em que defende liberdade de expressão irrestrita e se opõe à regulação estatal de conteúdos.",
+      "orientation": "esquerda",
+      "sources": [
+        {
+          "title": "Quem é Rui Costa Pimenta, candidato do PCO à Presidência pela quarta vez",
+          "publisher": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/quem-e-rui-costa-pimenta-candidato-do-pco-a-presidencia-pela-quarta-vez/",
+          "date": "2026-09-09"
+        },
+        {
+          "title": "Quem é Rui Costa Pimenta, candidato do PCO à Presidência em 2026",
+          "publisher": "GZH",
+          "url": "https://gauchazh.clicrbs.com.br/politica/eleicoes/noticia/2026/08/quem-e-rui-costa-pimenta-candidato-do-pco-a-presidencia-em-2026-cmp1mrvoy00bi013xd027glxo.html",
+          "date": "2026-08-19"
+        }
+      ]
+    },
+    {
+      "topic": "Política externa",
+      "stance": "Defende o apoio a povos que resistem ao imperialismo, citando Palestina, Irã e Rússia, e apoia formalmente Cuba, Nicarágua e Venezuela, em oposição ao alinhamento dos EUA e da OEA na América Latina.",
+      "orientation": "esquerda",
+      "sources": [
+        {
+          "title": "Um programa de luta em defesa do povo trabalhador e da revolução",
+          "publisher": "Diário Causa Operária",
+          "url": "https://causaoperaria.org.br/2026/um-programa-de-luta-em-defesa-do-povo-trabalhador-e-da-revolucao/",
+          "date": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "topic": "Direitos sociais",
+      "stance": "Reforma agrária com expropriação do latifúndio e demarcação das terras indígenas, assentamento imediato das famílias sem-terra, expropriação de imóveis vagos de especuladores e proibição de despejos.",
+      "orientation": "esquerda",
+      "sources": [
+        {
+          "title": "Um programa de luta em defesa do povo trabalhador e da revolução",
+          "publisher": "Diário Causa Operária",
+          "url": "https://causaoperaria.org.br/2026/um-programa-de-luta-em-defesa-do-povo-trabalhador-e-da-revolucao/",
+          "date": "2026-08-10"
+        },
+        {
+          "title": "Rui Costa Pimenta propõe salário mínimo de R$ 7,5 mil e estatização do ensino privado",
+          "publisher": "GRU Diário",
+          "url": "https://grudiario.com.br/rui-costa-pimenta-propoe-salario-minimo-de-r-75-mil-e-estatizacao-do-ensino-privado/",
+          "date": "2026-09-25"
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "quote": "A intenção é nos prejudicar, inclusive eleitoralmente. A acusação parece que se baseia na seguinte questão que os juízes acharam muito estranho: que essas empresas são empresas dirigidas por militantes do PCO. Só que ocorre o seguinte: o juiz pode achar estranho, mas não é ilegal. Não é ilegal.",
+      "date": "2026-08-11",
+      "context": "Negação de irregularidades na noite da Operação Causa Própria, em entrevista ao Jornal Nacional, quando a Justiça determinou o bloqueio de até R$ 4,5 milhões dos investigados.",
+      "source": {
+        "title": "Rui Costa Pimenta, presidente do PCO, é alvo de operação da PF por suspeita de desvio de dinheiro dos fundos partidário e eleitoral",
+        "publisher": "G1",
+        "url": "https://g1.globo.com/jornal-nacional/noticia/2026/08/11/rui-costa-pimenta-presidente-do-pco-e-alvo-de-operacao-da-pf-por-suspeita-de-desvio-de-dinheiro-dos-fundos-partidario-e-eleitoral.ghtml",
+        "date": "2026-08-11"
+      }
+    },
+    {
+      "quote": "visivelmente uma ilegalidade",
+      "date": "2026-08-11",
+      "context": "Em live na manhã da operação, classificou as ações da Polícia Federal desse tipo como ilegalidade e afirmou que a porta de sua casa foi arrombada às 6h; o PCO classificou a ação como perseguição política.",
+      "source": {
+        "title": "PF indicia candidato do PCO por eventual ilícito eleitoral",
+        "publisher": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/blogs/gustavo-uribe/eleicoes/pf-indicia-candidato-do-pco-por-eventual-ilicito-eleitoral/",
+        "date": "2026-08-12"
+      }
+    },
+    {
+      "quote": "Qualquer crítica ao sionismo é tratada como se fosse um preconceito 'racial' contra os judeus. Estamos sendo perseguidos por nossas opiniões políticas, coisa típica de ditaduras",
+      "date": "2026-09-09",
+      "context": "Resposta à aceitação da denúncia por antissemitismo movida pela CONIB, ocorrida em maio de 2026 e reproduzida pela CNN Brasil em 9 de setembro de 2026.",
+      "source": {
+        "title": "Quem é Rui Costa Pimenta, candidato do PCO à Presidência pela quarta vez",
+        "publisher": "CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/quem-e-rui-costa-pimenta-candidato-do-pco-a-presidencia-pela-quarta-vez/",
+        "date": "2026-09-09"
+      }
+    }
+  ],
+  "scandals": [
+    {
+      "title": "Operação Causa Própria da Polícia Federal",
+      "period": "2026",
+      "summary": "Em 11 de agosto de 2026 a PF deflagrou a Operação Causa Própria, com buscas em quatro endereços ligados ao PCO em São Paulo, para apurar suposto desvio de recursos do Fundo Partidário e do fundo eleitoral a empresas e pessoas ligadas ao partido, com bloqueio de até R$ 4,5 milhões. A PF já havia indiciado Rui em junho de 2026 por indícios de apropriação indébita eleitoral nas prestações de contas do PCO de 2020, 2022 e 2023, e o apontou como principal responsável pela gestão partidária; ele foi afastado das atividades administrativas do partido por seis meses, mas não está impedido de concorrer, e nega as acusações.",
+      "status": "investigação em curso; indiciado pela PF; nega as acusações",
+      "sources": [
+        {
+          "title": "Rui Costa Pimenta, presidente do PCO, é alvo de operação da PF por suspeita de desvio de dinheiro dos fundos partidário e eleitoral",
+          "publisher": "G1",
+          "url": "https://g1.globo.com/jornal-nacional/noticia/2026/08/11/rui-costa-pimenta-presidente-do-pco-e-alvo-de-operacao-da-pf-por-suspeita-de-desvio-de-dinheiro-dos-fundos-partidario-e-eleitoral.ghtml",
+          "date": "2026-08-11"
+        },
+        {
+          "title": "PF indicia candidato do PCO por eventual ilícito eleitoral",
+          "publisher": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/gustavo-uribe/eleicoes/pf-indicia-candidato-do-pco-por-eventual-ilicito-eleitoral/",
+          "date": "2026-08-12"
+        },
+        {
+          "title": "Operação da PF sobre desvio de verba eleitoral mira PCO e Rui Costa Pimenta",
+          "publisher": "Poder360",
+          "url": "https://www.poder360.com.br/poder-justica/operacao-da-pf-sobre-desvio-de-verba-eleitoral-mira-pco-e-rui-costa-pimenta/",
+          "date": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "title": "Denúncia por antissemitismo aceita pela Justiça Federal",
+      "period": "2026",
+      "summary": "Em maio de 2026 a Justiça Federal aceitou denúncia por antissemitismo movida pela CONIB contra Rui Costa Pimenta e contra o secretário nacional do PCO, Henrique Áreas, por discursos publicados em redes sociais entre 2022 e 2024 que a entidade considera discriminatórios contra a comunidade judaica. Ele afirmou que se trata de perseguição política e que críticas ao sionismo não podem ser confundidas com preconceito contra judeus.",
+      "status": "denúncia aceita; acusação negada pelo candidato",
+      "sources": [
+        {
+          "title": "Quem é Rui Costa Pimenta, candidato do PCO à Presidência pela quarta vez",
+          "publisher": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/quem-e-rui-costa-pimenta-candidato-do-pco-a-presidencia-pela-quarta-vez/",
+          "date": "2026-09-09"
+        }
+      ]
+    }
+  ]
+}

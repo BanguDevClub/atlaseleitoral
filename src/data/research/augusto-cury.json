@@ -1,0 +1,186 @@
+{
+  "id": "augusto-cury",
+  "slug": "augusto-cury",
+  "name": "Augusto Jorge Cury",
+  "ballotName": "Escritor Augusto Cury",
+  "number": 70,
+  "party": "AVANTE",
+  "partyFullName": "Avante",
+  "coalition": "Brasil dos Nossos Sonhos (Agir e Avante)",
+  "vice": { "name": "Júlio Delgado", "party": "AVANTE" },
+  "status": "Deferido",
+  "age": 67,
+  "occupation": "Escritor e psiquiatra",
+  "headline": "O psiquiatra mais lido do Brasil estreia nas urnas vendendo gestão da emoção, empreendedorismo em massa e fim da polarização.",
+  "photo": "https://img.estadao.com.br/fotos/politica/eleicoes-2026/BR/FBR280002551547_div.jpg",
+  "birth": { "city": "Colina", "state": "SP", "year": 1958 },
+  "politicalJourney": "Filado ao PV em 2009, quando foi cotado pelo partido para disputar a Presidência em 2010 e colaborou com a formulação educacional da pré-campanha de Marina Silva, Cury ficou mais de uma década fora da política eleitoral. Em 2026, filiou-se ao Avante, que anunciou sua pré-candidatura em abril; a candidatura foi oficializada em convenção nacional na Assembleia Legislativa de São Paulo em 3 de agosto de 2026, dois dias após o anúncio do ex-deputado federal Júlio Delgado como vice. É sua primeira disputa eleitoral, sob a coligação Brasil dos Nossos Sonhos, e o TSE deferiu o registro.",
+  "bio": [
+    "Augusto Jorge Cury nasceu em Colina, no interior de São Paulo, em 2 de outubro de 1958, formou-se em Medicina pela Faculdade de Medicina de São José do Rio Preto (Famerp) em 1984 e atuou em psiquiatria e psicoterapia antes de se dedicar integralmente à literatura e às palestras. Criador da Teoria da Inteligência Multifocal, publicou o primeiro livro, Inteligência Multifocal, em 1998; O Vendedor de Sonhos (2008) virou filme em 2016, dirigido por Jayme Monjardim, e títulos como Ansiedade e Pais Brilhantes, Professores Fascinantes o colocaram entre os autores brasileiros de maior circulação — a IstoÉ contabilizou 27 milhões de exemplares vendidos em 2016 e o site oficial do autor supera a marca de 42 milhões, publicados em mais de 70 países.",
+    "Além dos livros, construiu negócios em educação, publicação e agronegócio: é sócio do Instituto Academia de Inteligência e de empresas do setor, declarou catorze propriedades rurais e um patrimônio de R$ 242.281.162,52 à Justiça Eleitoral, o maior entre os presidenciáveis de 2026. Casado há mais de quatro décadas e pai de três filhas, converteu-se ao cristianismo e defende a manutenção do caráter laico do Estado. Na política é estreante nas urnas, embora tenha se filiado ao PV em 2009 e tenha sido cotado então para disputar a Presidência."
+  ],
+  "compass": {
+    "social": 1.0,
+    "economic": 3.0,
+    "confidence": "média",
+    "rationale": "Cury se declara de centro — define-se como 'mente de direita e coração social' e usa o slogan 'centrado no que importa' — e seu plano combina responsabilidade fiscal, Estado enxuto, empreendedorismo em massa e tributação mais alta das bets, sem propor privatizações e mantendo o Bolsa Família, o que o situa à direita do centro na economia. No eixo social, defende laicidade, neuroinclusão, saúde mental e proteção às mulheres, ao mesmo tempo que propõe um aparato de segurança institucional (Ministério da Segurança Pública e inteligência única) e se aproxima de interlocutores da centro-direita, como Temer, Kassab e Aécio Neves. Sem histórico eleitoral e com posições mistas entre liberalismo e políticas sociais, a confiança da colocação é média.",
+    "sources": [
+      { "title": "Plano de governo de Augusto Cury 2026 — o que propõe", "publisher": "Planos de Governo 2026", "url": "https://planodegoverno2026.com.br/candidatos/presidente/augusto-cury/", "date": null },
+      { "title": "Quem é Augusto Cury, estreante e surpresa da eleição presidencial", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/05/augusto-cury-candidato-trajetoria.ghtml", "date": "2026-09-05" },
+      { "title": "Augusto Cury é de direita ou de esquerda? Escritor critica polarização em debate presidencial", "publisher": "O Globo", "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/08/23/augusto-cury-e-de-direita-ou-de-esquerda-escritor-critica-polarizacao-em-debate-presidencial.ghtml", "date": "2026-08-23" },
+      { "title": "Augusto Cury diz que espera chegar ao 2º turno e afirma que já escolheu Lula como adversário", "publisher": "G1", "url": "https://g1.globo.com/sp/sao-jose-do-rio-preto-aracatuba/eleicoes/2026/noticia/2026/09/04/augusto-cury-visita-interior-sp-agenda.ghtml", "date": "2026-09-04" }
+    ]
+  },
+  "keyPositions": [
+    {
+      "topic": "Economia e tributos",
+      "stance": "Quer concluir a reforma tributária com carga menor ao fim da transição, divulgar o custo de cada regime especial, devolver tributos aos municípios ('menos União e mais municípios'), elevar a tributação das bets para 40%–52% e alcançar déficit público próximo de zero, sem propor privatizações de estatais.",
+      "orientation": "centro-direita",
+      "sources": [
+        { "title": "Plano de governo de Augusto Cury 2026 — o que propõe", "publisher": "Planos de Governo 2026", "url": "https://planodegoverno2026.com.br/candidatos/presidente/augusto-cury/", "date": null },
+        { "title": "Augusto Cury diz que espera chegar ao 2º turno e afirma que já escolheu Lula como adversário", "publisher": "G1", "url": "https://g1.globo.com/sp/sao-jose-do-rio-preto-aracatuba/eleicoes/2026/noticia/2026/09/04/augusto-cury-visita-interior-sp-agenda.ghtml", "date": "2026-09-04" }
+      ]
+    },
+    {
+      "topic": "Trabalho e renda",
+      "stance": "Aposta no empreendedorismo em massa contra o desemprego causado pela IA: ministério (ou secretaria executiva) do Empreendedorismo, financiamento de 10 milhões de microempresas em até dez anos, 10 mil Escolas e 10 mil Clubes de Empreendedorismo e Banco do Empreendedor, com crédito de até R$ 20 mil a 5%–6% ao ano; mantém o Bolsa Família reorientado ao trabalho.",
+      "orientation": "centro",
+      "sources": [
+        { "title": "Plano de governo de Augusto Cury 2026 — o que propõe", "publisher": "Planos de Governo 2026", "url": "https://planodegoverno2026.com.br/candidatos/presidente/augusto-cury/", "date": null },
+        { "title": "Eleições 2026: conheça as propostas e o perfil de Augusto Cury (Avante)", "publisher": "Band", "url": "https://www.band.com.br/politica/eleicoes/eleicoes-2026-conheca-as-propostas-e-o-perfil-de-augusto-cury-avante", "date": "2026-08-29" }
+      ]
+    },
+    {
+      "topic": "Segurança pública",
+      "stance": "Propõe recriar o Ministério da Segurança Pública, integrar PF, polícias militares e civis em um sistema único de inteligência (programa FATO), criar força municipal (FOCO) formada por até 5% dos servidores de cada prefeitura e asfixiar o dinheiro do crime com Receita Federal, COAF e Justiça, apoiando-se em câmeras inteligentes, drones e análise preditiva.",
+      "orientation": "centro-direita",
+      "sources": [
+        { "title": "Plano de governo de Augusto Cury 2026 — o que propõe", "publisher": "Planos de Governo 2026", "url": "https://planodegoverno2026.com.br/candidatos/presidente/augusto-cury/", "date": null },
+        { "title": "Plano de Augusto Cury reúne propostas para 18 áreas", "publisher": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/politica/audio/2026-08/plano-de-augusto-cury-reune-propostas-para-18-areas", "date": null }
+      ]
+    },
+    {
+      "topic": "Saúde",
+      "stance": "Quer transformar o Brasil na maior rede de telemedicina do mundo, resolvendo até 80% das consultas básicas por atendimento digital em até 30 minutos, com triagem por inteligência artificial para priorizar casos graves, rede nacional de prevenção do câncer e Programa Nacional de Saúde Mental focado em prevenção de suicídio.",
+      "orientation": "centro",
+      "sources": [
+        { "title": "Plano de governo de Augusto Cury 2026 — o que propõe", "publisher": "Planos de Governo 2026", "url": "https://planodegoverno2026.com.br/candidatos/presidente/augusto-cury/", "date": null },
+        { "title": "Eleições 2026: conheça as propostas e o perfil de Augusto Cury (Avante)", "publisher": "Band", "url": "https://www.band.com.br/politica/eleicoes/eleicoes-2026-conheca-as-propostas-e-o-perfil-de-augusto-cury-avante", "date": "2026-08-29" }
+      ]
+    },
+    {
+      "topic": "Educação",
+      "stance": "Defende escola pública em tempo integral como 'clube de desenvolvimento humano', com gestão da emoção, educação financeira e empreendedorismo no currículo; propõe a Escola de Pensadores (método SOFT) para neurodivergentes, ensino técnico integrado ao médio e professor como 'provocador da arte de perguntar' em vez de expositor.",
+      "orientation": "centro",
+      "sources": [
+        { "title": "Plano de governo de Augusto Cury 2026 — o que propõe", "publisher": "Planos de Governo 2026", "url": "https://planodegoverno2026.com.br/candidatos/presidente/augusto-cury/", "date": null },
+        { "title": "Eleições 2026: conheça as propostas e o perfil de Augusto Cury (Avante)", "publisher": "Band", "url": "https://www.band.com.br/politica/eleicoes/eleicoes-2026-conheca-as-propostas-e-o-perfil-de-augusto-cury-avante", "date": "2026-08-29" }
+      ]
+    },
+    {
+      "topic": "Meio ambiente",
+      "stance": "Combate a incêndios florestais com satélites, inteligência artificial e drones de resposta rápida (programa Floresta Viva), meta de 90% de matriz energética limpa até 2040, mercado de carbono regulamentado e bioeconomia com microcrédito amazônico, sob a tese de que 'proteger a floresta exige proteger as pessoas'.",
+      "orientation": "centro",
+      "sources": [
+        { "title": "Plano de governo de Augusto Cury 2026 — o que propõe", "publisher": "Planos de Governo 2026", "url": "https://planodegoverno2026.com.br/candidatos/presidente/augusto-cury/", "date": null },
+        { "title": "Plano de Augusto Cury reúne propostas para 18 áreas", "publisher": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/politica/audio/2026-08/plano-de-augusto-cury-reune-propostas-para-18-areas", "date": null }
+      ]
+    },
+    {
+      "topic": "Democracia e instituições",
+      "stance": "Propõe três reformas de fundo: adoção do semipresidencialismo, com primeiro-ministro escolhido pela maioria parlamentar; fim da reeleição para cargos do Executivo e voto distrital; e mandatos de oito anos para ministros do STF, somados a governo digital, metas anuais públicas por ministério e corte de 8 a 10 ministérios.",
+      "orientation": "centro",
+      "sources": [
+        { "title": "Augusto Cury propõe mandato de oito anos no STF e semipresidencialismo", "publisher": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/augusto-cury-propoe-mandato-de-oito-anos-no-stf-e-semipresidencialismo", "date": null },
+        { "title": "Augusto Cury diz que espera chegar ao 2º turno e afirma que já escolheu Lula como adversário", "publisher": "G1", "url": "https://g1.globo.com/sp/sao-jose-do-rio-preto-aracatuba/eleicoes/2026/noticia/2026/09/04/augusto-cury-visita-interior-sp-agenda.ghtml", "date": "2026-09-04" }
+      ]
+    },
+    {
+      "topic": "Política externa",
+      "stance": "Defende embaixadas com metas de negócios ('Embaixada 4.0') para dobrar o comércio exterior em oito anos, realocar diplomatas dos EUA e da Europa para Índia, China e Oriente Médio, elevar o chanceler a 'Secretário de Estado' e manter posição pragmática de equilíbrio entre Estados Unidos e China.",
+      "orientation": "centro",
+      "sources": [
+        { "title": "Plano de governo de Augusto Cury 2026 — o que propõe", "publisher": "Planos de Governo 2026", "url": "https://planodegoverno2026.com.br/candidatos/presidente/augusto-cury/", "date": null },
+        { "title": "Augusto Cury (Avante) é entrevistado na Globo; veja íntegra", "publisher": "G1/Jornal Nacional", "url": "https://g1.globo.com/jornal-nacional/noticia/2026/08/29/augusto-cury-avante-e-entrevistado-na-globo-veja-integra.ghtml", "date": "2026-08-29" }
+      ]
+    },
+    {
+      "topic": "Direitos sociais",
+      "stance": "Mantém o Bolsa Família com transição para a renda do trabalho, propõe regularizar 5 milhões de moradias em dez anos ('da posse ao patrimônio'), levar escolas de empreendedorismo e microcrédito às favelas, política nacional de neuroinclusão (autismo, TDAH, dislexia) e o programa PNAPE de acompanhamento anual da infância, base do PL da 'Lei Augusto Cury'.",
+      "orientation": "centro",
+      "sources": [
+        { "title": "Plano de governo de Augusto Cury 2026 — o que propõe", "publisher": "Planos de Governo 2026", "url": "https://planodegoverno2026.com.br/candidatos/presidente/augusto-cury/", "date": null },
+        { "title": "Eleições 2026: conheça as propostas e o perfil de Augusto Cury (Avante)", "publisher": "Band", "url": "https://www.band.com.br/politica/eleicoes/eleicoes-2026-conheca-as-propostas-e-o-perfil-de-augusto-cury-avante", "date": "2026-08-29" }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "quote": "Minha mente é capitalista, meritocrática, defende um Estado enxuto, responsável fiscalmente e o empreendedorismo. Mas o meu coração é um coração social, que escuta a dor humana.",
+      "date": "2026-08-29",
+      "context": "Na sabatina após o Jornal Nacional, ao explicar por que entrou na disputa para 'pacificar esse país' e definiu seu posicionamento político.",
+      "source": { "title": "Quem é Augusto Cury, estreante e surpresa da eleição presidencial", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/05/augusto-cury-candidato-trajetoria.ghtml", "date": "2026-09-05" }
+    },
+    {
+      "quote": "Há margem para subir mais nas pesquisas nessa eleição. Eu já elegi meu adversário no segundo turno: Lula da Silva",
+      "date": "2026-09-04",
+      "context": "Emcampanha em São José do Rio Preto (SP), o terceiro colocado nas pesquisas disse esperar chegar à segunda etapa contra o presidente em busca da reeleição.",
+      "source": { "title": "Augusto Cury diz que espera chegar ao 2º turno e afirma que já escolheu Lula como adversário em visita ao interior de SP", "publisher": "G1", "url": "https://g1.globo.com/sp/sao-jose-do-rio-preto-aracatuba/eleicoes/2026/noticia/2026/09/04/augusto-cury-visita-interior-sp-agenda.ghtml", "date": "2026-09-04" }
+    },
+    {
+      "quote": "Um cargo não pertence a um homem, a um ser humano, nem a uma família. Nem à família Bolsonaro, nem à família Lula da Silva. Todo cargo público pertence a quem? Ao contribuinte, ele é o patrão",
+      "date": "2026-09-04",
+      "context": "Ao defender a proposta de acabar com a reeleição para cargos do Executivo, na mesma agenda em Rio Preto.",
+      "source": { "title": "Augusto Cury diz que espera chegar ao 2º turno e afirma que já escolheu Lula como adversário em visita ao interior de SP", "publisher": "G1", "url": "https://g1.globo.com/sp/sao-jose-do-rio-preto-aracatuba/eleicoes/2026/noticia/2026/09/04/augusto-cury-visita-interior-sp-agenda.ghtml", "date": "2026-09-04" }
+    },
+    {
+      "quote": "As pessoas têm de entender que a beleza da democracia está na divergência. Nunca esteve na unanimidade. A unanimidade de ideia só existe nas ditaduras",
+      "date": "2026-09-04",
+      "context": "Ao defender que sua candidatura é alternativa à polarização entre direita e esquerda no país.",
+      "source": { "title": "Augusto Cury diz que espera chegar ao 2º turno e afirma que já escolheu Lula como adversário em visita ao interior de SP", "publisher": "G1", "url": "https://g1.globo.com/sp/sao-jose-do-rio-preto-aracatuba/eleicoes/2026/noticia/2026/09/04/augusto-cury-visita-interior-sp-agenda.ghtml", "date": "2026-09-04" }
+    },
+    {
+      "quote": "Nós temos que preparar a nação brasileira para ser a nação mais empreendedora do planeta. Nós precisamos financiar mais de 10 milhões de microempresas",
+      "date": "2026-09-04",
+      "context": "Ao apresentar a proposta de dividir o BNDES em duas áreas — uma para grandes empresas e outra para pequenas e microempresas — e financiar microempresas em oito a dez anos.",
+      "source": { "title": "Augusto Cury diz que espera chegar ao 2º turno e afirma que já escolheu Lula como adversário em visita ao interior de SP", "publisher": "G1", "url": "https://g1.globo.com/sp/sao-jose-do-rio-preto-aracatuba/eleicoes/2026/noticia/2026/09/04/augusto-cury-visita-interior-sp-agenda.ghtml", "date": "2026-09-04" }
+    },
+    {
+      "quote": "O Brasil está dramaticamente doente, polarizado, radicalizado. Venderam uma ideia mentirosa que estamos em dois barcos. Estamos em um barco só, nem de direita, nem de esquerda. O barco se chama família brasileira, mais de 200 milhões de brasileiros. E 90% das dores não têm cor partidária",
+      "date": "2026-08-23",
+      "context": "No primeiro debate presidencial da campanha, da TV Bandeirantes, ao lado de Caiado e Renan Santos, criticando as ausências de Lula e Flávio Bolsonaro.",
+      "source": { "title": "Augusto Cury é de direita ou de esquerda? Escritor critica polarização em debate presidencial", "publisher": "O Globo", "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/08/23/augusto-cury-e-de-direita-ou-de-esquerda-escritor-critica-polarizacao-em-debate-presidencial.ghtml", "date": "2026-08-23" }
+    }
+  ],
+  "scandals": [
+    {
+      "title": "Questionamento sobre conflito de interesses na proposta de telemedicina",
+      "period": "2026",
+      "summary": "Ao defender a expansão da telemedicina no SUS, a TV Globo levantou o vínculo de Cury com a empresa de telessaúde Click Life, da qual foi sócio até 2023 e para a qual ainda aparecia publicamente como embaixador. Cury negou conflito de interesses, disse não mais possuir participação societária e afirmou que a experiência prévia ajuda a mostrar que a tecnologia pode ser usada de forma eficiente e com baixo custo.",
+      "status": "acusação de conflito de interesses negada pelo candidato; não há processo no TSE; perda de licitação da empresa na Iamspe foi questionada na Justiça, com liminar negada e recurso rejeitado pelo TJSP em fevereiro de 2026 e mandado de segurança ainda em curso",
+      "sources": [
+        { "title": "Quem é Augusto Cury, estreante e surpresa da eleição presidencial", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/05/augusto-cury-candidato-trajetoria.ghtml", "date": "2026-09-05" },
+        { "title": "Augusto Cury (Avante) é entrevistado na Globo; veja íntegra", "publisher": "G1/Jornal Nacional", "url": "https://g1.globo.com/jornal-nacional/noticia/2026/08/29/augusto-cury-avante-e-entrevistado-na-globo-veja-integra.ghtml", "date": "2026-08-29" }
+      ]
+    },
+    {
+      "title": "Suspeitas de crescimento artificial de seguidores nas redes sociais",
+      "period": "2026",
+      "summary": "Após o primeiro debate presidencial, em 23 de agosto de 2026, Cury registrou salto expressivo e incomum de seguidores e buscas pelo seu nome, com pico atípico de pesquisas originadas na Índia segundo relatórios iniciais do Google Trends, o que levou equipes de candidatos adversários a suspeitar de tráfego artificial. Em Curitiba, o candidato negou o uso de robôs, fazendas de cliques ou contratos por fora com influenciadores e disse que sua equipe gastou cerca de R$ 50 mil em marketing digital.",
+      "status": "suspeitas negadas pelo candidato; não há processos relacionados no TSE",
+      "sources": [
+        { "title": "Quem é Augusto Cury, estreante e surpresa da eleição presidencial", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/05/augusto-cury-candidato-trajetoria.ghtml", "date": "2026-09-05" }
+      ]
+    },
+    {
+      "title": "Validade científica da Teoria da Inteligência Multifocal questionada",
+      "period": "2026",
+      "summary": "Em abril de 2026, a Folha de S.Paulo ouviu cinco psiquiatras de instituições como USP e UERJ que disseram não conhecer validação científica da Teoria da Inteligência Multifocal, base dos livros e programas educacionais de Cury, e afirmaram não utilizá-la na prática clínica. Cury contestou as críticas, defendendo que partes de seu trabalho têm respaldo acadêmico e que a teoria não deve ser descartada por ter sido desenvolvida fora das correntes tradicionais.",
+      "status": "controvérsia científica; candidato contestou as críticas; nenhuma ação judicial conhecida",
+      "sources": [
+        { "title": "Augusto Cury mira empreendedores e tem teoria questionada sobre a mente; conheça o candidato", "publisher": "Folha de S.Paulo", "url": "https://www1.folha.uol.com.br/poder/2026/04/augusto-cury-mira-empreendedores-nega-inspiracao-em-marcal-e-tem-teoria-questionada.shtml", "date": "2026-04-20" },
+        { "title": "Teoria Multifocal e a Escola da Inteligência: uma análise à luz da Teoria Crítica da Sociedade", "publisher": "Criar Educação", "url": "https://periodicos.unesc.net/ojs/index.php/criaredu/article/view/8639", "date": null }
+      ]
+    }
+  ]
+}

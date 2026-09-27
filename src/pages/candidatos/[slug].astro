@@ -1,0 +1,282 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PhotoAvatar from '@/components/PhotoAvatar.astro';
+import SourceChip from '@/components/SourceChip';
+import CompassGlyph from '@/components/CompassGlyph';
+import OrientationBadge from '@/components/OrientationBadge';
+import SectionHeading from '@/components/SectionHeading.astro';
+import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
+import { Badge } from '@/components/ui/badge';
+import LinkButton from "@/components/LinkButton";
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Empty, EmptyDescription, EmptyHeader, EmptyMedia, EmptyTitle } from '@/components/ui/empty';
+import { Separator } from '@/components/ui/separator';
+import { candidates } from '@/lib/candidates';
+import { formatDate, formatScore } from '@/lib/format';
+import { candidateColor, quadrantOf } from '@/lib/palette';
+import type { Candidate } from '@/lib/types';
+
+export function getStaticPaths() {
+  return candidates.map((candidate) => ({ params: { slug: candidate.slug }, props: { candidate } }));
+}
+
+const { candidate } = Astro.props as { candidate: Candidate };
+
+const initials = candidate.ballotName
+  .split(/\s+/)
+  .map((word) => word[0])
+  .slice(0, 2)
+  .join('');
+
+const color = candidateColor(candidate.compass.economic);
+const quadrant = quadrantOf(candidate.compass.social, candidate.compass.economic);
+
+const sections = [
+  { id: 'perfil', label: 'Perfil' },
+  { id: 'posicoes', label: `Posições (${candidate.keyPositions.length})` },
+  { id: 'declaracoes', label: `Declarações (${candidate.statements.length})` },
+  { id: 'compasso', label: 'Compasso' },
+  { id: 'controversias', label: `Controvérsias (${candidate.scandals.length})` },
+];
+---
+
+<BaseLayout
+  title={`${candidate.ballotName} (${candidate.party}) | Atlas Eleitoral`}
+  description={`Ficha de ${candidate.name}: biografia, posições, declarações e controvérsias com fontes. Classificação no compasso político.`}
+>
+  <main class="mx-auto max-w-5xl px-4 py-10 sm:px-6">
+    <!-- Header -->
+    <section class="flex flex-col gap-6">
+      <div class="flex flex-col gap-5 sm:flex-row sm:items-start">
+        <PhotoAvatar
+          photo={candidate.photo}
+          alt={`Foto de ${candidate.name}`}
+          initials={initials}
+          size={96}
+          class="self-start"
+        />
+
+        <div class="min-w-0 flex-1 space-y-3">
+          <div class="flex flex-wrap items-center gap-2">
+            <Badge variant="secondary" className="font-mono text-sm tabular-nums">nº {candidate.number}</Badge>
+            <Badge variant="outline">{candidate.party} — {candidate.partyFullName}</Badge>
+            <Badge variant="outline">{candidate.status}</Badge>
+            {candidate.coalition && <Badge variant="secondary">{candidate.coalition}</Badge>}
+          </div>
+          <div>
+            <h1 class="font-heading text-3xl font-semibold tracking-tight sm:text-4xl">{candidate.ballotName}</h1>
+            <p class="mt-1 text-muted-foreground">
+              {candidate.name} · {candidate.age} anos · {candidate.occupation}
+            </p>
+          </div>
+          <p class="max-w-2xl text-sm text-balance text-muted-foreground sm:text-base">{candidate.headline}</p>
+          <p class="text-sm text-muted-foreground">
+            Chapa: <span class="text-foreground">{candidate.vice.name}</span> ({candidate.vice.party})
+          </p>
+        </div>
+
+        <div class="flex shrink-0 items-center gap-3 rounded-xl border border-border bg-card p-3">
+          <CompassGlyph social={candidate.compass.social} economic={candidate.compass.economic} size={84} />
+          <div class="flex flex-col gap-1 text-xs">
+            <span class="font-medium" style={`color:${color}`}>{quadrant.label}</span>
+            <span class="font-mono text-muted-foreground">social {formatScore(candidate.compass.social)}</span>
+            <span class="font-mono text-muted-foreground">econ. {formatScore(candidate.compass.economic)}</span>
+            <span class="text-muted-foreground">confiança: {candidate.compass.confidence}</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Jump nav -->
+      <nav aria-label="Seções da ficha" class="flex flex-wrap gap-1.5 border-b border-border/60 pb-4">
+        {
+          sections.map((section) => (
+            <a
+              href={`#${section.id}`}
+              class="inline-flex h-7 items-center rounded-full border border-border bg-muted/50 px-3 text-xs font-medium text-muted-foreground transition-colors hover:border-ctp-blue/50 hover:text-foreground"
+            >
+              {section.label}
+            </a>
+          ))
+        }
+      </nav>
+    </section>
+
+    <!-- Perfil -->
+    <section id="perfil" class="mt-8 scroll-mt-20 flex flex-col gap-4">
+      <SectionHeading eyebrow="Quem é" title="Perfil e trajetória" />
+      <div class="flex flex-col gap-3">
+        {candidate.bio.map((paragraph) => <p class="leading-relaxed text-muted-foreground">{paragraph}</p>)}
+        <p class="leading-relaxed text-muted-foreground">{candidate.politicalJourney}</p>
+      </div>
+      <div class="flex flex-wrap gap-2 text-sm">
+        <Badge variant="secondary">
+          Nascimento: {candidate.birth.city}/{candidate.birth.state}, {candidate.birth.year}
+        </Badge>
+        <Badge variant="secondary">{candidate.occupation}</Badge>
+        <Badge variant="secondary">Situação: {candidate.status}</Badge>
+      </div>
+    </section>
+
+    <Separator className="my-8" />
+
+    <!-- Posições -->
+    <section id="posicoes" class="scroll-mt-20 flex flex-col gap-4">
+      <SectionHeading
+        eyebrow="Onde se coloca"
+        title="Posições por tema"
+        description="Síntese do que o candidato defende em cada tema, a partir de programa de governo e declarações."
+      />
+      <div class="grid gap-4 sm:grid-cols-2">
+        {
+          candidate.keyPositions.map((position) => (
+            <Card className="gap-3">
+              <CardHeader className="space-y-2">
+                <CardTitle className="text-base">{position.topic}</CardTitle>
+                <OrientationBadge orientation={position.orientation} />
+              </CardHeader>
+              <CardContent className="flex flex-col gap-3">
+                <p class="text-sm leading-relaxed text-muted-foreground">{position.stance}</p>
+                <div class="flex flex-wrap gap-1.5">
+                  {position.sources.map((source) => (
+                    <SourceChip source={source} />
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          ))
+        }
+      </div>
+    </section>
+
+    <Separator className="my-8" />
+
+    <!-- Declarações -->
+    <section id="declaracoes" class="scroll-mt-20 flex flex-col gap-4">
+      <SectionHeading
+        eyebrow="No registro"
+        title="Declarações"
+        description="Falas e compromissos públicos com data, contexto e fonte original."
+      />
+      <div class="flex flex-col gap-4">
+        {
+          candidate.statements.map((statement) => (
+            <Card className="gap-3">
+              <CardContent className="flex flex-col gap-3 pt-6">
+                <blockquote class="border-l-2 border-ctp-mauve pl-4 font-heading text-lg leading-snug italic text-balance">
+                  “{statement.quote}”
+                </blockquote>
+                <div class="flex flex-col gap-2">
+                  <p class="text-sm text-muted-foreground">{statement.context}</p>
+                  <div class="flex flex-wrap items-center gap-2">
+                    <Badge variant="outline" className="font-mono tabular-nums">
+                      {formatDate(statement.date)}
+                    </Badge>
+                    <SourceChip source={statement.source} />
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          ))
+        }
+      </div>
+    </section>
+
+    <Separator className="my-8" />
+
+    <!-- Compasso -->
+    <section id="compasso" class="scroll-mt-20 flex flex-col gap-4">
+      <SectionHeading
+        eyebrow="Classificação"
+        title="No compasso político"
+        description="Por que este candidato está onde está — com as evidências usadas."
+      />
+      <div class="grid gap-5 sm:grid-cols-[auto_1fr] sm:items-start">
+        <div class="flex items-center gap-4 rounded-xl border border-border bg-card p-4">
+          <CompassGlyph social={candidate.compass.social} economic={candidate.compass.economic} size={140} />
+          <div class="flex flex-col gap-2 text-sm">
+            <span style={`color:${color}`} class="font-medium">{quadrant.label}</span>
+            <span class="font-mono text-muted-foreground">social {formatScore(candidate.compass.social)} / 10</span>
+            <span class="font-mono text-muted-foreground">econômico {formatScore(candidate.compass.economic)} / 10</span>
+            <Badge variant="outline" className="w-fit">confiança {candidate.compass.confidence}</Badge>
+          </div>
+        </div>
+        <div class="flex flex-col gap-3">
+          <p class="leading-relaxed text-muted-foreground">{candidate.compass.rationale}</p>
+          <div class="flex flex-wrap gap-1.5">
+            {candidate.compass.sources.map((source) => (
+              <SourceChip source={source} />
+            ))}
+          </div>
+          <LinkButton href="/compasso" variant="ghost" size="sm" className="w-fit justify-start">
+            Ver no mapa completo →
+          </LinkButton>
+        </div>
+      </div>
+    </section>
+
+    <Separator className="my-8" />
+
+    <!-- Controvérsias -->
+    <section id="controversias" class="scroll-mt-20 flex flex-col gap-4">
+      <SectionHeading
+        eyebrow="O que gerou polêmica"
+        title="Controvérsias documentadas"
+        description="Casos com cobertura verificável e status atualizado. Sem adjetivação — apenas o que está documentado."
+      />
+      {
+        candidate.scandals.length > 0 ? (
+          <div class="flex flex-col gap-4">
+            {candidate.scandals.map((scandal) => (
+              <Card className="gap-3">
+                <CardHeader className="space-y-2">
+                  <CardTitle className="text-base">{scandal.title}</CardTitle>
+                  <div class="flex flex-wrap gap-2">
+                    <Badge variant="secondary" className="font-mono tabular-nums">
+                      {scandal.period}
+                    </Badge>
+                    <Badge variant="outline">{scandal.status}</Badge>
+                  </div>
+                </CardHeader>
+                <CardContent className="flex flex-col gap-3">
+                  <p class="text-sm leading-relaxed text-muted-foreground">{scandal.summary}</p>
+                  <div class="flex flex-wrap gap-1.5">
+                    {scandal.sources.map((source) => (
+                      <SourceChip source={source} />
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        ) : (
+          <Empty className="rounded-xl border border-dashed border-border">
+            <EmptyHeader>
+              <EmptyMedia variant="icon">
+                <svg viewBox="0 0 24 24" class="size-5" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden>
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M8.5 12.5 11 15l4.5-5" />
+                </svg>
+              </EmptyMedia>
+              <EmptyTitle>Nada documentado</EmptyTitle>
+              <EmptyDescription>
+                Não encontramos controvérsias amplamente documentadas para este candidato nas fontes consultadas.
+              </EmptyDescription>
+            </EmptyHeader>
+          </Empty>
+        )
+      }
+    </section>
+
+    <Alert className="mt-10">
+      <AlertTitle>Continue explorando</AlertTitle>
+      <AlertDescription className="flex flex-wrap gap-3">
+        <LinkButton href="/comparar" variant="outline" size="sm">
+          Comparar com outros
+        </LinkButton>
+        <LinkButton href="/candidatos" variant="ghost" size="sm">
+          Todos os candidatos
+        </LinkButton>
+      </AlertDescription>
+    </Alert>
+  </main>
+</BaseLayout>

@@ -1,0 +1,233 @@
+{
+  "asOf": "2026-09-26",
+  "polls": [
+    {
+      "institute": "Datafolha",
+      "date": "2026-09-24",
+      "sample": 2002,
+      "mode": "presencial",
+      "candidates": [
+        { "id": "lula", "votingIntent": 40.0 },
+        { "id": "flavio-bolsonaro", "votingIntent": 36.0 },
+        { "id": "augusto-cury", "votingIntent": 5.0 },
+        { "id": "ronaldo-caiado", "votingIntent": 4.0 },
+        { "id": "renan-santos", "votingIntent": 3.0 },
+        { "id": "zema", "votingIntent": 1.0 },
+        { "id": "samara", "votingIntent": 1.0 },
+        { "id": "edmilson-costa", "votingIntent": 0.0 },
+        { "id": "rui-costa-pimenta", "votingIntent": 0.0 },
+        { "id": "wilson-grassi", "votingIntent": 0.0 },
+        { "id": "leonardo-avalanche", "votingIntent": 0.0 },
+        { "id": "clariana-barao", "votingIntent": 0.0 },
+        { "id": "hertz-dias", "votingIntent": 0.0 }
+      ],
+      "blankNull": 5.0,
+      "undecided": 2.0,
+      "source": { "title": "Datafolha, 1º turno: Lula, 40%; Flávio Bolsonaro, 36%; Cury, 5%; Caiado, 4%; Renan, 3%; Zema, 1%", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/24/datafolha-presidente-24-setembro.ghtml", "date": "2026-09-24" }
+    },
+    {
+      "institute": "RealTime Big Data",
+      "date": "2026-09-24",
+      "sample": 2000,
+      "mode": "telefone",
+      "candidates": [
+        { "id": "lula", "votingIntent": 41.0 },
+        { "id": "flavio-bolsonaro", "votingIntent": 37.0 },
+        { "id": "augusto-cury", "votingIntent": 6.0 },
+        { "id": "renan-santos", "votingIntent": 6.0 },
+        { "id": "ronaldo-caiado", "votingIntent": 2.0 },
+        { "id": "zema", "votingIntent": 1.0 }
+      ],
+      "blankNull": 3.0,
+      "undecided": 3.0,
+      "source": { "title": "Última pesquisa para presidente 2026: veja números do levantamento mais recente", "publisher": "UOL Notícias", "url": "https://noticias.uol.com.br/eleicoes/2026/09/24/ultima-pesquisa-para-presidente-2026-veja-numeros-do-levantamento-mais-recente.ghtm", "date": "2026-09-24" }
+    },
+    {
+      "institute": "AtlasIntel",
+      "date": "2026-09-23",
+      "sample": 5015,
+      "mode": "online",
+      "candidates": [
+        { "id": "lula", "votingIntent": 45.8 },
+        { "id": "flavio-bolsonaro", "votingIntent": 43.4 },
+        { "id": "renan-santos", "votingIntent": 4.5 },
+        { "id": "augusto-cury", "votingIntent": 2.1 },
+        { "id": "ronaldo-caiado", "votingIntent": 1.3 },
+        { "id": "zema", "votingIntent": 0.9 }
+      ],
+      "blankNull": 0.7,
+      "undecided": 0.5,
+      "source": { "title": "AtlasIntel: Lula e Flávio crescem no 1º turno e mantêm empate no 2º", "publisher": "UOL Notícias", "url": "https://noticias.uol.com.br/eleicoes/2026/09/23/atlasintel-flavio-cresce-e-encosta-em-lula-no-1-turno-ha-empate-no-2.ghtm", "date": "2026-09-23" }
+    },
+    {
+      "institute": "Quaest",
+      "date": "2026-09-21",
+      "sample": 2004,
+      "mode": "presencial",
+      "candidates": [
+        { "id": "lula", "votingIntent": 37.0 },
+        { "id": "flavio-bolsonaro", "votingIntent": 33.0 },
+        { "id": "augusto-cury", "votingIntent": 6.0 },
+        { "id": "ronaldo-caiado", "votingIntent": 4.0 },
+        { "id": "renan-santos", "votingIntent": 3.0 },
+        { "id": "zema", "votingIntent": 1.0 },
+        { "id": "samara", "votingIntent": 1.0 },
+        { "id": "clariana-barao", "votingIntent": 0.0 },
+        { "id": "edmilson-costa", "votingIntent": 0.0 },
+        { "id": "hertz-dias", "votingIntent": 0.0 },
+        { "id": "rui-costa-pimenta", "votingIntent": 0.0 },
+        { "id": "wilson-grassi", "votingIntent": 0.0 },
+        { "id": "leonardo-avalanche", "votingIntent": 0.0 }
+      ],
+      "blankNull": 7.0,
+      "undecided": 8.0,
+      "source": { "title": "Quaest: Lula tem 37%, e Flávio Bolsonaro aparece com 33% no 1º turno", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/21/quaest-presidente-1o-turno-21-setembro.ghtml", "date": "2026-09-21" }
+    },
+    {
+      "institute": "Quaest",
+      "date": "2026-09-14",
+      "sample": 2004,
+      "mode": "presencial",
+      "candidates": [
+        { "id": "lula", "votingIntent": 36.0 },
+        { "id": "flavio-bolsonaro", "votingIntent": 31.0 },
+        { "id": "augusto-cury", "votingIntent": 7.0 },
+        { "id": "renan-santos", "votingIntent": 4.0 },
+        { "id": "ronaldo-caiado", "votingIntent": 4.0 },
+        { "id": "zema", "votingIntent": 1.0 },
+        { "id": "clariana-barao", "votingIntent": 0.0 },
+        { "id": "edmilson-costa", "votingIntent": 0.0 },
+        { "id": "hertz-dias", "votingIntent": 0.0 },
+        { "id": "rui-costa-pimenta", "votingIntent": 0.0 },
+        { "id": "samara", "votingIntent": 0.0 },
+        { "id": "wilson-grassi", "votingIntent": 0.0 }
+      ],
+      "blankNull": 7.0,
+      "undecided": 10.0,
+      "source": { "title": "Quaest: Lula tem 36% das intenções de voto no 1º turno; Flávio, 31%", "publisher": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/quaest-lula-tem-36-das-intencoes-de-voto-no-1o-turno-flavio-31/", "date": "2026-09-14" }
+    },
+    {
+      "institute": "Datafolha",
+      "date": "2026-09-03",
+      "sample": 2002,
+      "mode": "presencial",
+      "candidates": [
+        { "id": "lula", "votingIntent": 38.0 },
+        { "id": "flavio-bolsonaro", "votingIntent": 33.0 },
+        { "id": "augusto-cury", "votingIntent": 8.0 },
+        { "id": "ronaldo-caiado", "votingIntent": 4.0 },
+        { "id": "renan-santos", "votingIntent": 3.0 },
+        { "id": "zema", "votingIntent": 2.0 },
+        { "id": "samara", "votingIntent": 1.0 },
+        { "id": "edmilson-costa", "votingIntent": 1.0 },
+        { "id": "rui-costa-pimenta", "votingIntent": 1.0 },
+        { "id": "wilson-grassi", "votingIntent": 0.0 },
+        { "id": "clariana-barao", "votingIntent": 0.0 },
+        { "id": "hertz-dias", "votingIntent": 0.0 }
+      ],
+      "blankNull": 6.0,
+      "undecided": 3.0,
+      "source": { "title": "Datafolha: Lula tem 38% e Flávio Bolsonaro 33% no 1º turno", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/03/datafolha-presidente-3-setembro.ghtml", "date": "2026-09-03" }
+    },
+    {
+      "institute": "Datafolha",
+      "date": "2026-09-24",
+      "sample": 2002,
+      "mode": "presencial",
+      "scenario": "2º turno: Lula x Flávio Bolsonaro",
+      "candidates": [
+        { "id": "lula", "votingIntent": 47.0 },
+        { "id": "flavio-bolsonaro", "votingIntent": 45.0 }
+      ],
+      "blankNull": 7.0,
+      "undecided": 1.0,
+      "source": { "title": "Datafolha, 2º turno: Lula, 47%; Flávio Bolsonaro, 45%", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/24/datafolha-presidente-segundo-turno-24-setembro.ghtml", "date": "2026-09-24" }
+    },
+    {
+      "institute": "RealTime Big Data",
+      "date": "2026-09-24",
+      "sample": 2000,
+      "mode": "telefone",
+      "scenario": "2º turno: Lula x Flávio Bolsonaro",
+      "candidates": [
+        { "id": "flavio-bolsonaro", "votingIntent": 45.0 },
+        { "id": "lula", "votingIntent": 44.0 }
+      ],
+      "blankNull": 8.0,
+      "undecided": 3.0,
+      "source": { "title": "Última pesquisa para presidente 2026: veja números do levantamento mais recente", "publisher": "UOL Notícias", "url": "https://noticias.uol.com.br/eleicoes/2026/09/24/ultima-pesquisa-para-presidente-2026-veja-numeros-do-levantamento-mais-recente.ghtm", "date": "2026-09-24" }
+    },
+    {
+      "institute": "AtlasIntel",
+      "date": "2026-09-23",
+      "sample": 5015,
+      "mode": "online",
+      "scenario": "2º turno: Lula x Flávio Bolsonaro",
+      "candidates": [
+        { "id": "lula", "votingIntent": 47.7 },
+        { "id": "flavio-bolsonaro", "votingIntent": 47.4 }
+      ],
+      "blankNull": 4.9,
+      "undecided": null,
+      "source": { "title": "AtlasIntel: Lula e Flávio crescem no 1º turno e mantêm empate no 2º", "publisher": "UOL Notícias", "url": "https://noticias.uol.com.br/eleicoes/2026/09/23/atlasintel-flavio-cresce-e-encosta-em-lula-no-1-turno-ha-empate-no-2.ghtm", "date": "2026-09-23" }
+    },
+    {
+      "institute": "Quaest",
+      "date": "2026-09-21",
+      "sample": 2004,
+      "mode": "presencial",
+      "scenario": "2º turno: Lula x Flávio Bolsonaro",
+      "candidates": [
+        { "id": "flavio-bolsonaro", "votingIntent": 42.0 },
+        { "id": "lula", "votingIntent": 41.0 }
+      ],
+      "blankNull": 14.0,
+      "undecided": 3.0,
+      "source": { "title": "Quaest: Flávio tem 42% no 2º turno; Lula, 41%", "publisher": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/quaest-flavio-tem-42-no-2o-turno-lula-41/", "date": "2026-09-21" }
+    },
+    {
+      "institute": "Quaest",
+      "date": "2026-09-14",
+      "sample": 2004,
+      "mode": "presencial",
+      "scenario": "2º turno: Lula x Flávio Bolsonaro",
+      "candidates": [
+        { "id": "flavio-bolsonaro", "votingIntent": 42.0 },
+        { "id": "lula", "votingIntent": 40.0 }
+      ],
+      "blankNull": null,
+      "undecided": null,
+      "source": { "title": "Nova pesquisa Quaest da eleição presidencial sai nesta segunda (21)", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/21/quaest-divulga-nova-pesquisa-eleitoral-para-presidente-nesta-segunda-21.ghtml", "date": "2026-09-21" }
+    },
+    {
+      "institute": "Datafolha",
+      "date": "2026-09-03",
+      "sample": 2002,
+      "mode": "presencial",
+      "scenario": "2º turno: Lula x Flávio Bolsonaro",
+      "candidates": [
+        { "id": "lula", "votingIntent": 46.0 },
+        { "id": "flavio-bolsonaro", "votingIntent": 44.0 }
+      ],
+      "blankNull": 9.0,
+      "undecided": 2.0,
+      "source": { "title": "Datafolha: Lula tem 38% e Flávio Bolsonaro 33% no 1º turno", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/03/datafolha-presidente-3-setembro.ghtml", "date": "2026-09-03" }
+    }
+  ],
+  "trendSummary": "Nas rodadas de setembro, Lula lidera o primeiro turno por vantagem pequena e dentro ou no limite da margem de erro: Datafolha (24/9) registra 40% contra 36% de Flávio Bolsonaro, Quaest (21/9), 37% contra 33%, RealTime Big Data (24/9), 41% contra 37% e AtlasIntel (23/9), 45,8% contra 43,4%. O senador do PL cresceu desde o início do mês (na Datafolha de 3 de setembro a diferença era de 5 pontos, 38% a 33%, após 39% a 33% em 21 de agosto), mas a distância não se ampliou além do limite estatístico. Augusto Cury (Avante) oscila entre 5% e 8% em terceiro lugar, enquanto Ronaldo Caiado (PSD) fica entre 2% e 4%, Renan Santos (Missão) entre 3% e 6% e Romeu Zema (Novo) caiu a 1% a 2%; os demais candidatos somam entre 0% e 1%.\n\nEm todos os cenários de segundo turno testados, Lula e Flávio Bolsonaro aparecem em empate técnico: Quaest (21/9) dá Flávio na frente, 42% a 41%; Datafolha (24/9), Lula, 47% a 45%; RealTime Big Data (24/9), Flávio, 45% a 44%; AtlasIntel (23/9), Lula, 47,7% a 47,4%; e na Datafolha de 3 de setembro, Lula, 46% a 44%. A rejeição é alta dos dois lados (Datafolha: 45% contra 45%; Quaest: 56% não votariam em Flávio e 55% em Lula), e os institutos apontam bases geográficas e sociais opostas: Lula lidera no Nordeste, entre pretos, pessoas de baixa renda e mulheres, enquanto Flávio domina no Sul, entre evangélicos, brancos e eleitores com maior renda.\n\nO grau de decisão do voto subiu conforme a eleição se aproxima: no Datafolha de 24 de setembro, 80% dos entrevistados disseram estar totalmente decididos, com 2% de indecisos e 5% de branco/nulo na pergunta estimulada; na Quaest de 21 de setembro, 79% se declaram definitivos, com 8% de indecisos e 7% de branco/nulo/não vai votar. Mesmo assim, os institutos consideram a disputa aberta até o dia 4 de outubro, com segmentos decisivos como o voto de indecisos e a decisão de quem oscila entre candidatos do segundo e do terceiro lugar.",
+  "sources": [
+    { "title": "Datafolha, 1º turno: Lula, 40%; Flávio Bolsonaro, 36%; Cury, 5%; Caiado, 4%; Renan, 3%; Zema, 1%", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/24/datafolha-presidente-24-setembro.ghtml", "date": "2026-09-24" },
+    { "title": "Datafolha, 2º turno: Lula, 47%; Flávio Bolsonaro, 45%", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/24/datafolha-presidente-segundo-turno-24-setembro.ghtml", "date": "2026-09-24" },
+    { "title": "Datafolha, 2º turno: veja os grupos em que a disputa entre Lula e Flávio Bolsonaro está mais apertada", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/26/datafolha-24-set-segmentos.ghtml", "date": "2026-09-26" },
+    { "title": "Datafolha: Lula tem 40% e Flávio Bolsonaro, 36% em 1º turno; rivais empatam em 2º turno", "publisher": "Folha de S.Paulo", "url": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-lula-tem-40-e-flavio-bolsonaro-36-em-1o-turno-rivais-empatam-em-2o-turno.shtml", "date": "2026-09-24" },
+    { "title": "Datafolha: Lula tem 38% e Flávio Bolsonaro 33% no 1º turno", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/03/datafolha-presidente-3-setembro.ghtml", "date": "2026-09-03" },
+    { "title": "Ciro Gomes (PSDB) mantém a liderança, porém vantagem sobre Elmano de Freitas (PT) diminuiu para 7 pontos", "publisher": "Datafolha", "url": "https://datafolha.folha.uol.com.br/eleicoes/2026/09/ciro-gomes-psdb-mantem-a-lideranca-porem-vantagem-sobre-elmano-de-freitas-pt-diminuiu-para-7-pontos.shtml", "date": "2026-09-23" },
+    { "title": "Quaest: Lula tem 37%, e Flávio Bolsonaro aparece com 33% no 1º turno", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/21/quaest-presidente-1o-turno-21-setembro.ghtml", "date": "2026-09-21" },
+    { "title": "Quaest: Flávio tem 42% no 2º turno; Lula, 41%", "publisher": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/quaest-flavio-tem-42-no-2o-turno-lula-41/", "date": "2026-09-21" },
+    { "title": "Nova pesquisa Quaest da eleição presidencial sai nesta segunda (21)", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/21/quaest-divulga-nova-pesquisa-eleitoral-para-presidente-nesta-segunda-21.ghtml", "date": "2026-09-21" },
+    { "title": "Quaest: Lula tem 36% das intenções de voto no 1º turno; Flávio, 31%", "publisher": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/quaest-lula-tem-36-das-intencoes-de-voto-no-1o-turno-flavio-31/", "date": "2026-09-14" },
+    { "title": "Última pesquisa para presidente 2026: veja números do levantamento mais recente", "publisher": "UOL Notícias", "url": "https://noticias.uol.com.br/eleicoes/2026/09/24/ultima-pesquisa-para-presidente-2026-veja-numeros-do-levantamento-mais-recente.ghtm", "date": "2026-09-24" },
+    { "title": "AtlasIntel: Lula e Flávio crescem no 1º turno e mantêm empate no 2º", "publisher": "UOL Notícias", "url": "https://noticias.uol.com.br/eleicoes/2026/09/23/atlasintel-flavio-cresce-e-encosta-em-lula-no-1-turno-ha-empate-no-2.ghtm", "date": "2026-09-23" },
+    { "title": "Agregador de pesquisas eleitorais", "publisher": "UOL Notícias", "url": "https://noticias.uol.com.br/eleicoes/agregador-de-pesquisas-eleitorais/", "date": null }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "id": "renan-santos",
+  "slug": "renan-santos",
+  "name": "Renan Antonio Ferreira dos Santos",
+  "ballotName": "Renan Santos",
+  "number": 14,
+  "party": "MISSÃO",
+  "partyFullName": "Partido Missão",
+  "coalition": null,
+  "vice": { "name": "Aroldo Medina", "party": "MISSÃO" },
+  "status": "Deferido",
+  "age": 42,
+  "occupation": "Empresário",
+  "headline": "Fundador do MBL e do Partido Missão, leva a guerra ao crime e o mote O futuro é glorioso à primeira eleição de sua vida.",
+  "photo": "https://img.estadao.com.br/fotos/politica/eleicoes-2026/BR/FBR280002540694_div.jpg",
+  "birth": { "city": "São Paulo", "state": "SP", "year": 1984 },
+  "politicalJourney": "Estrategista e articulador do MBL desde a fundação do movimento, em 2014, Renan Santos participou dos atos pelo impeachment de Dilma Rousseff, organizou a Marcha pela Liberdade (SP–Brasília, 2015) e integrou o Comitê do Impeachment antes de liderar a criação do Partido Missão — aprovado pelo TSE em 4 de novembro de 2025 como o 30º partido do país, com o número 14. Anunciou a pré-candidatura à Presidência em 2025, teve a candidatura oficializada em convenção virtual em 20 de julho de 2026 e lançou-a publicamente em São Paulo em 1º de agosto de 2026, apresentando o programa Livro Amarelo e o vice Aroldo Medina, o Coronel Medina, militar da reserva. É a primeira eleição de sua vida: o TSE validou o registro da chapa por unanimidade em 10 de setembro de 2026.",
+  "bio": [
+    "Renan Antonio Ferreira dos Santos nasceu em São Paulo em 14 de fevereiro de 1984, cresceu no bairro da Mooca e entrou na USP no curso de Direito, que não concluiu. Ainda estudante, aproximou-se da política e, em 2014, ajudou a fundar o Movimento Renova Vinhedo, junto com o irmão Alexandre Santos e Rubinho Nunes; a experiência deu origem ao Movimento Brasil Livre (MBL), construído ao lado de Kim Kataguiri, Gabriel Calamari, Frederico Rauh, Rafael Rizzo e Pedro D'eyrot a partir da insatisfação com a vitória de Dilma Rousseff em 2014.",
+    "Com o MBL, tornou-se um dos rostos das ruas em favor do impeachment de Dilma e atuou como articulador político e estrategista de comunicação, além de coautor do livro Como um grupo de desajustados derrubou a presidente. Empresário, é também vocalista e guitarrista da banda de rock Limão Rosa; em agosto de 2026 publicou pronunciamento sobre sua trajetória espiritual e conversão ao catolicismo. Nunca disputou uma eleição até 2026 e é o primeiro presidente do Partido Missão, legenda que nasceu como desdobramento institucional do MBL."
+  ],
+  "compass": {
+    "social": -8.0,
+    "economic": 5.5,
+    "confidence": "alta",
+    "rationale": "Sem histórico de votações — nunca ocupou cargo eletivo —, a leitura se apoia no programa e nas falas: o Livro Amarelo propõe uma PEC de ajuste fiscal de centenas de bilhões, a substituição do Bolsa Família por frentes de trabalho, a flexibilização da CLT e o fim da Justiça do Trabalho, base marcadamente liberal na economia. No eixo social, o Direito Penal do Inimigo, o Estado de Defesa em áreas dominadas, a frase de que 'vamos matar quem roubar', o fim das cotas e a defesa de armas nucleares o colocam bem no campo conservador e autoritário. Especialistas ouvidos pelo O Globo avaliaram que ele 'espelha' os métodos de Milei, Bukele e de la Espriella, o que confirma a combinação de livre-mercado com lei e ordem.",
+    "sources": [
+      { "title": "Plano de governo de Renan Santos (Livro Amarelo), registrado no TSE", "publisher": "TSE", "url": "https://web.archive.org/web/20260812031459/https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017002789", "date": null },
+      { "title": "Plano de governo de Renan Santos 2026 — o que propõe", "publisher": "Planos de Governo 2026", "url": "https://planodegoverno2026.com.br/candidatos/presidente/renan-santos/", "date": null },
+      { "title": "Renan Santos é o candidato que melhor 'espelha' métodos de Milei, Bukele e de la Espriella, dizem especialistas", "publisher": "O Globo", "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/09/15/renan-santos-e-o-candidato-que-melhor-espelha-metodos-de-milei-bukele-e-de-la-espriella-dizem-especialistas.ghtml", "date": "2026-09-15" },
+      { "title": "Renan Santos lança candidatura com críticas a Flávio Bolsonaro e defende 'matar quem roubar'", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/01/convencao-missao-renan-santos-presidencia.ghtml", "date": "2026-08-01" }
+    ]
+  },
+  "keyPositions": [
+    {
+      "topic": "Economia e tributos",
+      "stance": "Propõe uma PEC de Transição com ajuste estimado em cerca de R$ 250 bilhões por ano, corte de renúncias e benefícios fiscais, tributação reduzida em Zonas Econômicas Especiais no Nordeste e reserva nacional em criptomoedas; rejeita o 'privatizar tudo' e não lista estatais à venda.",
+      "orientation": "direita",
+      "sources": [
+        { "title": "Plano de governo de Renan Santos 2026 — o que propõe", "publisher": "Planos de Governo 2026", "url": "https://planodegoverno2026.com.br/candidatos/presidente/renan-santos/", "date": null },
+        { "title": "Plano de governo de Renan Santos (Livro Amarelo), registrado no TSE", "publisher": "TSE", "url": "https://web.archive.org/web/20260812031459/https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017002789", "date": null }
+      ]
+    },
+    {
+      "topic": "Trabalho e renda",
+      "stance": "Quer substituir o Bolsa Família pelas Frentes Cidadãs de trabalho remunerado, flexibilizar as relações trabalhistas em vez de mexer na escala 6x1, extinguir a Justiça do Trabalho e corrigir aposentadorias e benefícios apenas pela inflação.",
+      "orientation": "direita",
+      "sources": [
+        { "title": "Estreante em eleições, Renan Santos é empresário e fundador do MBL", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/01/estreante-em-eleicoes-renan-santos-e-empresario-e-fundador-do-mbl.ghtml", "date": "2026-08-01" },
+        { "title": "Plano de governo de Renan Santos 2026 — o que propõe", "publisher": "Planos de Governo 2026", "url": "https://planodegoverno2026.com.br/candidatos/presidente/renan-santos/", "date": null }
+      ]
+    },
+    {
+      "topic": "Segurança pública",
+      "stance": "Eixo central da candidatura: 'guerra ao crime' com Direito Penal do Inimigo (banimento de facções, perda de direitos e confisco de bens com inversão do ônus da prova), Estado de Defesa em áreas dominadas, superpresídios no modelo de El Salvador e retomada territorial com as Forças Armadas.",
+      "orientation": "direita",
+      "sources": [
+        { "title": "Plano de governo de Renan Santos 2026 — o que propõe", "publisher": "Planos de Governo 2026", "url": "https://planodegoverno2026.com.br/candidatos/presidente/renan-santos/", "date": null },
+        { "title": "Renan Santos lança candidatura com críticas a Flávio Bolsonaro e defende 'matar quem roubar'", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/01/convencao-missao-renan-santos-presidencia.ghtml", "date": "2026-08-01" }
+      ]
+    },
+    {
+      "topic": "Saúde",
+      "stance": "Apresenta o SUS Fila Zero, com fila ordenada pela gravidade clínica (Escala Nacional de Estratificação de Risco) em vez da ordem de chegada, telemedicina e diagnóstico por inteligência artificial inspirados no DoctorSV de El Salvador, prontuário eletrônico nacional e meta de resolver 80% dos casos nos postos.",
+      "orientation": "centro",
+      "sources": [
+        { "title": "Plano de governo de Renan Santos 2026 — o que propõe", "publisher": "Planos de Governo 2026", "url": "https://planodegoverno2026.com.br/candidatos/presidente/renan-santos/", "date": null },
+        { "title": "Renan Santos chama proibição das bets pelo governo Lula de 'barulho para o processo eleitoral'", "publisher": "G1", "url": "https://g1.globo.com/mg/triangulo-mineiro/noticia/2026/09/26/renan-santos-chama-proibicao-das-bets-pelo-governo-lula-de-barulho-para-o-processo-eleitoral-e-defende-fim-apos-debater-com-a-populacao.ghtml", "date": "2026-09-26" }
+      ]
+    },
+    {
+      "topic": "Educação",
+      "stance": "Quer adotar o método fônico de alfabetização e o modelo da educação básica do Ceará em nível nacional, acabar com a aprovação automática, criar código nacional de conduta do estudante, substituir as cotas por bolsas de mérito e implantar escolas cívico-militares em áreas críticas.",
+      "orientation": "direita",
+      "sources": [
+        { "title": "Plano de governo de Renan Santos 2026 — o que propõe", "publisher": "Planos de Governo 2026", "url": "https://planodegoverno2026.com.br/candidatos/presidente/renan-santos/", "date": null },
+        { "title": "Renan Santos 14 para presidente da República em 2026", "publisher": "O Tempo", "url": "https://www.otempo.com.br/eleicoes/2026/candidatos/presidente/renan-santos-14", "date": null }
+      ]
+    },
+    {
+      "topic": "Meio ambiente",
+      "stance": "O plano não tem capítulo ambiental próprio: o tema aparece ligado a infraestrutura e economia, com licenciamento acelerado pela Lei Geral do Licenciamento (Lei 15.190/2025), padrões para mineração, hidrogênio verde na Amazônia, monitoramento por satélite e marco legal para mineração controlada em terras indígenas.",
+      "orientation": "centro-direita",
+      "sources": [
+        { "title": "Plano de governo de Renan Santos 2026 — o que propõe", "publisher": "Planos de Governo 2026", "url": "https://planodegoverno2026.com.br/candidatos/presidente/renan-santos/", "date": null },
+        { "title": "Renan Santos 14 para presidente da República em 2026", "publisher": "O Tempo", "url": "https://www.otempo.com.br/eleicoes/2026/candidatos/presidente/renan-santos-14", "date": null }
+      ]
+    },
+    {
+      "topic": "Democracia e instituições",
+      "stance": "Defende fusão de municípios inviáveis (de 5.570 para cerca de 1.656), cassação de gestores que descumprirem metas, órgão federal independente para fiscalizar o uso do dinheiro federal pelas prefeituras e aprovação de uma emenda constitucional fiscal antes mesmo da posse; entre suas prioridades está o que chama de 'resolução do problema do STF'.",
+      "orientation": "direita",
+      "sources": [
+        { "title": "Plano de governo de Renan Santos 2026 — o que propõe", "publisher": "Planos de Governo 2026", "url": "https://planodegoverno2026.com.br/candidatos/presidente/renan-santos/", "date": null },
+        { "title": "Renan Santos chama proibição das bets pelo governo Lula de 'barulho para o processo eleitoral'", "publisher": "G1", "url": "https://g1.globo.com/mg/triangulo-mineiro/noticia/2026/09/26/renan-santos-chama-proibicao-das-bets-pelo-governo-lula-de-barulho-para-o-processo-eleitoral-e-defende-fim-apos-debater-com-a-populacao.ghtml", "date": "2026-09-26" }
+      ]
+    },
+    {
+      "topic": "Política externa",
+      "stance": "Posiciona o Brasil como 'árbitro do Sul Global': pragmatismo no BRICS para evitar dependência da China, acordos de terras raras com EUA e Europa com transferência de tecnologia, real como referência regional na América do Sul e domínio completo do ciclo nuclear, incluindo a possibilidade de armas atômicas.",
+      "orientation": "direita",
+      "sources": [
+        { "title": "Plano de governo de Renan Santos 2026 — o que propõe", "publisher": "Planos de Governo 2026", "url": "https://planodegoverno2026.com.br/candidatos/presidente/renan-santos/", "date": null },
+        { "title": "Renan Santos lança candidatura com críticas a Flávio Bolsonaro e defende 'matar quem roubar'", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/01/convencao-missao-renan-santos-presidencia.ghtml", "date": "2026-08-01" }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "quote": "E ninguém vai roubar nada que é teu, porque nós vamos matar quem roubar.",
+      "date": "2026-08-01",
+      "context": "No ato de lançamento da candidatura em São Paulo, ao expor a meta de reduzir homicídios a no máximo 10 mil por ano como tema central de sua candidatura.",
+      "source": { "title": "Renan Santos lança candidatura com críticas a Flávio Bolsonaro, diz ser melhor opção contra Lula e defende 'matar quem roubar'", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/01/convencao-missao-renan-santos-presidencia.ghtml", "date": "2026-08-01" }
+    },
+    {
+      "quote": "Nós não somos nada de terceira via. Nós construímos o próprio caminho com as próprias ideias, com as próprias cores, com o próprio sonho, com a própria imaginação",
+      "date": "2026-08-01",
+      "context": "Rejeitando o rótulo de 'terceira via', que classificou como 'oposição da oposição', no mesmo lançamento de campanha.",
+      "source": { "title": "Renan Santos lança candidatura com críticas a Flávio Bolsonaro, diz ser melhor opção contra Lula e defende 'matar quem roubar'", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/01/convencao-missao-renan-santos-presidencia.ghtml", "date": "2026-08-01" }
+    },
+    {
+      "quote": "Eu quero que o Brasil pense em construir não apenas armas nucleares, mas aviões de guerra de última geração, usando as nossas próprias terras raras",
+      "date": "2026-08-01",
+      "context": "Ao apresentar as metas de defesa de sua candidatura, incluindo a retomada do programa espacial e nuclear do Brasil.",
+      "source": { "title": "Renan Santos lança candidatura com críticas a Flávio Bolsonaro, diz ser melhor opção contra Lula e defende 'matar quem roubar'", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/01/convencao-missao-renan-santos-presidencia.ghtml", "date": "2026-08-01" }
+    },
+    {
+      "quote": "Nós não vamos nos reunir, nós não vamos ceder em nada do que nós falamos, em nada do que nós fizemos",
+      "date": "2026-09-01",
+      "context": "Em coletiva de imprensa, enquanto parte de sua campanha digital estava suspensa por cautelar do ministro Dias Toffoli; recusou reunião no gabinete do relator do TSE, solicitada pela própria defesa.",
+      "source": { "title": "Toffoli libera campanha digital de Renan Santos, repasses de recursos e participação em debates", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/01/toffoli-libera-campanha-digital-de-renan-santos.ghtml", "date": "2026-09-01" }
+    },
+    {
+      "quote": "Vai ter que reformar. Eu já estou avisando para todo mundo que o candidato que falar que não vai reformar a Previdência estará mentindo e vai enganar você. Vão votar achando que vai fazer uma coisa e ele vai entregar outra. Precisamos começar a fazer uma reforma paramétrica nos servidores públicos, especialmente federais, militares e ligados ao judiciário",
+      "date": "2026-09-25",
+      "context": "Durante agenda em Uberaba (MG), ao defender reforma da Previdência e ampliação das concessões de rodovias.",
+      "source": { "title": "Renan Santos chama proibição das bets pelo governo Lula de 'barulho para o processo eleitoral'", "publisher": "G1", "url": "https://g1.globo.com/mg/triangulo-mineiro/noticia/2026/09/26/renan-santos-chama-proibicao-das-bets-pelo-governo-lula-de-barulho-para-o-processo-eleitoral-e-defende-fim-apos-debater-com-a-populacao.ghtml", "date": "2026-09-26" }
+    },
+    {
+      "quote": "Lula está fazendo igualmente o Bolsa Família, uma medida populista em período eleitoral, desesperada, sem nenhum filtro de resolver de maneira clara e estruturada o problema. E apenas querendo fazer barulho para o processo eleitoral que ele está com medo de perder",
+      "date": "2026-09-25",
+      "context": "Em entrevista à TV Integração em Uberlândia (MG), ao criticar a proibição de bets decidida pelo governo federal e defender o fim das apostas on-line após a posse.",
+      "source": { "title": "Renan Santos chama proibição das bets pelo governo Lula de 'barulho para o processo eleitoral'", "publisher": "G1", "url": "https://g1.globo.com/mg/triangulo-mineiro/noticia/2026/09/26/renan-santos-chama-proibicao-das-bets-pelo-governo-lula-de-barulho-para-o-processo-eleitoral-e-defende-fim-apos-debater-com-a-populacao.ghtml", "date": "2026-09-26" }
+    }
+  ],
+  "scandals": [
+    {
+      "title": "Suspensão de parte da campanha digital por cautelar do TSE",
+      "period": "2026",
+      "summary": "Em 30 de agosto de 2026, o ministro Dias Toffoli suspendeu a propaganda digital da chapa do Missão porque 16 perfis de redes sociais haviam sido informados à Justiça Eleitoral com 12 dias de atraso, determinando a derrubada de conteúdos favoráveis ao candidato. Toffoli reverteu as medidas em 1º de setembro, liberando os perfis, os debates e os repasses do Fundo Eleitoral, e classificou as medidas iniciais como cautelas, não sanções.",
+      "status": "cautelar revertida; registro de candidatura deferido pelo TSE em 10/09/2026",
+      "sources": [
+        { "title": "Toffoli suspende propaganda eleitoral de Renan Santos", "publisher": "G1", "url": "https://g1.globo.com/politica/noticia/2026/08/31/toffoli-suspende-propaganda-eleitoral-de-renan-santos.ghtml", "date": "2026-08-31" },
+        { "title": "Toffoli libera campanha digital de Renan Santos, repasses de recursos e participação em debates", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/01/toffoli-libera-campanha-digital-de-renan-santos.ghtml", "date": "2026-09-01" },
+        { "title": "TSE valida candidatura de Renan Santos à Presidência da República", "publisher": "CBN/Globo", "url": "https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/09/10/tse-valida-candidatura-de-renan-santos-a-presidencia-da-republica.ghtml", "date": "2026-09-10" }
+      ]
+    },
+    {
+      "title": "Denúncia por tráfico de influência na Imprensa Oficial de SP",
+      "period": "2020",
+      "summary": "Em outubro de 2020, o Ministério Público de São Paulo denunciou Renan por tráfico de influência: segundo a acusação, um empresário ligado ao MBL teria usado sua influência para ser nomeado a cargo comissionado na Imprensa Oficial (Imesp) e doado ao movimento o equivalente ao próprio salário. A defesa negou irregularidades.",
+      "status": "acusação rejeitada — a Justiça rejeitou a denúncia em novembro de 2020 e o encerramento da ação foi determinado por ausência de prova mínima",
+      "sources": [
+        { "title": "MP denuncia líder do MBL, Renan dos Santos, por tráfico de influência", "publisher": "CartaCapital", "url": "https://www.cartacapital.com.br/cartaexpressa/mp-denuncia-lider-do-mbl-renan-dos-santos-por-trafico-de-influencia/", "date": "2020-10-27" },
+        { "title": "Justiça rejeita denúncia contra Renan Santos por tráfico de influência", "publisher": "Consultor Jurídico (Conjur)", "url": "https://www.conjur.com.br/2020-nov-06/justica-rejeita-denuncia-renan-santos-trafico-influencia", "date": "2020-11-06" }
+      ]
+    },
+    {
+      "title": "Processos empresariais e dívidas fiscais e trabalhistas da família Santos",
+      "period": "2016-2022",
+      "summary": "Reportagens do UOL (2016), El País (2017) e Metrópoles (2022) apontaram dezenas de processos e cobranças contra Renan e sua família — entre elas R$ 6,3 milhões a título de tributos federais e multas trabalhistas —, ligados a empresas em dificuldade adquiridas pelo grupo. A Receita Federal chegou a descrever uma estratégia de não pagamento de tributos em empresas compradas; Renan afirma que os débitos decorrem da antiga atividade familiar de recuperação de companhias e que não há irregularidade criminal.",
+      "status": "ações cíveis e execuções fiscais e trabalhistas; candidato contesta as imputações; nenhuma condenação criminal conhecida",
+      "sources": [
+        { "title": "Renovação Liberal: a associação familiar para onde vai o dinheiro do MBL", "publisher": "El País", "url": "https://brasil.elpais.com/brasil/2017/09/26/politica/1506462642_201383.html", "date": "2017-09-26" },
+        { "title": "Coordenador do MBL tem dívidas de R$ 6,3 milhões com a União", "publisher": "Metrópoles", "url": "https://www.metropoles.com/colunas/guilherme-amado/coordenador-do-mbl-tem-dividas-de-r-63-milhoes-com-a-uniao", "date": null },
+        { "title": "Líder do MBL criou estratégia para não pagar impostos, diz Receita", "publisher": "iG", "url": "https://economia.ig.com.br/2020-07-12/lider-do-mbl-criou-estrategia-para-nao-pagar-impostos-diz-receita.html", "date": "2020-07-12" }
+      ]
+    },
+    {
+      "title": "Decisão judicial ordena remoção de vídeos sobre Wesley Safadão",
+      "period": "2026",
+      "summary": "Em 21 de março de 2026, Renan publicou vídeos em que chamou o cantor Wesley Safadão de 'novo ícone da corrupção no Brasil' e o acusou de explorar prefeituras do Nordeste com contratos milionários. O cantor processou o candidato e obteve decisão judicial determinando a remoção dos vídeos em 27 de abril de 2026.",
+      "status": "determinação judicial de remoção de vídeo (abril de 2026)",
+      "sources": [
+        { "title": "Wesley Safadão obtém decisão judicial contra Renan Santos por vídeos em que é chamado de novo ícone da corrupção", "publisher": "G1", "url": "https://g1.globo.com/ce/ceara/noticia/2026/04/27/wesley-safadao-obtem-decisao-judicial-contra-renan-santos-por-videos-em-que-e-chamado-de-novo-icone-da-corrupcao.ghtml", "date": "2026-04-27" },
+        { "title": "Justiça manda Renan Santos excluir vídeo contra Wesley Safadão", "publisher": "Congresso em Foco", "url": "https://www.congressoemfoco.com.br/noticia/118424/justica-manda-renan-santos-excluir-video-contra-wesley-safadao", "date": null }
+      ]
+    },
+    {
+      "title": "Vídeo questionando diagnóstico de autismo de Letícia Sabatella",
+      "period": "2026",
+      "summary": "Em 9 de maio de 2026, publicou vídeo em que afirmou existir uma 'onda' de pessoas 'completamente neurotípicas' se apresentando como autistas para obter benefícios, criticou a lei Berenice Piana e 'psiquiatras e advogados malandros' e disse que a atriz Letícia Sabatella 'glamourizou' o autismo. As falas foram amplamente repercutidas e criticadas.",
+      "status": "críticas mantidas pelo candidato; nenhuma sanção judicial conhecida",
+      "sources": [
+        { "title": "Renan Santos critica quem diz ser autista para ter benefícios", "publisher": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes/renan-santos-critica-quem-diz-ser-autista-para-ter-beneficios/", "date": null }
+      ]
+    }
+  ]
+}

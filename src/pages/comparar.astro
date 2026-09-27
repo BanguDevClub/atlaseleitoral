@@ -1,0 +1,35 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import SectionHeading from '@/components/SectionHeading.astro';
+import CompareTool, { forComparison } from '@/components/CompareTool';
+import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
+import { candidates } from '@/lib/candidates';
+
+const comparisonCandidates = candidates.map(forComparison);
+---
+
+<BaseLayout
+  title="Comparar candidatos | Atlas Eleitoral"
+  description="Compare até 4 candidatos à Presidência de 2026 lado a lado: compasso político, posições por tema, perfil e controvérsias — com fontes."
+>
+  <main class="mx-auto max-w-7xl px-4 py-10 sm:px-6">
+    <div class="mb-8">
+      <SectionHeading
+        eyebrow="Ferramenta"
+        title="Comparação lado a lado"
+        description="Selecione de 2 a 4 candidatos para ver posições por tema, coordenadas no compasso, perfil de chapa e controvérsias registradas."
+      />
+    </div>
+
+    <CompareTool client:load candidates={comparisonCandidates} />
+
+    <Alert className="mt-8">
+      <AlertTitle>Leitura das posições</AlertTitle>
+      <AlertDescription>
+        Cada célula resume a posição documentada no programa de governo ou em declarações citadas. Orientação
+        (esquerda → direita) é um rótulo editorial derivado da própria evidência — veja a
+        <a href="/metodologia" class="underline underline-offset-4">metodologia</a>.
+      </AlertDescription>
+    </Alert>
+  </main>
+</BaseLayout>

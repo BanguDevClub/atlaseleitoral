@@ -1,0 +1,183 @@
+{
+  "id": "flavio-bolsonaro",
+  "slug": "flavio-bolsonaro",
+  "name": "Flávio Nantes Bolsonaro",
+  "ballotName": "Flávio Bolsonaro",
+  "number": 22,
+  "party": "PL",
+  "partyFullName": "Partido Liberal",
+  "coalition": null,
+  "vice": { "name": "Alfredo Gaspar", "party": "PL" },
+  "status": "Deferido",
+  "age": 45,
+  "occupation": "senador da República, advogado e empresário",
+  "headline": "Herdeiro político de Jair Bolsonaro disputa o Planalto com chapa exclusivamente do PL sob a sombra do escândalo do Banco Master.",
+  "photo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Foto_oficial_do_senador_Fl%C3%A1vio_Bolsonaro_%28v._AgSen%29_%283x4%29.jpg",
+  "birth": { "city": "Resende", "state": "Rio de Janeiro", "year": 1981 },
+  "politicalJourney": "Filho mais velho de Jair Bolsonaro, iniciou a carreira como assessor técnico da liderança do PPB em Brasília (2000-2002) e elegeu-se deputado estadual pelo Rio de Janeiro em 2002, sendo reeleito em 2006, 2010 e 2014. Disputou a prefeitura do Rio em 2016 (4º lugar) e, em 2018, foi eleito senador pelo PSL com 4,38 milhões de votos (31,36%), tendo sido 3º secretário da Mesa do Senado. Em 5 de dezembro de 2025, anunciou pré-candidatura à Presidência indicado por Jair Bolsonaro, inelegível e preso; o PL oficializou a chapa em 25 de julho de 2026, Alfredo Gaspar (PL) foi anunciado como vice em 5 de agosto e o registro no TSE ocorreu em 13 de agosto de 2026, após episódio de filiação indevida ao Partido Missão corrigida pelo presidente do TSE, Nunes Marques.",
+  "bio": [
+    "Flávio Nantes Bolsonaro nasceu em 30 de abril de 1981 em Resende, no interior do Rio de Janeiro. Graduado em direito pela Universidade Candido Mendes e em empreendedorismo pela FGV, é advogado (escritório próprio em Brasília), empresário (Bravo Grafeno, que vende capacetes de grafeno com Jair Bolsonaro como garoto-propaganda) e evangélico, batizado em 2024 e novamente no rio Jordão em 2016 e 2026. É casado com Fernanda Antunes Figueira Bolsonaro, com quem tem duas filhas.",
+    "Como deputado estadual (2003-2019), ficou marcado por discursos em defesa da ditadura militar e de 'polícias mineiras' e por condecorar policiais depois denunciados por milícias. Como senador (2019-), foi autor do PL 5335/2023 (regularização de imóveis urbanos em terras da União), do PL 4082/2024 (veda liberdade provisória em crimes hediondos) e relator da 'PEC das Praias'. Na campanha de 2026, defendeu equilíbrio fiscal, endurecimento penal e reaproximação com Estados Unidos e Israel, mas viu sua candidatura abalada pelos vazamentos de áudios do escândalo do Banco Master, que levaram a investigações da Polícia Federal e do STF."
+  ],
+  "compass": {
+    "social": -7.0,
+    "economic": 6.5,
+    "confidence": "média",
+    "rationale": "Na ALERJ pugnou por punitivismo (redução da maioridade penal), defendeu a ditadura militar e as 'polícias mineiras' e se opôs a cotas raciais e a políticas assistencialistas; no Senado, foi contra o fim da escala 6x1 e assinou projeto que veda liberdade provisória em crimes hediondos. No plano econômico, defende equilíbrio fiscal, contenção de gastos e a agenda de ajuste 'duro' de inspiração mileista, além de alinhamento ideológico com o trumpismo. A moderação de discurso que ele tenta projetar contrasta com votos e falas conservadoras, o que coloca o eixo social claramente à direita e o econômico no livre-mercado, com confiança média por sua pouca trajetória legislativa própria.",
+    "sources": [
+      { "title": "De deputado estadual a presidenciável: o caminho de Flávio até o centro da disputa de 2026", "publisher": "R7", "url": "https://noticias.r7.com/brasilia/de-deputado-estadual-a-presidenciavel-o-caminho-de-flavio-ate-o-centro-da-disputa-de-2026-06122025/", "date": "2025-12-06" },
+      { "title": "Flávio Bolsonaro: um herdeiro sem projeto para o Brasil", "publisher": "Congresso em Foco", "url": "https://www.congressoemfoco.com.br/artigo/115987/flavio-bolsonaro-um-herdeiro-sem-projeto-para-o-brasil", "date": "2026-03-14" },
+      { "title": "Flávio Bolsonaro diz que tem apoio de Roscoe e Cleitinho em MG e defende equilíbrio fiscal para melhorar poder de compra das famílias", "publisher": "G1", "url": "https://g1.globo.com/mg/minas-gerais/eleicoes/2026/noticia/2026/08/17/flavio-bolsonaro-diz-que-tem-apoio-de-roscoe-e-cleitinho-em-mg-e-defende-equilibrio-fiscal-para-melhorar-poder-de-compra-das-familias.ghtml", "date": "2026-08-17" },
+      { "title": "Flávio Bolsonaro é o pré-candidato de direita com maior rejeição", "publisher": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes/flavio-bolsonaro-e-o-pre-candidato-de-direita-com-maior-rejeicao/", "date": "2026-03-08" }
+    ]
+  },
+  "keyPositions": [
+    {
+      "topic": "Economia e tributos",
+      "stance": "Defende equilíbrio fiscal como via para melhorar o poder de compra das famílias e se aproxima da agenda de ajuste 'duro' praticada por Javier Milei na Argentina, elogiada por aliados na convenção do PL.",
+      "orientation": "direita",
+      "sources": [
+        { "title": "Flávio Bolsonaro diz que tem apoio de Roscoe e Cleitinho em MG e defende equilíbrio fiscal para melhorar poder de compra das famílias", "publisher": "G1", "url": "https://g1.globo.com/mg/minas-gerais/eleicoes/2026/noticia/2026/08/17/flavio-bolsonaro-diz-que-tem-apoio-de-roscoe-e-cleitinho-em-mg-e-defende-equilibrio-fiscal-para-melhorar-poder-de-compra-das-familias.ghtml", "date": "2026-08-17" },
+        { "title": "Sem Michelle e com Milei, Flávio oficializa candidatura e promete que Bolsonaro subirá a rampa do Planalto em 2027", "publisher": "BBC News Brasil", "url": "https://www.bbc.com/portuguese/articles/ce3406eye9eo", "date": "2026-07-25" }
+      ]
+    },
+    {
+      "topic": "Trabalho e renda",
+      "stance": "Atuou contrariamente à aprovação da PEC do fim da escala 6x1 e, como deputado estadual, combatia 'políticas assistencialistas' que, segundo ele, 'criariam dependência e dificultariam a autonomia das populações mais vulneráveis'.",
+      "orientation": "direita",
+      "sources": [
+        { "title": "Flávio Bolsonaro", "publisher": "Wikipédia", "url": "https://pt.wikipedia.org/wiki/Fl%C3%A1vio_Bolsonaro", "date": null },
+        { "title": "De deputado estadual a presidenciável: o caminho de Flávio até o centro da disputa de 2026", "publisher": "R7", "url": "https://noticias.r7.com/brasilia/de-deputado-estadual-a-presidenciavel-o-caminho-de-flavio-ate-o-centro-da-disputa-de-2026-06122025/", "date": "2025-12-06" }
+      ]
+    },
+    {
+      "topic": "Segurança pública",
+      "stance": "Adota linha punitivista: quer reduzir a maioridade penal para 14 anos em crimes hediondos, apresentou projeto que veda liberdade provisória em flagrante por crimes hediondos e defende a flexibilização do posse e porte de armas por civis.",
+      "orientation": "direita",
+      "sources": [
+        { "title": "Projeto de Lei n° 4082, de 2024", "publisher": "Senado Federal", "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/165920", "date": null },
+        { "title": "Flávio Bolsonaro quer redução de maioridade penal para 14 anos para crimes hediondos", "publisher": "Super Rádio Tupi", "url": "https://www.tupi.fm/sentinelas/flavio-bolsonaro-quer-reducao-de-maioridade-penal-para-14-anos-para-crimes-hediondos/", "date": "2019-03-28" },
+        { "title": "Flávio Bolsonaro compartilha publicação favorável à flexibilização da posse e do porte de armas", "publisher": "IstoÉ Dinheiro", "url": "https://istoedinheiro.com.br/flavio-bolsonaro-compartilha-publicacao-favoravel-a-flexibilizacao-da-posse-e-do-porte-de-armas", "date": "2026-01-22" }
+      ]
+    },
+    {
+      "topic": "Meio ambiente",
+      "stance": "Como relator da 'PEC das Praias', que transferia a posse de terrenos de marinha a ocupantes privados, viu o Ministério Público Federal apontar o texto como 'grave retrocesso ambiental'; em agosto de 2026, foi revelado interesse pessoal de aliados na tramitação.",
+      "orientation": "direita",
+      "sources": [
+        { "title": "PEC das Praias representa grave retrocesso ambiental, diz MPF", "publisher": "Congresso em Foco", "url": "https://www.congressoemfoco.com.br/noticia/5669/pec-das-praias-representa-grave-retrocesso-ambiental-diz-mpf", "date": "2024-12-05" },
+        { "title": "Projeto de Emenda à Constituição n° 3, de 2022", "publisher": "Senado Federal", "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/151923", "date": null }
+      ]
+    },
+    {
+      "topic": "Democracia e instituições",
+      "stance": "Criticou 'abusos por parte do Judiciário brasileiro', defende que Jair Bolsonaro está preso por 'lawfare' e sua convenção exibiu vídeo de IA simulando o ex-presidente, gerando representações do PT no TSE e no STF — a campanha diz que o uso da tecnologia 'foi explicitado'.",
+      "orientation": "direita",
+      "sources": [
+        { "title": "Sem Michelle e com Milei, Flávio oficializa candidatura e promete que Bolsonaro subirá a rampa do Planalto em 2027", "publisher": "BBC News Brasil", "url": "https://www.bbc.com/portuguese/articles/ce3406eye9eo", "date": "2026-07-25" },
+        { "title": "Flávio Bolsonaro segue roteiro do pai, viaja a Israel e ganha elogios de Netanyahu", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/01/27/flavio-bolsonaro-israel-netanyahu.ghtml", "date": "2026-01-27" },
+        { "title": "Vídeo de IA de Bolsonaro em convenção do PL motiva ações no TSE e STF", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/07/28/video-ia-jair-bolsonaro-consequencias.ghtml", "date": "2026-07-28" }
+      ]
+    },
+    {
+      "topic": "Política externa",
+      "stance": "Defende interlocução 'sem barreiras ideológicas' com alinhamento a Donald Trump, Benjamin Netanyahu, Javier Milei e José Antonio Kast, e pediu ao representante comercial dos EUA o adiamento por 180 dias do tarifço contra o Brasil.",
+      "orientation": "direita",
+      "sources": [
+        { "title": "Precisamos de líderes que dialoguem com o mundo, diz Flávio", "publisher": "Poder360", "url": "https://www.poder360.com.br/poder-congresso/precisamos-de-lideres-que-dialoguem-com-o-mundo-diz-flavio/", "date": "2026-03-12" },
+        { "title": "'Guerra ainda não começou': PT oficializa a sétima disputa eleitoral de Lula à Presidência", "publisher": "BBC News Brasil", "url": "https://www.bbc.com/portuguese/articles/c4gj753lewko", "date": "2026-08-02" },
+        { "title": "Flávio Bolsonaro segue roteiro do pai, viaja a Israel e ganha elogios de Netanyahu", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/01/27/flavio-bolsonaro-israel-netanyahu.ghtml", "date": "2026-01-27" }
+      ]
+    },
+    {
+      "topic": "Direitos sociais",
+      "stance": "Como deputado estadual, opôs-se a cotas raciais em universidades e fez declarações sobre homossexuais amplamente repudiadas; em 2026, votou a favor da equiparação da misoginia ao crime de racismo, mas depois chamou o texto de 'armadilha do PT'.",
+      "orientation": "direita",
+      "sources": [
+        { "title": "De deputado estadual a presidenciável: o caminho de Flávio até o centro da disputa de 2026", "publisher": "R7", "url": "https://noticias.r7.com/brasilia/de-deputado-estadual-a-presidenciavel-o-caminho-de-flavio-ate-o-centro-da-disputa-de-2026-06122025/", "date": "2025-12-06" },
+        { "title": "Para filhos, Bolsonaro diz 'o que a maioria pensa'", "publisher": "Estadão", "url": "https://web.archive.org/web/20131216182550/http://www.estadao.com.br/noticias/nacional,para-filhos-bolsonaro-diz-o-que-a-maioria-pensa,700618,0.htm", "date": null },
+        { "title": "Flávio Bolsonaro afirma que PL da Misoginia é 'armadilha do PT'", "publisher": "Fórum", "url": "https://revistaforum.com.br/politica/flavio-bolsonaro-afirma-que-pl-da-misoginia-e-armadilha-do-pt/", "date": "2026-03-29" }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "quote": "Cabe a nós a responsabilidade de evitar que duas bombas atômicas caiam aqui no Brasil para, só depois, anunciarmos uma anistia.",
+      "date": "2025-07-11",
+      "context": "Em entrevista à CNN Brasil, comparou o tarifço imposto pelos Estados Unidos a uma guerra e defendeu ceder diante de Washington; a fala gerou críticas, como a do senador Otto Alencar, que a classificou de 'absurda e uma rendição inadmissível'.",
+      "source": { "title": "Flávio compara tarifaço a bombas atômicas e fala em 'guerra'", "publisher": "Poder360", "url": "https://www.poder360.com.br/poder-congresso/flavio-compara-tarifaco-as-bombas-atomicas-e-fala-em-guerra/", "date": "2025-07-11" }
+    },
+    {
+      "quote": "Bolsonaro me conferiu a missão",
+      "date": "2025-12-05",
+      "context": "Título de matéria sobre a confirmação da pré-candidatura, anunciada após visita à prisão do pai na Superintendência da Polícia Federal em Brasília; no comunicado, Flávio disse receber a missão 'de dar continuidade ao nosso projeto de nação'.",
+      "source": { "title": "Flávio Bolsonaro confirma pré-candidatura à Presidência em 2026: 'Bolsonaro me conferiu a missão'", "publisher": "O Globo", "url": "https://oglobo.globo.com/politica/noticia/2025/12/05/flavio-bolsonaro-confirma-pre-candidatura-a-presidencia-em-2026-bolsonaro-me-conferiu-a-missao.ghtml", "date": "2025-12-05" }
+    },
+    {
+      "quote": "As classes mais altas pagam segurança particular, e o pobre, como faz para ter segurança? O Estado não tem capacidade para estar nas quase mil favelas do Rio. Dizem que as mílicias cobram tarifas, mas eu conheço comunidades em que os trabalhadores fazem questão de pagar R$ 15 para não ter traficantes.",
+      "date": "2007-03-16",
+      "context": "Como deputado estadual, defendeu a legalização das 'polícias mineiras' (milícias) em entrevista à imprensa, posição que reiterou em discursos na Alerj, inclusive na CPI das Milícias de 2008.",
+      "source": { "title": "Deputado quer legalizar milícias no Rio", "publisher": "Terra", "url": "https://www.terra.com.br/noticias/brasil/politica/deputado-quer-legalizar-milicias-no-rio,f2fe24d51491139f856ce9e94d4a88bc1m7unakr.html", "date": "2007-03-16" }
+    },
+    {
+      "quote": "Então vocês viram o placar. Então eu sabia que o projeto ia voltar para a Câmara dos Deputados, e lá nossos deputados vão fazer um grande trabalho, se Deus quiser, para arquivar essa lei.",
+      "date": "2026-03-28",
+      "context": "Após a aprovação no Senado do projeto que equipara misoginia ao crime de racismo (com voto dele), declarou no CPAC, nos EUA, que não concordava com o texto, chamando-o de 'grande armadilha do PT para mim'.",
+      "source": { "title": "Flávio Bolsonaro afirma que PL da Misoginia é 'armadilha do PT'", "publisher": "Fórum", "url": "https://revistaforum.com.br/politica/flavio-bolsonaro-afirma-que-pl-da-misoginia-e-armadilha-do-pt/", "date": "2026-03-29" }
+    },
+    {
+      "quote": "em janeiro de 2027 Jair Bolsonaro vai subir a rampa do Planalto",
+      "date": "2026-07-25",
+      "context": "Na convenção nacional do PL, na Arena Pacaembu, em São Paulo, Flávio oficializou a candidatura ao lado de Javier Milei e prometeu a vitória do pai, que cumpre prisão domiciliar e está inelegível.",
+      "source": { "title": "Sem Michelle e com Milei, Flávio oficializa candidatura e promete que Bolsonaro subirá a rampa do Planalto em 2027", "publisher": "BBC News Brasil", "url": "https://www.bbc.com/portuguese/articles/ce3406eye9eo", "date": "2026-07-25" }
+    },
+    {
+      "quote": "Deus queira que nunca vocês tenham um pai perseguido como ele está sendo",
+      "date": "2026-07-25",
+      "context": "Fala durante a mesma convenção, em que agradeceu a Michelle pelo vídeo de apoio, chorou ao falar do pai e criticou 'abusos por parte do Judiciário brasileiro'.",
+      "source": { "title": "Sem Michelle e com Milei, Flávio oficializa candidatura e promete que Bolsonaro subirá a rampa do Planalto em 2027", "publisher": "BBC News Brasil", "url": "https://www.bbc.com/portuguese/articles/ce3406eye9eo", "date": "2026-07-25" }
+    }
+  ],
+  "scandals": [
+    {
+      "title": "Caso Queiroz e acusação de 'rachadinha' no gabinete",
+      "period": "2018-2022",
+      "summary": "Em dezembro de 2018, relatório do Coaf apontou movimentação atípica de R$ 1,24 milhão na conta do ex-assessor Fabrício Queiroz e depósitos de funcionários do gabinete de Flávio, levantando suspeitas de 'rachadinha'. O MPF pediu a paralisação via foro privilegiado e o MPRJ denunciou Flávio e outros 15 em outubro de 2020. O senador negou qualquer irregularidade.",
+      "status": "denúncia rejeitada e arquivada pelo TJRJ em maio de 2022, após o STF anular provas do Coaf; acusações negadas",
+      "sources": [
+        { "title": "Flávio Bolsonaro", "publisher": "Wikipédia", "url": "https://pt.wikipedia.org/wiki/Fl%C3%A1vio_Bolsonaro", "date": null }
+      ]
+    },
+    {
+      "title": "Escândalo do Banco Master e financiamento do filme 'Dark Horse'",
+      "period": "2026",
+      "summary": "Em maio de 2026, o Intercept divulgou áudios em que Flávio negociava R$ 134 milhões com o ex-banqueiro Daniel Vorcaro para a cinebiografia de Jair Bolsonaro — R$ 61 milhões já transferidos —, após ele ter negado publicamente receber recursos ligados ao banco; depois admitiu o pedido e reconheceu ter mentido. Em 23 de julho de 2026, o STF autorizou inquérito, e a PF apura lavagem de dinheiro, corrupção e evasão de divisas; o Aos Fatos contou ao menos 43 declarações falsas dele sobre o tema até setembro de 2026.",
+      "status": "investigação em curso (inquérito no STF e apuração da PF); negação de irregularidades pelo senador",
+      "sources": [
+        { "title": "Flávio mentiu ao menos 43 vezes sobre elo com Vorcaro", "publisher": "Aos Fatos", "url": "https://www.aosfatos.org/noticias/flavio-mentiu-ao-menos-43-vezes-sobre-envolvimento-com-vorcaro/", "date": "2026-09-24" },
+        { "title": "Flávio Bolsonaro e Daniel Vorcaro: PF revela cronologia de contatos", "publisher": "G1", "url": "https://g1.globo.com/politica/noticia/2026/09/12/pf-lista-serie-de-contatos-e-encontros-entre-flavio-bolsonaro-e-vorcaro-veja-cronologia.ghtml", "date": "2026-09-12" },
+        { "title": "Flávio Bolsonaro viajou em jato de Vorcaro", "publisher": "piauí", "url": "https://piaui.uol.com.br/web/flavio-bolsonaro-viajou-em-jato-de-vorcaro/", "date": "2026-09-23" }
+      ]
+    },
+    {
+      "title": "Condenação do TSE por divulgação de fake news contra Lula",
+      "period": "2023",
+      "summary": "Em maio de 2023, o TSE multou Flávio, Nikolas Ferreira, Carla Zambelli e Eduardo Bolsonaro por vídeo descontextualizado do slogan 'Faz o L' associado a drogas e aborto, e condenou Flávio, Gabrilli e Zambelli a pagar R$ 10 mil a Lula por espalhar a notícia falsa de que o petista pagou para não ser relacionado ao assassinato de Celso Daniel.",
+      "status": "condenado pelo TSE em 2023 (multa e indenização)",
+      "sources": [
+        { "title": "TSE multa Nikolas, Zambelli, Eduardo e Flávio Bolsonaro por fake news contra Lula em 2022", "publisher": "G1", "url": "https://g1.globo.com/politica/noticia/2023/05/11/tse-multa-nikolas-zambelli-eduardo-e-flavio-bolsonaro-por-fake-news-contra-lula-em-2022.ghtml", "date": "2023-05-11" },
+        { "title": "TSE multa Gabrilli e mais dois por fake news sobre Lula", "publisher": "Nexo Jornal", "url": "https://www.nexojornal.com.br/extra/2023/05/18/TSE-multa-Gabrilli-e-mais-dois-por-fake-news-sobre-Lula", "date": "2023-05-19" }
+      ]
+    },
+    {
+      "title": "Inquérito por suposta calúnia contra Lula",
+      "period": "2026",
+      "summary": "Em abril de 2026, a Polícia Federal iniciou inquérito para apurar se Flávio cometeu crime de calúnia contra o presidente Lula; a Gazeta do Povo avaliou que o desfecho poderia ter implicações de elegibilidade do pré-candidato. Há também denúncia de entidade por propaganda eleitoral antecipada em culto com Silas Malafaia, em maio de 2026.",
+      "status": "inquérito em curso; negação das imputações",
+      "sources": [
+        { "title": "Flávio Bolsonaro pode ficar fora da eleição de 2026?", "publisher": "Gazeta do Povo", "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/flavio-bolsonaro-pode-ficar-inelegivel-2026-suposta-calunia/", "date": "2026-04-23" },
+        { "title": "Associação pede inelegibilidade de Flávio Bolsonaro após culto com Malafaia", "publisher": "Valor Econômico", "url": "https://valor.globo.com/politica/noticia/2026/05/04/associao-pede-inelegibilidade-de-flvio-bolsonaro-aps-culto-com-malafaia.ghtml", "date": "2026-05-04" }
+      ]
+    }
+  ]
+}

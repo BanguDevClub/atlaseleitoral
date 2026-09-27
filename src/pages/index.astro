@@ -1,0 +1,164 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import SectionHeading from '@/components/SectionHeading.astro';
+import FeaturedGrid from '@/components/FeaturedGrid';
+import CompassMap from '@/components/CompassMap';
+import PollsPanel from '@/components/PollsPanel';
+import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
+import LinkButton from "@/components/LinkButton";
+import { candidates, electionFacts, pollsFile } from '@/lib/candidates';
+import { formatDate } from '@/lib/format';
+import type { Candidate } from '@/lib/types';
+
+const FEATURED_IDS = ['lula', 'flavio-bolsonaro', 'zema', 'ronaldo-caiado', 'renan-santos', 'augusto-cury'];
+const featured = FEATURED_IDS.map((id) => candidates.find((c) => c.id === id)).filter(
+  (c): c is Candidate => c !== undefined,
+);
+
+const compassPoints = candidates.map((c) => ({
+  id: c.id,
+  slug: c.slug,
+  ballotName: c.ballotName,
+  party: c.party,
+  number: c.number,
+  social: c.compass.social,
+  economic: c.compass.economic,
+}));
+
+const people = Object.fromEntries(
+  candidates.map((c) => [c.id, { name: c.ballotName, economic: c.compass.economic }]),
+);
+
+const firstRound = electionFacts?.firstRound ?? '2026-10-04';
+const secondRound = electionFacts?.secondRound ?? '2026-10-25';
+const eligibleVoters = electionFacts?.eligibleVoters ?? 158_745_463;
+
+const stats = [
+  { label: 'Candidatos deferidos', value: String(candidates.length || electionFacts?.registeredCandidates || 13), hint: 'TSE, 1ª instância' },
+  { label: 'Eleitores aptos', value: eligibleVoters.toLocaleString('pt-BR'), hint: 'todo o país' },
+  { label: 'Primeiro turno', value: formatDate(firstRound), hint: '8h às 17h' },
+  { label: 'Segundo turno', value: formatDate(secondRound), hint: 'se necessário' },
+];
+---
+
+<BaseLayout title="Atlas Eleitoral — dashboard das eleições presidenciais de 2026">
+  <main>
+    <!-- Hero -->
+    <section class="border-b border-border/60">
+      <div class="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1.2fr_1fr] lg:items-center lg:py-20">
+        <div class="flex flex-col gap-5">
+          <p class="text-xs font-medium tracking-widest text-ctp-mauve uppercase">
+            Eleições presidenciais · Brasil · {formatDate(firstRound)}
+          </p>
+          <h1 class="text-4xl font-semibold tracking-tight text-balance sm:text-5xl">
+            A disputa de 2026 com <span class="text-ctp-blue">fontes</span>, posições e contexto
+          </h1>
+          <p class="max-w-xl text-base text-muted-foreground sm:text-lg">
+            Cada afirmação desta página aponta para a origem: TSE, programa de governo, votações e a cobertura das
+            principais veículos. Explore o compasso político de dois eixos, compare candidatos lado a lado e siga o
+            rastro de cada declaração.
+          </p>
+          <div class="flex flex-wrap gap-3">
+            <LinkButton href="/candidatos">Ver candidatos</LinkButton>
+            <LinkButton href="/compasso" variant="outline">
+              Explorar o compasso
+            </LinkButton>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          {
+            stats.map((stat) => (
+              <div class="rounded-xl border border-border bg-card p-4 sm:p-5">
+                <p class="font-mono text-2xl font-semibold tracking-tight tabular-nums sm:text-3xl">{stat.value}</p>
+                <p class="mt-1 text-sm font-medium">{stat.label}</p>
+                <p class="text-xs text-muted-foreground">{stat.hint}</p>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </section>
+
+    <!-- Polls -->
+    {
+      pollsFile && pollsFile.polls.length > 0 ? (
+        <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6">
+          <div class="mb-6 flex flex-wrap items-end justify-between gap-3">
+            <SectionHeading
+              eyebrow="Pesquisas"
+              title="Intenção de voto"
+              description={`Últimos levantamentos publicados até ${formatDate(pollsFile.asOf)}.`}
+            />
+            <LinkButton href="/pesquisas" variant="ghost" size="sm">
+              Ver todas as pesquisas →
+            </LinkButton>
+          </div>
+          <div class="rounded-xl border border-border bg-card p-4 sm:p-6">
+            <PollsPanel client:visible polls={pollsFile.polls} people={people} />
+          </div>
+        </section>
+      ) : (
+        <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6">
+          <Alert>
+            <AlertTitle>Pesquisas em atualização</AlertTitle>
+            <AlertDescription>Os dados mais recentes de intenção de voto serão exibidos aqui.</AlertDescription>
+          </Alert>
+        </section>
+      )
+    }
+
+    <!-- Compass -->
+    <section class="border-y border-border/60 bg-card/40">
+      <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6">
+        <div class="mb-6 flex flex-wrap items-end justify-between gap-3">
+          <SectionHeading
+            eyebrow="Compasso político"
+            title="Dois eixos, treze candidatos"
+            description="Eixo econômico (Estado ↔ mercado) e eixo social (conservador ↔ progressista). Classificação baseada em evidências citadas — cada ficha explica o porquê."
+          />
+          <LinkButton href="/compasso" variant="ghost" size="sm">
+            Abrir em tela cheia →
+          </LinkButton>
+        </div>
+        <div class="rounded-xl border border-border bg-card p-4 sm:p-6">
+          <CompassMap client:visible candidates={compassPoints} />
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured candidates -->
+    <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6">
+      <div class="mb-6 flex flex-wrap items-end justify-between gap-3">
+        <SectionHeading
+          eyebrow="Fichas"
+          title="Candidatos em destaque"
+          description="Perfis, posições, declarações e controvérsias — todos com referência de origem."
+        />
+        <LinkButton href="/candidatos" variant="ghost" size="sm">
+          Ver todos →
+        </LinkButton>
+      </div>
+      {featured.length > 0 && <FeaturedGrid client:visible candidates={featured} />}
+      {featured.length === 0 && (
+        <p class="text-sm text-muted-foreground">As fichas dos candidatos estão sendo carregadas.</p>
+      )}
+    </section>
+
+    <!-- Methodology -->
+    <section class="mx-auto max-w-7xl px-4 pb-4 sm:px-6">
+      <Alert>
+        <AlertTitle>Como lemos este atlas</AlertTitle>
+        <AlertDescription className="flex flex-col gap-2">
+          <p>
+            A posição no compasso é interpretação editorial a partir de evidências verificáveis (votos, programa de
+            governo, declarações). Não há candidatura patrocinada ou preferência editorial.
+          </p>
+          <LinkButton href="/metodologia" variant="link" size="sm" className="h-auto p-0 justify-start">
+            Ler a metodologia completa →
+          </LinkButton>
+        </AlertDescription>
+      </Alert>
+    </section>
+  </main>
+</BaseLayout>

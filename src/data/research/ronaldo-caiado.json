@@ -1,0 +1,181 @@
+{
+  "id": "ronaldo-caiado",
+  "slug": "ronaldo-caiado",
+  "name": "Ronaldo Ramos Caiado",
+  "ballotName": "Ronaldo Caiado",
+  "number": 55,
+  "party": "PSD",
+  "partyFullName": "Partido Social Democrático",
+  "coalition": null,
+  "vice": { "name": "Gilberto Kassab", "party": "PSD" },
+  "status": "Deferido",
+  "age": 77,
+  "occupation": "médico ortopedista e produtor rural",
+  "headline": "Médico, ruralista e ex-governador de Goiás, o candidato da direita não polarizada que combina segurança dura com discurso institucional.",
+  "photo": "https://upload.wikimedia.org/wikipedia/commons/5/52/Foto_oficial_do_governador_de_Goi%C3%A1s%2C_Ronaldo_Caiado_em_2023_%28cropped%29.jpg",
+  "birth": { "city": "Anápolis", "state": "GO", "year": 1949 },
+  "politicalJourney": "Filho da família Caiado, oligarquia política goiana desde a Primeira República, Ronaldo Caiado formou-se em medicina, especializou-se em ortopedia e cirurgia da coluna e fundou em 1985 a União Democrática Ruralista (UDR), que presidiu até 1989. Disputou a Presidência em 1989 pelo PSD antigo (0,68% dos votos, 10º lugar), foi eleito deputado federal por Goiás em cinco mandatos (1991-1995 e 1999-2015) e senador em 2014 com 1,28 milhão de votos, deixando o Senado no meio do mandato para assumir o governo de Goiás em 2019, reeleito em 2022 com 51,81%. Pré-candidato à Presidência desde abril de 2025 pelo União Brasil, deixou a sigla em janeiro de 2026, filiou-se ao PSD em 27 de janeiro, venceu a prévia interna contra Eduardo Leite em março, renunciou ao governo em 31 de março de 2026 e teve a chapa com Gilberto Kassab oficializada na convenção do PSD de 26 de julho de 2026, com registro deferido pela Justiça Eleitoral em setembro de 2026.",
+  "bio": [
+    "Ronaldo Ramos Caiado nasceu em Anápolis, Goiás, em 25 de setembro de 1949, filho de Edenval Ramos Caiado e Maria Xavier Caiado. Formou-se em medicina em 1972 pela Escola de Medicina e Cirurgia hoje ligada à UNIRIO, fez mestrado em ortopedia e traumatologia pela UFRJ (1979) e especializou-se em cirurgia da coluna em Paris. Produtor rural, foi ligado a associações de criadores de zebu e nelore e presidiu a UDR entre 1986 e 1989, tornando-se uma das vozes mais expressivas da bancada ruralista do Congresso. É casado desde 1990 com Maria das Graças “Gracinha” Caiado, com quem tem quatro filhos.",
+    "Na política, passou por PDC, PPR, PFL e Democratas antes de migrar para o União Brasil e, em 2026, para o PSD. Como parlamentar, foi líder da bancada ruralista, votou a favor da PEC do teto de gastos (2016) e da reforma trabalhista (2017) e foi um dos articuladores do impeachment de Dilma Rousseff. Governador de Goiás por dois mandatos (2019-2026), rompeu publicamente com Jair Bolsonaro em março de 2020 ao defender medidas sanitárias na pandemia, condenou os ataques de 8 de janeiro de 2023 e deixou o cargo com 88% de aprovação segundo pesquisa Quaest. Em 2026, disputa a Presidência com propostas de corte de gastos, classificação de facções como terroristas e anistia “ampla, geral e irrestrita” aos condenados pelo 8 de janeiro."
+  ],
+  "compass": {
+    "social": -4.5,
+    "economic": 4.0,
+    "confidence": "alta",
+    "rationale": "No Senado votou a favor da PEC do teto de gastos e da reforma trabalhista, e seu plano de 2026 prevê “Orçamento da Verdade”, corte de 25% nos orçamentos dos três Poderes e promessa de não aumentar impostos — agenda de centro-dirita fiscal, ainda que com forte papel de planejamento, crédito e investimento público (Plano Safra plurianual, política industrial, meta de investir 25% do PIB). Na dimensão social é conservador: quer classificar PCC e Comando Vermelho como terroristas, reduzir a maioridade penal e defender propriedade privada e o agro, herança de sua trajetória na UDR. Ao mesmo tempo, adotou postura institucionalista — rompeu com Bolsonaro na pandemia em defesa das autoridades sanitárias e condenou os ataques de 8 de janeiro —, o que modera a leitura conservadora.",
+    "sources": [
+      { "title": "PSD lança candidatura de Ronaldo Caiado à Presidência da República", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/07/26/psd-lanca-candidatura-de-ronaldo-caiado-a-presidencia-da-republica.ghtml", "date": "2026-07-26" },
+      { "title": "Leia a íntegra do plano de governo de Ronaldo Caiado", "publisher": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/leia-a-integra-do-plano-de-governo-de-ronaldo-caiado/", "date": "2026-08-14" },
+      { "title": "Confira como votaram os senadores sobre a PEC do teto de gastos", "publisher": "UOL", "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2016/12/13/confira-como-votaram-os-senadores-sobre-a-pec-do-teto-de-gastos.htm", "date": "2016-12-13" },
+      { "title": "Caiado defende anistia “ampla, geral e irrestrita” para condenados do 8 de janeiro", "publisher": "G1", "url": "https://g1.globo.com/politica/noticia/2026/03/13/ronaldo-caiado-entrevista-globonews.ghtml", "date": "2026-03-13" }
+    ]
+  },
+  "keyPositions": [
+    {
+      "topic": "Economia e tributos",
+      "stance": "Propõe um “Orçamento da Verdade” para revisar despesas, subsídios e benefícios fiscais, corte imediato de 25% nos orçamentos do Executivo, Legislativo e Judiciário, não aumentar impostos e elevar o investimento de cerca de 17% para 25% do PIB, com meta de reduzir a dívida pública em um ponto percentual ao ano.",
+      "orientation": "centro-direita",
+      "sources": [
+        { "title": "PSD lança candidatura de Ronaldo Caiado à Presidência da República", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/07/26/psd-lanca-candidatura-de-ronaldo-caiado-a-presidencia-da-republica.ghtml", "date": "2026-07-26" },
+        { "title": "Leia a íntegra do plano de governo de Ronaldo Caiado", "publisher": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/leia-a-integra-do-plano-de-governo-de-ronaldo-caiado/", "date": "2026-08-14" }
+      ]
+    },
+    {
+      "topic": "Trabalho e renda",
+      "stance": "Promete encaminhar ao Congresso, no início do mandato, propostas de reformas administrativa, política e trabalhista; como senador, votou a favor da reforma trabalhista aprovada em 2017.",
+      "orientation": "centro-direita",
+      "sources": [
+        { "title": "PSD lança candidatura de Ronaldo Caiado à Presidência da República", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/07/26/psd-lanca-candidatura-de-ronaldo-caiado-a-presidencia-da-republica.ghtml", "date": "2026-07-26" },
+        { "title": "Reforma trabalhista: saiba como votaram os senadores no plenário", "publisher": "CartaCapital", "url": "https://www.cartacapital.com.br/politica/reforma-trabalhista-saiba-como-votaram-os-senadores-no-plenario", "date": "2017-07-12" }
+      ]
+    },
+    {
+      "topic": "Segurança pública",
+      "stance": "Quer criar um ministério específico de segurança, classificar PCC e Comando Vermelho como “terrorismo doméstico” em determinadas circunstâncias, endurecer penas para integrantes e financiadores, reduzir a maioridade penal para 16 anos e levar ao federal o modelo de integração policial de Goiás, chegando a defender o uso das Forças Armadas contra o crime na Amazônia.",
+      "orientation": "direita",
+      "sources": [
+        { "title": "Caiado diz que, se eleito, vai propor classificar facções criminosas como organizações terroristas", "publisher": "G1", "url": "https://g1.globo.com/go/goias/noticia/2026/07/18/caiado-diz-que-se-eleito-vai-propor-classificar-faccoes-criminosas-como-organizacoes-terroristas.ghtml", "date": "2026-07-18" },
+        { "title": "Leia a íntegra do plano de governo de Ronaldo Caiado", "publisher": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/leia-a-integra-do-plano-de-governo-de-ronaldo-caiado/", "date": "2026-08-14" }
+      ]
+    },
+    {
+      "topic": "Saúde",
+      "stance": "O plano prevê ampliação do atendimento especializado no SUS; como governador, rompeu publicamente com Jair Bolsonaro em março de 2020 ao defender a atuação das autoridades sanitárias e medidas de enfrentamento da pandemia de covid-19.",
+      "orientation": "centro",
+      "sources": [
+        { "title": "Leia a íntegra do plano de governo de Ronaldo Caiado", "publisher": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/leia-a-integra-do-plano-de-governo-de-ronaldo-caiado/", "date": "2026-08-14" },
+        { "title": "Caiado rompe com Bolsonaro e diz que não respeitará decisões do presidente", "publisher": "Folha de S.Paulo", "url": "https://www1.folha.uol.com.br/poder/2020/03/caiado-rompe-com-bolsonaro-e-diz-que-nao-respeitara-decisoes-do-presidente.shtml", "date": "2020-03-25" }
+      ]
+    },
+    {
+      "topic": "Educação",
+      "stance": "Prioriza alfabetização, recuperação da aprendizagem, expansão do ensino técnico, formação de professores e ampliação de vagas em creches e pré-escolas, com avaliação periódica de resultados.",
+      "orientation": "centro",
+      "sources": [
+        { "title": "Leia a íntegra do plano de governo de Ronaldo Caiado", "publisher": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/leia-a-integra-do-plano-de-governo-de-ronaldo-caiado/", "date": "2026-08-14" }
+      ]
+    },
+    {
+      "topic": "Meio ambiente",
+      "stance": "Defende combater desmatamento e garimpo ilegal combinando fiscalização com mecanismos de conservação, e apostar em biocompetitividade, bioenergia e recuperação de pastagens; já como governador, sancionou lei que autoriza a extração de amianto crisotila em Goiás para exportação, mesmo com o uso do produto proibido no país pelo STF por risco à saúde.",
+      "orientation": "centro-direita",
+      "sources": [
+        { "title": "Leia a íntegra do plano de governo de Ronaldo Caiado", "publisher": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/leia-a-integra-do-plano-de-governo-de-ronaldo-caiado/", "date": "2026-08-14" },
+        { "title": "Propostas para o agro de Zema e Caiado nas eleições 2026", "publisher": "SpaceMoney", "url": "https://www.spacemoney.com.br/politica/zema-caiado-propostas-agro/", "date": "2026-09-04" },
+        { "title": "Governador Ronaldo Caiado sanciona lei que autoriza extração de amianto em Goiás", "publisher": "G1", "url": "https://g1.globo.com/go/goias/noticia/2019/07/18/governo-aprova-lei-que-preve-extracao-do-amianto-em-goias.ghtml", "date": "2019-07-18" }
+      ]
+    },
+    {
+      "topic": "Democracia e instituições",
+      "stance": "Condenou publicamente os ataques de 8 de janeiro de 2023, mas propõe anistia “ampla, geral e irrestrita” aos condenados pelo episódio; no plano, prevê acabar com a reeleição para cargos do Executivo e adotar o voto distrital misto, além de maior transparência no uso de emendas parlamentares.",
+      "orientation": "centro",
+      "sources": [
+        { "title": "Caiado diz que atos golpistas são ‘um atentado contra o Estado, inadmissível e condenável sobre todos os aspectos’", "publisher": "G1", "url": "https://g1.globo.com/go/goias/noticia/2023/01/08/caiado-diz-que-atos-golpistas-sao-um-atentado-contra-o-estado-inadmissivel-e-condenavel-sobre-todos-os-aspectos.ghtml", "date": "2023-01-08" },
+        { "title": "Caiado defende anistia “ampla, geral e irrestrita” para condenados do 8 de janeiro", "publisher": "G1", "url": "https://g1.globo.com/politica/noticia/2026/03/13/ronaldo-caiado-entrevista-globonews.ghtml", "date": "2026-03-13" },
+        { "title": "Leia a íntegra do plano de governo de Ronaldo Caiado", "publisher": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/leia-a-integra-do-plano-de-governo-de-ronaldo-caiado/", "date": "2026-08-14" }
+      ]
+    },
+    {
+      "topic": "Política externa",
+      "stance": "Defende atuação pragmática, com abertura de mercados, atração de investimentos, integração regional e acordos de transferência de tecnologia; em março de 2024, viajou a Israel com Tarcísio de Freitas e pediu desculpas ao presidente Isaac Herzog por falas de Lula sobre o conflito no Oriente Médio.",
+      "orientation": "centro-direita",
+      "sources": [
+        { "title": "Leia a íntegra do plano de governo de Ronaldo Caiado", "publisher": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/leia-a-integra-do-plano-de-governo-de-ronaldo-caiado/", "date": "2026-08-14" },
+        { "title": "Caiado pede desculpas a presidente de Israel por “fala infeliz” de Lula sobre conflito no Oriente Médio", "publisher": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/politica/caiado-pede-desculpas-a-presidente-de-israel-por-fala-infeliz-de-lula-sobre-conflito-no-oriente-medio/", "date": "2024-03-19" }
+      ]
+    },
+    {
+      "topic": "Direitos sociais",
+      "stance": "Promete combate ao feminicídio com confisco de bens de agressores em favor das vítimas e propõe pacto nacional contra a violência de gênero, somado a proteção social para grupos vulneráveis no plano de governo.",
+      "orientation": "centro",
+      "sources": [
+        { "title": "PSD lança candidatura de Ronaldo Caiado à Presidência da República", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/07/26/psd-lanca-candidatura-de-ronaldo-caiado-a-presidencia-da-republica.ghtml", "date": "2026-07-26" },
+        { "title": "Leia a íntegra do plano de governo de Ronaldo Caiado", "publisher": "Poder360", "url": "https://www.poder360.com.br/poder-eleicoes-2026/leia-a-integra-do-plano-de-governo-de-ronaldo-caiado/", "date": "2026-08-14" }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "quote": "Chegando minha presidência, eu faço valer uma anistia ampla, geral e irrestrita e vou trabalhar para construir um Brasil dentro daqueles critérios que fizeram Goiás o melhor estado do país",
+      "date": "2026-03-13",
+      "context": "Entrevista ao programa Em Ponto, da Globonews, durante a pré-campanha; na ocasião também classificou PCC e Comando Vermelho como “organizações terroristas” e afirmou que Lula se postou como “embaixador das facções”.",
+      "source": { "title": "Caiado defende anistia “ampla, geral e irrestrita” para condenados do 8 de janeiro", "publisher": "G1", "url": "https://g1.globo.com/politica/noticia/2026/03/13/ronaldo-caiado-entrevista-globonews.ghtml", "date": "2026-03-13" }
+    },
+    {
+      "quote": "É um momento em que estarei preparado para apresentar ao Congresso Nacional todas as reformas necessárias, como também a classificação das facções criminosas como terroristas, avançando cada vez mais para dar credibilidade aos empresários brasileiros, para que confiem no novo governo",
+      "date": "2026-07-18",
+      "context": "Durante o Encontro Regional “Pra Frente Goiás”, em Trindade (GO), ao responder o que faria nos primeiros 100 dias de um eventual governo.",
+      "source": { "title": "Caiado diz que, se eleito, vai propor classificar facções criminosas como organizações terroristas", "publisher": "G1", "url": "https://g1.globo.com/go/goias/noticia/2026/07/18/caiado-diz-que-se-eleito-vai-propor-classificar-faccoes-criminosas-como-organizacoes-terroristas.ghtml", "date": "2026-07-18" }
+    },
+    {
+      "quote": "Eu não seria candidato se não fosse a coragem de Gilberto Kassab, que enfrentou todos aqueles que achavam que podiam calar o Brasil e que não teria mais nenhum candidato fora da polarização",
+      "date": "2026-07-26",
+      "context": "Discurso na convenção nacional do PSD em São Paulo, que oficializou sua candidatura à Presidência com Kassab como vice.",
+      "source": { "title": "PSD lança candidatura de Ronaldo Caiado à Presidência da República", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/07/26/psd-lanca-candidatura-de-ronaldo-caiado-a-presidencia-da-republica.ghtml", "date": "2026-07-26" }
+    },
+    {
+      "quote": "Aquele agressor de mulher, aquele que violenta a mulher ou que pratica um feminicídio. Eu vou confiscar os bens dele e transferir para a mulher.",
+      "date": "2026-07-26",
+      "context": "Na mesma convenção do PSD, anunciou proposta de confisco de bens de agressores de mulheres em favor das vítimas.",
+      "source": { "title": "PSD lança candidatura de Ronaldo Caiado à Presidência da República", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/07/26/psd-lanca-candidatura-de-ronaldo-caiado-a-presidencia-da-republica.ghtml", "date": "2026-07-26" }
+    },
+    {
+      "quote": "Não é possível que o Brasil vá querer optar por aqueles que são os maiores rejeitados da política nacional. Eleição não é de rejeitados. É de quem traz resultado para a sociedade brasileira.",
+      "date": "2026-07-26",
+      "context": "Discurso de lançamento em que também afirmou ter deixado o governo de Goiás com 88% de aprovação e prometeu um “novo modelo de governo”.",
+      "source": { "title": "PSD lança candidatura de Ronaldo Caiado à Presidência da República", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/07/26/psd-lanca-candidatura-de-ronaldo-caiado-a-presidencia-da-republica.ghtml", "date": "2026-07-26" }
+    }
+  ],
+  "scandals": [
+    {
+      "title": "Condenação por abuso de poder político na eleição municipal de 2024",
+      "period": "2024-2025",
+      "summary": "Em dezembro de 2024, a 1ª Zona Eleitoral de Goiânia condenou Caiado e lhe impôs inelegibilidade de oito anos por usar o Palácio das Esmeraldas, sede do governo, para promover jantares com lideranças em apoio a Sandro Mabel, candidato à prefeitura da capital. Em abril de 2025, o TRE-GO anulou por unanimidade a inelegibilidade de Caiado, Mabel e da vice, considerando que os episódios não tinham gravidade para caracterizar abuso de poder, mas manteve multa de R$ 60 mil por conduta vedada; o PL, autor da ação, desistiu de recorrer.",
+      "status": "condenado em 1ª instância; inelegibilidade anulada pelo TRE-GO, com multa de R$ 60 mil mantida",
+      "sources": [
+        { "title": "Justiça condena Caiado por abuso de poder político e cassa registro de prefeito eleito em Goiânia", "publisher": "G1", "url": "https://g1.globo.com/go/goias/noticia/2024/12/11/justica-condena-caiado-por-abuso-de-poder-politico-e-cassa-registro-de-prefeito-eleito-de-mabel-em-goiania.ghtml", "date": "2024-12-11" },
+        { "title": "TRE derruba decisão, deixa Caiado elegível e mantém pagamento de multa", "publisher": "G1", "url": "https://g1.globo.com/go/goias/noticia/2025/04/09/tre-derruba-decisao-deixa-caiado-elegivel-e-mantem-pagamento-de-multa-por-citados-em-acao-de-abuso-de-poder.ghtml", "date": "2025-04-09" }
+      ]
+    },
+    {
+      "title": "Ação de improbidade por uso de 51 policiais como segurança particular",
+      "period": "2026",
+      "summary": "Em 27 de junho de 2026, o Ministério Público de Goiás ajuizou ação de improbidade contra Caiado pelo uso de 51 policiais militares esquematizados como seguranças particulares em sua pré-campanha e na de sua esposa, Gracinha Caiado, pré-candidata ao Senado. Em liminar de 6 de julho, o juiz da 2ª Vara da Fazenda Pública de Goiás determinou reduzir a segurança do ex-governador e de sua família de 51 para 4 PMs, com multa diária de R$ 10 mil e limite de R$ 300 mil em caso de descumprimento.",
+      "status": "ação de improbidade em curso; liminar judicial determina reduzir o efetivo de 51 para 4 PMs",
+      "sources": [
+        { "title": "Justiça determina que Caiado reduza segurança pessoal de 51 para 4 PMs", "publisher": "Metrópoles", "url": "https://www.metropoles.com/brasil/justica-determina-que-caiado-reduza-seguranca-pessoal-de-51-para-4-pms", "date": "2026-07-07" },
+        { "title": "Ronaldo Caiado entra na mira do MP de Goiás por uso de policiais como seguranças particulares", "publisher": "Brasil de Fato", "url": "https://www.brasildefato.com.br/2026/06/27/ronaldo-caiado-entra-na-mira-do-mp-de-goias-por-uso-de-policiais-como-segurancas-particulares/", "date": "2026-06-27" }
+      ]
+    },
+    {
+      "title": "Nomeação de parentes para cargos no governo de Goiás",
+      "period": "2019",
+      "summary": "Levantamento do Goiás 24 Horas publicado em março de 2019 apontou ao menos 12 parentes de Caiado nomeados para cargos públicos desde sua posse, entre primos, sobrinhos e a esposa, a partir de consulta ao Diário Oficial e ao portal de transparência estadual. A reportagem ressalta que a lista considerava apenas pessoas com o sobrenome Caiado e que havia provável subregistro.",
+      "status": "reportagem investigativa; sem processo judicial conhecido",
+      "sources": [
+        { "title": "Exclusivo: Caiado nomeou pelo menos 12 parentes desde que assumiu o governo", "publisher": "Goiás 24 Horas", "url": "https://goias24horas.com.br/90586-exclusivo-caiado-nomeou-pelo-menos-12-parentes-desde-que-assumiu-o-governo-confira-lista/", "date": "2019-03-16" }
+      ]
+    }
+  ]
+}

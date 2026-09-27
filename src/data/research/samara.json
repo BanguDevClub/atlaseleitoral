@@ -1,0 +1,252 @@
+{
+  "id": "samara",
+  "slug": "samara",
+  "name": "Samara Martins da Silva Feitosa",
+  "ballotName": "Samara",
+  "number": 80,
+  "party": "UP",
+  "partyFullName": "Unidade Popular",
+  "coalition": null,
+  "vice": { "name": "Raquel Brício", "party": "UP" },
+  "status": "Deferido",
+  "age": 39,
+  "occupation": "cirurgiã-dentista",
+  "headline": "A dentista do SUS que encabeça a chapa totalmente feminina da UP com o fim da escala 6x1 e o dobro do salário mínimo.",
+  "photo": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Samara_Martins_UP.jpg",
+  "birth": { "city": "Belo Horizonte", "state": "MG", "year": 1987 },
+  "politicalJourney": "Samara Martins nasceu em Belo Horizonte e mudou-se para o Rio Grande do Norte, onde se formou em Odontologia pela Universidade Federal do Rio Grande do Norte e, desde 2017, atua como cirurgiã-dentista no SUS. Iniciou a trajetória política no movimento estudantil, na Associação Metropolitana dos Estudantes Secundaristas da Grande Belo Horizonte (AMES-BH), depois integrou a UNE como diretora de mulheres e participa do Movimento de Mulheres Olga Benário e da Frente Negra Revolucionária. É vice-presidente nacional do Unidade Popular desde 2016, disputou a vereança de Natal em 2020 (515 votos, não eleita) e em 2022 foi candidata a vice-presidente na chapa de Léo Péricles — a única daquele pleito formada exclusivamente por pessoas negras, que obteve 53.519 votos. Lançou pré-candidatura à Presidência em 1º de fevereiro de 2026 e teve a candidatura oficializada na convenção nacional da UP em 26 de julho de 2026, com Raquel Brício como vice.",
+  "bio": [
+    "Samara Martins, nome de urna Samara, tem 39 anos e é cirurgiã-dentista formada pela UFRN, servidora do SUS e moradora de Natal. Foi diretora de mulheres da UNE e mantém atuação em movimentos sociais ligados às causas feminina e negra. Em 2022, disputou a vice-presidência ao lado de Léo Péricles pelo UP e, em 2026, tornou-se a única mulher entre as pré-candidatas à Presidência lançadas até aquele momento, segundo a Folha.",
+    "O programa de governo registrado no TSE pela UP prevê dobrar o salário mínimo atual (para R$ 3.242), substituir a escala 6x1 pela 4x3, reduzir a jornada de trabalho, garantir emprego, nacionalizar o sistema bancário, suspender o pagamento da dívida pública mediante auditoria cidadã, reestatizar empresas privatizadas — como a Vale —, manter a Petrobras 100% estatal, fazer reforma agrária e obrigar políticos a usarem o SUS e as escolas públicas. A candidatura registrou no TSE um plano de governo de apenas duas páginas, o que lhe rendeu crítica nas redes em agosto de 2026."
+  ],
+  "compass": {
+    "social": 6.0,
+    "economic": -9.5,
+    "confidence": "alta",
+    "rationale": "O programa da UP é explicitamente socialista: nacionalização do sistema bancário, reestatização de empresas privatizadas, Petrobras 100% estatal, suspensão do pagamento da dívida e reforma agrária, o que o coloca na extrema esquerda econômica. No eixo social, Samara defende pautas progressistas — combate ao racismo e à violência contra a população negra, representação política de negros e mulheres, fortalecimento do SUS, escola pública, apoio à criminalização da misoginia e laicidade —, além de propostas anticriminais como o fim da Polícia Militar. A confiança é alta por haver programa registrado, sabatina extensa e múltiplas falas documentadas.",
+    "sources": [
+      {
+        "title": "'Bolsa banqueiro quebra o Brasil', diz Samara Martins",
+        "publisher": "Correio Braziliense",
+        "url": "https://www.correiobraziliense.com.br/politica/2026/09/7496426-bolsa-banqueiro-quebra-o-brasil-diz-samara-martins.html",
+        "date": "2026-09-09"
+      },
+      {
+        "title": "Samara Martins propõe dobrar salário mínimo e acabar com escala 6x1 em agenda na Bahia",
+        "publisher": "G1",
+        "url": "https://g1.globo.com/ba/bahia/eleicoes/2026/noticia/2026/09/23/samara-martins-na-bahia.ghtml",
+        "date": "2026-09-23"
+      },
+      {
+        "title": "Pré-candidata de esquerda a presidente defende fim da PM",
+        "publisher": "Pleno.News",
+        "url": "https://pleno.news/brasil/eleicoes-2026/pre-candidata-de-esquerda-a-presidente-defende-fim-da-pm.html",
+        "date": "2026-04-20"
+      }
+    ]
+  },
+  "keyPositions": [
+    {
+      "topic": "Economia e tributos",
+      "stance": "Nacionalizar o sistema bancário, suspender o pagamento da dívida pública após auditoria cidadã, reestatizar empresas privatizadas como a Vale, manter a Petrobras 100% estatal e tributar grandes fortunas.",
+      "orientation": "esquerda",
+      "sources": [
+        {
+          "title": "'Bolsa banqueiro quebra o Brasil', diz Samara Martins",
+          "publisher": "Correio Braziliense",
+          "url": "https://www.correiobraziliense.com.br/politica/2026/09/7496426-bolsa-banqueiro-quebra-o-brasil-diz-samara-martins.html",
+          "date": "2026-09-09"
+        },
+        {
+          "title": "Candidata da Unidade Popular à Presidência defende suspender dívida pública, dobrar salário mínimo e reestatizar empresas",
+          "publisher": "Mangue Jornalismo",
+          "url": "https://manguejornalismo.org/candidata-da-unidade-popular-a-presidencia-defende-suspender-divida-publica-dobrar-salario-minimo-e-reestatizar-empresas/",
+          "date": "2026-09-03"
+        }
+      ]
+    },
+    {
+      "topic": "Trabalho e renda",
+      "stance": "Dobrar o salário mínimo (para R$ 3.242), substituir a escala 6x1 pela 4x3, reduzir a jornada de trabalho e garantir emprego para adultos em condições de trabalhar.",
+      "orientation": "esquerda",
+      "sources": [
+        {
+          "title": "Samara Martins propõe dobrar salário mínimo e acabar com escala 6x1 em agenda na Bahia",
+          "publisher": "G1",
+          "url": "https://g1.globo.com/ba/bahia/eleicoes/2026/noticia/2026/09/23/samara-martins-na-bahia.ghtml",
+          "date": "2026-09-23"
+        },
+        {
+          "title": "Samara | Candidata a Presidenta nas eleições 2026",
+          "publisher": "G1 (dados do TSE)",
+          "url": "https://g1.globo.com/politica/eleicoes/2026/quem-sao-os-candidatos/presidente/samara.ghtml",
+          "date": null
+        }
+      ]
+    },
+    {
+      "topic": "Segurança pública",
+      "stance": "Defende o fim da Polícia Militar, medida alinhada ao programa do Unidade Popular e à proposta de substituição do modelo repressivo atual.",
+      "orientation": "esquerda",
+      "sources": [
+        {
+          "title": "Pré-candidata de esquerda a presidente defende fim da PM",
+          "publisher": "Pleno.News",
+          "url": "https://pleno.news/brasil/eleicoes-2026/pre-candidata-de-esquerda-a-presidente-defende-fim-da-pm.html",
+          "date": "2026-04-20"
+        }
+      ]
+    },
+    {
+      "topic": "Saúde",
+      "stance": "Ampliar o SUS e obrigar políticos e parlamentares a usarem o sistema público de saúde, com mais verbas e fim do limite de gastos em saúde.",
+      "orientation": "esquerda",
+      "sources": [
+        {
+          "title": "'Bolsa banqueiro quebra o Brasil', diz Samara Martins",
+          "publisher": "Correio Braziliense",
+          "url": "https://www.correiobraziliense.com.br/politica/2026/09/7496426-bolsa-banqueiro-quebra-o-brasil-diz-samara-martins.html",
+          "date": "2026-09-09"
+        },
+        {
+          "title": "Samara Martins propõe ampliar SUS, combater racismo e reduzir violência contra população negra",
+          "publisher": "Alma Preta",
+          "url": "https://almapreta.com.br/sessao/politica/samara-martins-programa-governo-eleicoes-2026/",
+          "date": "2026-08-18"
+        }
+      ]
+    },
+    {
+      "topic": "Educação",
+      "stance": "Defende a escola pública, a oposição a cortes em educação e o investimento de 10% do PIB na área, além de obrigar os filhos de políticos a estudarem em escolas públicas.",
+      "orientation": "esquerda",
+      "sources": [
+        {
+          "title": "'Bolsa banqueiro quebra o Brasil', diz Samara Martins",
+          "publisher": "Correio Braziliense",
+          "url": "https://www.correiobraziliense.com.br/politica/2026/09/7496426-bolsa-banqueiro-quebra-o-brasil-diz-samara-martins.html",
+          "date": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "topic": "Democracia e instituições",
+      "stance": "Defende a eleição direta de juízes, com provas técnicas e mandatos sujeitos ao voto popular, e uma reforma política que iguale tempo de TV e recursos entre candidatos; apoia a reforma do Judiciário diante da crise no STF.",
+      "orientation": "esquerda",
+      "sources": [
+        {
+          "title": "'Bolsa banqueiro quebra o Brasil', diz Samara Martins",
+          "publisher": "Correio Braziliense",
+          "url": "https://www.correiobraziliense.com.br/politica/2026/09/7496426-bolsa-banqueiro-quebra-o-brasil-diz-samara-martins.html",
+          "date": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "topic": "Política externa",
+      "stance": "Defende soberania e maior independência econômica do Brasil, com controle estatal dos recursos estratégicos e reindustrialização em oposição à reprimarização da economia.",
+      "orientation": "esquerda",
+      "sources": [
+        {
+          "title": "Samara Martins propõe dobrar salário mínimo e acabar com escala 6x1 em agenda na Bahia",
+          "publisher": "G1",
+          "url": "https://g1.globo.com/ba/bahia/eleicoes/2026/noticia/2026/09/23/samara-martins-na-bahia.ghtml",
+          "date": "2026-09-23"
+        },
+        {
+          "title": "'Bolsa banqueiro quebra o Brasil', diz Samara Martins",
+          "publisher": "Correio Braziliense",
+          "url": "https://www.correiobraziliense.com.br/politica/2026/09/7496426-bolsa-banqueiro-quebra-o-brasil-diz-samara-martins.html",
+          "date": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "topic": "Direitos sociais",
+      "stance": "Pauta o combate ao racismo e à violência contra a população negra, a representação de negros e mulheres no poder e a defesa de renda e moradia como condição para mulheres saírem de situações de violência.",
+      "orientation": "esquerda",
+      "sources": [
+        {
+          "title": "Samara Martins propõe ampliar SUS, combater racismo e reduzir violência contra população negra",
+          "publisher": "Alma Preta",
+          "url": "https://almapreta.com.br/sessao/politica/samara-martins-programa-governo-eleicoes-2026/",
+          "date": "2026-08-18"
+        },
+        {
+          "title": "Samara Martins propõe dobrar salário mínimo e acabar com escala 6x1 em agenda na Bahia",
+          "publisher": "G1",
+          "url": "https://g1.globo.com/ba/bahia/eleicoes/2026/noticia/2026/09/23/samara-martins-na-bahia.ghtml",
+          "date": "2026-09-23"
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "quote": "Que o nosso orçamento não seja destinado para pagar banqueiro, como é 42% do nosso orçamento destinado para pagar juros e amortizações da dívida, que vai para banqueiro e especulador, mas que seja destinado para as questões sociais de moradia, de salário, de saúde, de educação",
+      "date": "2026-09-23",
+      "context": "Entrevista ao g1 durante agenda de campanha em Salvador, ao criticar a destinação do Orçamento federal ao pagamento da dívida pública.",
+      "source": {
+        "title": "Samara Martins propõe dobrar salário mínimo e acabar com escala 6x1 em agenda na Bahia",
+        "publisher": "G1",
+        "url": "https://g1.globo.com/ba/bahia/eleicoes/2026/noticia/2026/09/23/samara-martins-na-bahia.ghtml",
+        "date": "2026-09-23"
+      }
+    },
+    {
+      "quote": "O Brasil é um dos países mais negros do mundo e infelizmente a representação dos negros no poder, no parlamento, é minúscula. Mesmo a população sendo majoritariamente feminina e negra, a nossa representação política é muito pequena",
+      "date": "2026-09-23",
+      "context": "Declaração em Salvador sobre a representação de pessoas negras na política brasileira.",
+      "source": {
+        "title": "Samara Martins propõe dobrar salário mínimo e acabar com escala 6x1 em agenda na Bahia",
+        "publisher": "G1",
+        "url": "https://g1.globo.com/ba/bahia/eleicoes/2026/noticia/2026/09/23/samara-martins-na-bahia.ghtml",
+        "date": "2026-09-23"
+      }
+    },
+    {
+      "quote": "Defendemos o aumento de 100% do salário mínimo. Muita gente fala: \"Que loucura da Unidade Popular!\"",
+      "date": "2026-09-08",
+      "context": "Sabatina do Correio Braziliense (realizada em 8 de setembro e publicada em 9 de setembro), ao responder sobre o valor ideal do salário mínimo.",
+      "source": {
+        "title": "'Bolsa banqueiro quebra o Brasil', diz Samara Martins",
+        "publisher": "Correio Braziliense",
+        "url": "https://www.correiobraziliense.com.br/politica/2026/09/7496426-bolsa-banqueiro-quebra-o-brasil-diz-samara-martins.html",
+        "date": "2026-09-09"
+      }
+    },
+    {
+      "quote": "Uma das nossas propostas é que todos os políticos sejam obrigados a usar o SUS e ter seus filhos nas escolas públicas, porque aí é muito fácil você legislar sobre um serviço que não vai usar, deixando apenas 3% ou 4% destinado a esse serviço.",
+      "date": "2026-09-08",
+      "context": "Sabatina do Correio Braziliense sobre a destinação do orçamento à saúde e à educação.",
+      "source": {
+        "title": "'Bolsa banqueiro quebra o Brasil', diz Samara Martins",
+        "publisher": "Correio Braziliense",
+        "url": "https://www.correiobraziliense.com.br/politica/2026/09/7496426-bolsa-banqueiro-quebra-o-brasil-diz-samara-martins.html",
+        "date": "2026-09-09"
+      }
+    }
+  ],
+  "scandals": [
+    {
+      "title": "Plano de governo registrado no TSE com duas páginas",
+      "period": "2026",
+      "summary": "Em 18 de agosto de 2026, a Folha noticiou que o plano de governo de Samara registrado na Justiça Eleitoral tinha apenas duas páginas e foi criticado nas redes sociais por apresentar texto genérico e inconsistências. Não há processo judicial nem sanção da Justiça Eleitoral associada à matéria; posteriormente, a candidata apresentou publicamente as propostas do programa registrado, como o dobro do salário mínimo e a escala 4x3.",
+      "status": "polêmica de campanha, sem processo ou sanção da Justiça Eleitoral",
+      "sources": [
+        {
+          "title": "#Hashtag: Candidata à Presidência registra plano de governo de duas páginas e é criticada nas redes",
+          "publisher": "Folha de S.Paulo",
+          "url": "https://www1.folha.uol.com.br/blogs/hashtag/2026/08/candidata-a-presidencia-registra-plano-de-governo-de-duas-paginas-e-e-criticada-nas-redes.shtml",
+          "date": "2026-08-18"
+        },
+        {
+          "title": "Samara Martins propõe dobrar salário mínimo e acabar com escala 6x1 em agenda na Bahia",
+          "publisher": "G1",
+          "url": "https://g1.globo.com/ba/bahia/eleicoes/2026/noticia/2026/09/23/samara-martins-na-bahia.ghtml",
+          "date": "2026-09-23"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "id": "wilson-grassi",
+  "slug": "wilson-grassi",
+  "name": "Wilson Grassi Júnior",
+  "ballotName": "Veterinário Wilson Grassi",
+  "number": 35,
+  "party": "DEMOCRATA",
+  "partyFullName": "Democrata",
+  "coalition": null,
+  "vice": { "name": "Suêd Haidar", "party": "DEMOCRATA" },
+  "status": "Deferido",
+  "age": 56,
+  "occupation": "médico veterinário e empresário",
+  "headline": "O veterinário que se tornou o primeiro presidenciável do Democrata com o programa Brasil em Primeiro Lugar.",
+  "photo": "https://www.moneytimes.com.br/uploads/2026/09/wilson-grassi-e1789980028821.jpg",
+  "birth": { "city": "São Paulo", "state": "SP", "year": 1970 },
+  "politicalJourney": "Wilson Grassi Júnior nasceu em São Paulo em 1970, começou como office-boy e se formou em medicina veterinária; abriu uma clínica na zona leste da capital e ficou conhecido por implantar o primeiro hospital público para cães e gatos do Brasil. Foi conselheiro da Anclivepa-SP, atua como empresário do setor educacional (presidente da mantenedora Unia Educação/UNI-A), é músico e criador do Projeto Ambientalistas. Já disputou o estadual em São Paulo em 2006 pelo PFL (como Wilson Veterinário, 4.517 votos), o federal em 2022 pelo PV, com 6.580 votos e registro indeferido no TSE, e a vereança de São Paulo em 2024 pelo PRTB (2.777 votos), sem se eleger. Em 2 de agosto de 2026, a convenção nacional do Democrata — ex-Partido da Mulher Brasileira, renomeado em dezembro de 2025 — oficializou sua candidatura à Presidência, na primeira disputa presidencial da sigla, com a presidenta do partido, Suêd Haidar, como vice.",
+  "bio": [
+    "Veterinário, empresário e ambientalista, Wilson Grassi tem 56 anos, é natural de São Paulo e atua na área veterinária há mais de três décadas. Além da clínica e da rede de clínicas veterinárias de baixo custo, presida a mantenedora educacional UNI-A e participou da criação de um hospital público veterinário na capital paulista. Declara patrimônio de R$ 50 milhões à Justiça Eleitoral, dividido entre imóveis financiados e participações societárias.",
+    "Seu programa de governo, intitulado Brasil em Primeiro Lugar, foi registrado no TSE com 58 páginas, uma carta ao eleitor, 14 eixos de propostas e um plano para os 100 primeiros dias de governo. Entre as medidas centrais estão o Imposto Único Federal (IUF) sobre movimentações bancárias no lugar de nove tributos federais, isenção do IRPF para quem recebe até cinco salários mínimos, fim da contribuição previdenciária patronal, plebiscito sobre o modelo penitenciário inspirado em El Salvador e fila nacional pública para cirurgias e exames. A campanha foi suspensa cautelarmente pelo TSE de 31 de agosto a 3 de setembro de 2026 por comunicação tardia de perfis em redes sociais, medida revertida no mesmo período."
+  ],
+  "compass": {
+    "social": 1.0,
+    "economic": 6.5,
+    "confidence": "média",
+    "rationale": "O plano Brasil em Primeiro Lugar é marcadamente de livre mercado: Imposto Único Federal sobre movimentações bancárias substituindo nove tributos, isenção do IRPF até cinco salários mínimos e extinção da contribuição patronal para reduzir o custo da contratação. No eixo social, o partido se orienta pelos princípios de \"representatividade, democracia e progressismo\", com defesa de direitos humanos, diversidade nos cargos públicos e inclusão de minorias, o que puxa o candidato para o centro-esquerda cultural; porém, propostas de segurança dura — presídio federal de segurança máxima, bloqueio de telefonia e plebiscito sobre confinamento no modelo de El Salvador — aproximam o perfil do centro-direita, resultando em um eixo social praticamente neutro. A confiança é média por se tratar de candidato de baixa exposição, com programa detalhado mas poucas declarações públicas.",
+    "sources": [
+      {
+        "title": "Grassi propõe imposto único, plebiscito sobre presídios e mudanças na saúde",
+        "publisher": "Gazeta do Paraná",
+        "url": "https://gazetadoparana.com.br/artigo/wilson-grassi-propostas-programa-governo-eleicoes-2026",
+        "date": "2026-09-20"
+      },
+      {
+        "title": "Eleições 2026: conheça as propostas e o perfil de Wilson Grassi (Democrata)",
+        "publisher": "Band",
+        "url": "https://www.band.com.br/politica/eleicoes/eleicoes-2026-conheca-as-propostas-e-o-perfil-de-wilson-grassi-democrata",
+        "date": "2026-09-08"
+      },
+      {
+        "title": "Wilson Grassi defende imposto único e mais rigor contra facções",
+        "publisher": "Money Times / Agência Brasil",
+        "url": "https://www.moneytimes.com.br/wilson-grassi-defende-imposto-unico-e-mais-rigor-contra-faccoes-fets/",
+        "date": "2026-09-21"
+      }
+    ]
+  },
+  "keyPositions": [
+    {
+      "topic": "Economia e tributos",
+      "stance": "Criar o Imposto Único Federal cobrado automaticamente sobre movimentações bancárias em substituição a nove tributos federais de folha, faturamento e produção, com isenção do IRPF para quem recebe até cinco salários mínimos (R$ 8.105).",
+      "orientation": "direita",
+      "sources": [
+        {
+          "title": "Grassi propõe imposto único, plebiscito sobre presídios e mudanças na saúde",
+          "publisher": "Gazeta do Paraná",
+          "url": "https://gazetadoparana.com.br/artigo/wilson-grassi-propostas-programa-governo-eleicoes-2026",
+          "date": "2026-09-20"
+        },
+        {
+          "title": "Wilson Grassi defende imposto único e mais rigor contra facções",
+          "publisher": "Money Times / Agência Brasil",
+          "url": "https://www.moneytimes.com.br/wilson-grassi-defende-imposto-unico-e-mais-rigor-contra-faccoes-fets/",
+          "date": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "topic": "Trabalho e renda",
+      "stance": "Extinguir a contribuição previdenciária patronal sobre a folha para zerar o custo tributário da contratação formal e financiar cursos do Sistema S e da rede federal de educação profissional conforme a demanda regional de trabalhadores.",
+      "orientation": "centro-direita",
+      "sources": [
+        {
+          "title": "Wilson Grassi defende imposto único e mais rigor contra facções",
+          "publisher": "Money Times / Agência Brasil",
+          "url": "https://www.moneytimes.com.br/wilson-grassi-defende-imposto-unico-e-mais-rigor-contra-faccoes-fets/",
+          "date": "2026-09-21"
+        },
+        {
+          "title": "Wilson Grassi propõe imposto único e endurecimento no combate às facções criminosas",
+          "publisher": "GRU Diário",
+          "url": "https://grudiario.com.br/wilson-grassi-propoe-imposto-unico-e-endurecimento-no-combate-as-faccoes-criminosas/",
+          "date": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "topic": "Segurança pública",
+      "stance": "Ampliar o sistema penitenciário federal de segurança máxima para líderes de organizações criminosas, com bloqueio de sinais de telefonia e uso de inteligência financeira para confisco de bens, e realizar plebiscito sobre um modelo de confinamento em larga escala inspirado em El Salvador, preservando garantias individuais.",
+      "orientation": "direita",
+      "sources": [
+        {
+          "title": "Grassi propõe imposto único, plebiscito sobre presídios e mudanças na saúde",
+          "publisher": "Gazeta do Paraná",
+          "url": "https://gazetadoparana.com.br/artigo/wilson-grassi-propostas-programa-governo-eleicoes-2026",
+          "date": "2026-09-20"
+        },
+        {
+          "title": "Wilson Grassi defende imposto único e mais rigor contra facções",
+          "publisher": "Money Times / Agência Brasil",
+          "url": "https://www.moneytimes.com.br/wilson-grassi-defende-imposto-unico-e-mais-rigor-contra-faccoes-fets/",
+          "date": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "topic": "Saúde",
+      "stance": "Integrar saúde humana, animal e ambiental no conceito de Saúde Única, com vigilância de zoonoses e veterinários na rede pública, ampliar equipes de Saúde da Família e criar fila nacional pública para cirurgias e exames eletivos consultável pelo paciente.",
+      "orientation": "centro",
+      "sources": [
+        {
+          "title": "Eleições 2026: conheça as propostas e o perfil de Wilson Grassi (Democrata)",
+          "publisher": "Band",
+          "url": "https://www.band.com.br/politica/eleicoes/eleicoes-2026-conheca-as-propostas-e-o-perfil-de-wilson-grassi-democrata",
+          "date": "2026-09-08"
+        },
+        {
+          "title": "Grassi propõe imposto único, plebiscito sobre presídios e mudanças na saúde",
+          "publisher": "Gazeta do Paraná",
+          "url": "https://gazetadoparana.com.br/artigo/wilson-grassi-propostas-programa-governo-eleicoes-2026",
+          "date": "2026-09-20"
+        }
+      ]
+    },
+    {
+      "topic": "Educação",
+      "stance": "Garantir a alfabetização até o final do 2º ano do ensino fundamental, condicionar parte do apoio federal dos municípios aos resultados em avaliações externas de alfabetização e enviar a PEC da Pesquisa para transformar pesquisadores bolsistas em servidores concursados.",
+      "orientation": "centro-direita",
+      "sources": [
+        {
+          "title": "Eleições 2026: conheça as propostas e o perfil de Wilson Grassi (Democrata)",
+          "publisher": "Band",
+          "url": "https://www.band.com.br/politica/eleicoes/eleicoes-2026-conheca-as-propostas-e-o-perfil-de-wilson-grassi-democrata",
+          "date": "2026-09-08"
+        },
+        {
+          "title": "Grassi propõe imposto único, plebiscito sobre presídios e mudanças na saúde",
+          "publisher": "Gazeta do Paraná",
+          "url": "https://gazetadoparana.com.br/artigo/wilson-grassi-propostas-programa-governo-eleicoes-2026",
+          "date": "2026-09-20"
+        }
+      ]
+    },
+    {
+      "topic": "Meio ambiente",
+      "stance": "Estabelecer prazos e responsáveis nomeados para processos de licenciamento ambiental, ampliar matriz energética limpa na agenda de sustentabilidade e manter o status sanitário brasileiro para febre aftosa, influenza aviária e peste suína.",
+      "orientation": "centro-direita",
+      "sources": [
+        {
+          "title": "Eleições 2026: conheça as propostas e o perfil de Wilson Grassi (Democrata)",
+          "publisher": "Band",
+          "url": "https://www.band.com.br/politica/eleicoes/eleicoes-2026-conheca-as-propostas-e-o-perfil-de-wilson-grassi-democrata",
+          "date": "2026-09-08"
+        },
+        {
+          "title": "Grassi propõe imposto único, plebiscito sobre presídios e mudanças na saúde",
+          "publisher": "Gazeta do Paraná",
+          "url": "https://gazetadoparana.com.br/artigo/wilson-grassi-propostas-programa-governo-eleicoes-2026",
+          "date": "2026-09-20"
+        }
+      ]
+    },
+    {
+      "topic": "Democracia e instituições",
+      "stance": "O partido Democrata orienta sua atuação pelos princípios de representatividade, democracia e progressismo, com defesa de direitos humanos, participação social e diversidade nos cargos públicos; o programa prega desburocratização e plebiscitos como instrumentos de decisão.",
+      "orientation": "centro",
+      "sources": [
+        {
+          "title": "Eleições 2026: conheça as propostas e o perfil de Wilson Grassi (Democrata)",
+          "publisher": "Band",
+          "url": "https://www.band.com.br/politica/eleicoes/eleicoes-2026-conheca-as-propostas-e-o-perfil-de-wilson-grassi-democrata",
+          "date": "2026-09-08"
+        },
+        {
+          "title": "Wilson Grassi, candidato à Presidência pelo Democrata, fala sobre propostas de governo",
+          "publisher": "G1",
+          "url": "https://g1.globo.com/jornal-nacional/noticia/2026/09/05/wilson-grassi-candidato-a-presidencia-pelo-democratas-fala-sobre-propostas-de-governo.ghtml",
+          "date": "2026-09-05"
+        }
+      ]
+    },
+    {
+      "topic": "Direitos sociais",
+      "stance": "Prevê titulação em massa de imóveis em áreas consolidadas e assistência técnica pública gratuita, regularização fundiária simplificada e programas de habitação que usem o histórico de aluguel como comprovação de renda.",
+      "orientation": "centro",
+      "sources": [
+        {
+          "title": "Eleições 2026: conheça as propostas e o perfil de Wilson Grassi (Democrata)",
+          "publisher": "Band",
+          "url": "https://www.band.com.br/politica/eleicoes/eleicoes-2026-conheca-as-propostas-e-o-perfil-de-wilson-grassi-democrata",
+          "date": "2026-09-08"
+        },
+        {
+          "title": "Grassi propõe imposto único, plebiscito sobre presídios e mudanças na saúde",
+          "publisher": "Gazeta do Paraná",
+          "url": "https://gazetadoparana.com.br/artigo/wilson-grassi-propostas-programa-governo-eleicoes-2026",
+          "date": "2026-09-20"
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "quote": "Os principais problemas brasileiros, como saúde, educação e segurança, derivam todos de uma raiz comum, que é a pobreza. Como é possível um país tão rico ter 50 milhões de pessoas pobres? Tem coisa muito errada aí.",
+      "date": "2026-09-05",
+      "context": "Entrevista ao Jornal Nacional sobre as prioridades de seu governo, na série de entrevistas da emissora com os presidenciáveis.",
+      "source": {
+        "title": "Wilson Grassi, candidato à Presidência pelo Democrata, fala sobre propostas de governo",
+        "publisher": "G1",
+        "url": "https://g1.globo.com/jornal-nacional/noticia/2026/09/05/wilson-grassi-candidato-a-presidencia-pelo-democratas-fala-sobre-propostas-de-governo.ghtml",
+        "date": "2026-09-05"
+      }
+    },
+    {
+      "quote": "Vou correr uma maratona por dia, 42 km, em torno do TSE, até que essa decisão que me censurou nas redes sociais seja revertida",
+      "date": "2026-09-02",
+      "context": "Entrevista ao Poder360 um dia após o TSE suspender sua campanha digital, debates e repasses do fundo eleitoral por decisão do ministro Dias Toffoli.",
+      "source": {
+        "title": "Candidato à presidência promete correr 42 km por dia após TSE suspender campanha",
+        "publisher": "O Globo",
+        "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/09/02/candidato-a-presidencia-promete-correr-42-km-por-dia-apos-tse-suspender-campanha.ghtml",
+        "date": "2026-09-02"
+      }
+    },
+    {
+      "quote": "Registrei o meu perfil profissional de trabalho do Instagram, veterinário Wilson Grassi oficial, e decidi fazer a campanha por ele. No decorrer da campanha, fiz algumas postagens no meu perfil pessoal. Errei? Errei. Realmente, não sabia que era proibido",
+      "date": "2026-09-02",
+      "context": "Mesma entrevista, ao reconhecer a postagem em perfil não informado ao TSE, origem da suspensão cautelar de sua campanha.",
+      "source": {
+        "title": "Candidato à presidência promete correr 42 km por dia após TSE suspender campanha",
+        "publisher": "O Globo",
+        "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/09/02/candidato-a-presidencia-promete-correr-42-km-por-dia-apos-tse-suspender-campanha.ghtml",
+        "date": "2026-09-02"
+      }
+    }
+  ],
+  "scandals": [
+    {
+      "title": "Suspensão cautelar de campanha, debates e repasses pelo TSE",
+      "period": "2026",
+      "summary": "Em 31 de agosto de 2026, o ministro Dias Toffoli suspendeu a propaganda digital, a participação em debates e os repasses do Fundo Especial de Financiamento de Campanha da chapa do Democrata porque a campanha informou oito perfis em plataformas digitais 17 dias após o prazo, que terminara em 28 de agosto. Grassi protestou correndo 42 km ao redor da sede do TSE; em 2 de setembro Toffoli liberou a campanha digital e em 3 de setembro os repasses foram liberados após recurso da defesa.",
+      "status": "medida cautelar cumprida e revertida entre 2 e 3 de setembro de 2026",
+      "sources": [
+        {
+          "title": "Toffoli suspende campanha de candidato do Democrata à Presidência da República",
+          "publisher": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/toffoli-suspende-campanha-de-candidato-do-democrata-a-presidencia-da-republica/",
+          "date": "2026-08-31"
+        },
+        {
+          "title": "Toffoli libera campanha digital do Wilson Grassi, candidato à Presidência da República",
+          "publisher": "G1",
+          "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/02/toffoli-libera-campanha-digital-do-wilson-grassi-candidato-a-presidencia-da-republica.ghtml",
+          "date": "2026-09-02"
+        },
+        {
+          "title": "Quem é Wilson Grassi, candidato do partido Democrata à presidência",
+          "publisher": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/quem-e-wilson-grassi-candidato-do-partido-democrata/",
+          "date": "2026-09-09"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import SectionHeading from '@/components/SectionHeading.astro';
+import CompassMap from '@/components/CompassMap';
+import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
+import { Badge } from '@/components/ui/badge';
+import LinkButton from "@/components/LinkButton";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from '@/components/ui/table';
+import { candidates } from '@/lib/candidates';
+import { formatScore } from '@/lib/format';
+import { QUADRANTS, candidateColor } from '@/lib/palette';
+
+const compassPoints = candidates.map((c) => ({
+  id: c.id,
+  slug: c.slug,
+  ballotName: c.ballotName,
+  party: c.party,
+  number: c.number,
+  social: c.compass.social,
+  economic: c.compass.economic,
+}));
+
+const quadrantsWithMembers = QUADRANTS.map((quadrant) => ({
+  ...quadrant,
+  members: candidates.filter((c) => {
+    const isLeft = c.compass.economic < 0;
+    const isAuth = c.compass.social < 0;
+    if (quadrant.key === 'auth-left') return isAuth && isLeft;
+    if (quadrant.key === 'auth-right') return isAuth && !isLeft;
+    if (quadrant.key === 'lib-left') return !isAuth && isLeft;
+    return !isAuth && !isLeft;
+  }),
+}));
+
+const byEconomic = [...candidates].sort((a, b) => a.compass.economic - b.compass.economic);
+---
+
+<BaseLayout
+  title="Compasso político | Atlas Eleitoral"
+  description="Classificação dos candidatos à Presidência de 2026 em dois eixos: econômico (Estado ↔ mercado) e social (conservador ↔ progressista), com evidências citadas."
+>
+  <main class="mx-auto max-w-7xl px-4 py-10 sm:px-6">
+    <div class="mb-8 flex flex-col gap-4">
+      <SectionHeading
+        eyebrow="Compasso de 2 eixos"
+        title="Onde cada candidato se posiciona"
+        description="As coordenadas são atribuídas a partir de evidências verificáveis — votações, programa de governo e declarações — e cada ficha mostra o raciocínio com as fontes."
+      />
+      <div class="grid gap-3 sm:grid-cols-2">
+        <Alert>
+          <AlertTitle>Eixo econômico (horizontal)</AlertTitle>
+          <AlertDescription>
+            <span class="font-medium text-ctp-red">−10 Estatista</span> — papel ampliado do Estado, regulação e
+            estatização. <span class="font-medium text-ctp-blue">+10 Livre-mercado</span> — desregulação, privatização
+            e fiscalismo rígido.
+          </AlertDescription>
+        </Alert>
+        <Alert>
+          <AlertTitle>Eixo social (vertical)</AlertTitle>
+          <AlertDescription>
+            <span class="font-medium text-ctp-peach">−10 Conservador</span> — ordem, autoridade e valores tradicionais.
+            <span class="font-medium text-ctp-teal">+10 Progressista</span> — liberdades individuais e pautas sociais.
+          </AlertDescription>
+        </Alert>
+      </div>
+    </div>
+
+    <div class="rounded-xl border border-border bg-card p-4 sm:p-6">
+      <CompassMap client:load candidates={compassPoints} />
+    </div>
+
+    <section class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      {
+        quadrantsWithMembers.map((quadrant) => (
+          <div class="rounded-xl border border-border bg-card p-4">
+            <h3 class="font-heading text-sm font-semibold">{quadrant.label}</h3>
+            <p class="text-xs text-muted-foreground">{quadrant.blurb}</p>
+            <ul class="mt-3 flex flex-col gap-1.5 text-sm">
+              {quadrant.members.map((member) => (
+                <li>
+                  <a
+                    href={`/candidatos/${member.slug}`}
+                    class="flex items-center gap-2 rounded-md px-1 py-0.5 transition-colors hover:bg-muted"
+                  >
+                    <span class="size-2 shrink-0 rounded-full" style={`background:${candidateColor(member.compass.economic)}`} />
+                    <span class="truncate">{member.ballotName}</span>
+                    <span class="ml-auto font-mono text-xs text-muted-foreground tabular-nums">{member.number}</span>
+                  </a>
+                </li>
+              ))}
+              {quadrant.members.length === 0 && <li class="text-xs text-muted-foreground">Nenhum candidato.</li>}
+            </ul>
+          </div>
+        ))
+      }
+    </section>
+
+    <section class="mt-10">
+      <div class="mb-4 flex flex-wrap items-end justify-between gap-3">
+        <SectionHeading eyebrow="Coordenadas" title="Tabela completa" />
+        <LinkButton href="/comparar" variant="outline" size="sm">
+          Comparar candidatos →
+        </LinkButton>
+      </div>
+      <div class="overflow-x-auto rounded-xl border border-border bg-card">
+        <Table>
+          <TableHeader>
+            <TableRow>
+              <TableHead>Candidato</TableHead>
+              <TableHead>Partido</TableHead>
+              <TableHead className="text-right">Social</TableHead>
+              <TableHead className="text-right">Econômico</TableHead>
+              <TableHead>Confiança</TableHead>
+              <TableHead>Ficha</TableHead>
+            </TableRow>
+          </TableHeader>
+          <TableBody>
+            {
+              byEconomic.map((c) => (
+                <TableRow>
+                  <TableCell>
+                    <span class="flex items-center gap-2">
+                      <span class="size-2.5 rounded-full" style={`background:${candidateColor(c.compass.economic)}`} />
+                      <span class="font-medium">{c.ballotName}</span>
+                      <Badge variant="secondary" className="font-mono tabular-nums">
+                        {c.number}
+                      </Badge>
+                    </span>
+                  </TableCell>
+                  <TableCell className="text-muted-foreground">{c.party}</TableCell>
+                  <TableCell className="text-right font-mono tabular-nums">{formatScore(c.compass.social)}</TableCell>
+                  <TableCell className="text-right font-mono tabular-nums">{formatScore(c.compass.economic)}</TableCell>
+                  <TableCell>
+                    <Badge variant="outline">{c.compass.confidence}</Badge>
+                  </TableCell>
+                  <TableCell>
+                    <a
+                      href={`/candidatos/${c.slug}`}
+                      class="text-ctp-blue underline underline-offset-4 hover:text-foreground"
+                    >
+                      abrir
+                    </a>
+                  </TableCell>
+                </TableRow>
+              ))
+            }
+          </TableBody>
+        </Table>
+      </div>
+    </section>
+  </main>
+</BaseLayout>

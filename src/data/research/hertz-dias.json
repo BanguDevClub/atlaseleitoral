@@ -1,0 +1,126 @@
+{
+  "id": "hertz-dias",
+  "slug": "hertz-dias",
+  "name": "Hertz da Conceição Dias",
+  "ballotName": "HERTZ DIAS",
+  "number": 16,
+  "party": "PSTU",
+  "partyFullName": "Partido Socialista dos Trabalhadores Unificado",
+  "coalition": null,
+  "vice": { "name": "Vanessa Portugal", "party": "PSTU" },
+  "status": "Deferido",
+  "age": 55,
+  "occupation": "professor de história",
+  "headline": "Professor de história, rapper e ativista negro do Maranhão, disputa a Presidência pelo PSTU com um programa socialista e anti-imperialista para “um Brasil soberano e socialista”.",
+  "photo": "https://upload.wikimedia.org/wikipedia/commons/4/47/2026_HERTZ_DIAS_CANDIDATO_PRESIDENTE_TSE_%28280002541457%29.jpg",
+  "birth": { "city": "São José de Ribamar", "state": "Maranhão", "year": 1970 },
+  "politicalJourney": "Professor de História das redes pública estadual e municipal do Maranhão e militante do movimento negro, Hertz Dias é cofundador do Movimento Hip Hop Quilombo Urbano (1989) e vocalista do grupo de rap Gíria Vermelha. Pelo PSTU já disputou a vice-governadoria do Maranhão (2010), a vice-presidência na chapa de Vera Lúcia (2018, com 25.625 votos), a Prefeitura de São Luís (2020, 2.173 votos) e o governo do Maranhão (2022, 5.191 votos). Foi anunciado como pré-candidato presidencial em 24 de fevereiro de 2026, acompanhado do manifesto do partido “Por uma alternativa para romper as engrenagens do sistema capitalista”, e oficializado em 31 de julho, na convenção nacional do PSTU em São Paulo, com Vanessa Portugal como vice.",
+  "bio": [
+    "Hertz da Conceição Dias nasceu em São José de Ribamar, na Região Metropolitana de São Luís, é casado, licenciado em História e mestre em Educação, e atua como professor nas redes pública estadual e municipal do Maranhão.",
+    "Militante do movimento negro desde a juventude, participou da construção do Movimento Quilombo Urbano, uma das organizações de hip hop mais antigas do Brasil, e tem atuação cultural como rapper do Gíria Vermelha. No PSTU, tornou-se uma das referências do partido no Maranhão e integra a bancada presidencial de 2026, cuja campanha se apresenta como “alternativa socialista e de independência de classe diante da extrema-direita e do governo Lula”."
+  ],
+  "compass": {
+    "social": 7.0,
+    "economic": -9.5,
+    "confidence": "alta",
+    "rationale": "O programa de governo prevê a expropriação dos grandes monopólios e a estatização, sob controle dos trabalhadores, de empresas estratégicas como Vale, CSN e Petrobras 100%, além da suspensão do pagamento da dívida e da taxação de bilionários — o que o posiciona no extremo intervencionista do eixo econômico. No eixo social, o PSTU defende descriminalização das drogas, desmilitarização e unificação das polícias, direitos plenos para trabalhadores de aplicativos e pautas anticapitalistas e antirracistas, marcando posição progressista. A confiança é alta por haver programa detalhado, manifesto público e cinco disputas eleitorais anteriores do candidato pelo mesmo partido.",
+    "sources": [
+      { "title": "PSTU lança pré-candidatura de Hertz Dias para presidente", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/02/24/pstu-lanca-pre-candidatura-de-hertz-dias-para-presidente.ghtml", "date": "2026-02-24" },
+      { "title": "Hertz Dias defende taxar bilionários para financiar fim da escala 6x1", "publisher": "G1 Pernambuco", "url": "https://g1.globo.com/pe/pernambuco/eleicoes/2026/noticia/2026/09/11/hertz-dias-defende-taxar-bilionarios-para-financiar-fim-da-escala-6x1.ghtml", "date": "2026-09-11" },
+      { "title": "Vote 16 para virar a mesa do banquete dos poderosos", "publisher": "Opinião Socialista (jornal do PSTU)", "url": "https://opiniaosocialista.com.br/vote-16-para-virar-a-mesa-do-banquete-dos-poderosos/", "date": "2026-09-25" }
+    ]
+  },
+  "keyPositions": [
+    {
+      "topic": "Economia e tributos",
+      "stance": "Expropriação dos grandes monopólios capitalistas e estatização, sob controle dos trabalhadores, das empresas estratégicas — Vale, CSN e Petrobras 100% —, somada à taxação de bilionários e à suspensão do pagamento da dívida pública para financiar as propostas.",
+      "orientation": "esquerda",
+      "sources": [
+        { "title": "Vote 16 para virar a mesa do banquete dos poderosos", "publisher": "Opinião Socialista (jornal do PSTU)", "url": "https://opiniaosocialista.com.br/vote-16-para-virar-a-mesa-do-banquete-dos-poderosos/", "date": "2026-09-25" },
+        { "title": "Hertz Dias defende taxar bilionários para financiar fim da escala 6x1", "publisher": "G1 Pernambuco", "url": "https://g1.globo.com/pe/pernambuco/eleicoes/2026/noticia/2026/09/11/hertz-dias-defende-taxar-bilionarios-para-financiar-fim-da-escala-6x1.ghtml", "date": "2026-09-11" }
+      ]
+    },
+    {
+      "topic": "Trabalho e renda",
+      "stance": "Fim da escala 6x1 sem redução salarial, aumento geral dos salários rumo ao mínimo do Dieese (com proposta de alta de 100%), isenção de Imposto de Renda para assalariados, revogação das reformas trabalhista e previdenciária, fim da terceirização, concursos públicos e bolsa de um salário mínimo para desempregados.",
+      "orientation": "esquerda",
+      "sources": [
+        { "title": "PSTU lança pré-candidatura de Hertz Dias para presidente", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/02/24/pstu-lanca-pre-candidatura-de-hertz-dias-para-presidente.ghtml", "date": "2026-02-24" },
+        { "title": "Hertz Dias defende taxar bilionários para financiar fim da escala 6x1", "publisher": "G1 Pernambuco", "url": "https://g1.globo.com/pe/pernambuco/eleicoes/2026/noticia/2026/09/11/hertz-dias-defende-taxar-bilionarios-para-financiar-fim-da-escala-6x1.ghtml", "date": "2026-09-11" },
+        { "title": "Salário mínimo e aposentadoria: confira quais são as propostas dos candidatos a presidente", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/19/salario-minimo-e-aposentadoria-propostas-candidatos-presidente.ghtml", "date": "2026-09-19" }
+      ]
+    },
+    {
+      "topic": "Segurança pública",
+      "stance": "Desmilitarização da Polícia Militar, criação de uma força de segurança única e civil com câmeras corporais em todos os agentes, descriminalização das drogas e revogação da Lei Antidrogas e estímulo à auto-organização da população para garantir a própria segurança.",
+      "orientation": "esquerda",
+      "sources": [
+        { "title": "Combater facções, proteger mulheres e se inspirar em El Salvador: veja o que os candidatos à Presidência propõem para a segurança pública", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/24/propostas-candidatos-presidente-seguranca-publica.ghtml", "date": "2026-09-24" },
+        { "title": "PSTU lança pré-candidatura de Hertz Dias para presidente", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/02/24/pstu-lanca-pre-candidatura-de-hertz-dias-para-presidente.ghtml", "date": "2026-02-24" }
+      ]
+    },
+    {
+      "topic": "Educação",
+      "stance": "Defende a estatização da educação e a criação de um sistema único de educação pública, com valorização dos profissionais da área, dentro do programa de estatização geral da economia.",
+      "orientation": "esquerda",
+      "sources": [
+        { "title": "Hertz Dias, PSTU, fez campanha em BH", "publisher": "G1 / Jornal Nacional", "url": "https://g1.globo.com/jornal-nacional/video/hertz-dias-pstu-fez-campanha-em-bh-14992416.ghtml", "date": "2026-09-25" },
+        { "title": "Hertz Dias, candidato à Presidência pelo PSTU, faz campanha em Belo Horizonte", "publisher": "G1 / Jornal da Globo", "url": "https://g1.globo.com/jornal-da-globo/video/hertz-dias-candidato-a-presidencia-pelo-pstu-faz-campanha-em-belo-horizonte-14992592.ghtml", "date": "2026-09-25" }
+      ]
+    },
+    {
+      "topic": "Meio ambiente",
+      "stance": "Contrário à exploração de petróleo na Margem Equatorial e à privatização de hidrovias na Amazônia, combinando defesa ambiental com o argumento de soberania nacional sobre os recursos.",
+      "orientation": "esquerda",
+      "sources": [
+        { "title": "PSTU lança pré-candidatura de Hertz Dias para presidente", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/02/24/pstu-lanca-pre-candidatura-de-hertz-dias-para-presidente.ghtml", "date": "2026-02-24" }
+      ]
+    },
+    {
+      "topic": "Política externa",
+      "stance": "Programa anti-imperialista e socialista: romper com a subordinação do Brasil aos EUA e ao capital internacional, defender a autodeterminação dos povos e lutar por “um Brasil soberano e socialista”, em oposição tanto à extrema direita quanto ao governo Lula.",
+      "orientation": "esquerda",
+      "sources": [
+        { "title": "PSTU lança pré-candidatura de Hertz Dias para presidente", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/02/24/pstu-lanca-pre-candidatura-de-hertz-dias-para-presidente.ghtml", "date": "2026-02-24" },
+        { "title": "Vote 16 para virar a mesa do banquete dos poderosos", "publisher": "Opinião Socialista (jornal do PSTU)", "url": "https://opiniaosocialista.com.br/vote-16-para-virar-a-mesa-do-banquete-dos-poderosos/", "date": "2026-09-25" },
+        { "title": "Ativista do movimento negro e professor no Maranhão, Hertz Dias é anunciado como pré-candidato a presidente pelo PSTU", "publisher": "Bahia Notícias", "url": "https://www.bahianoticias.com.br/noticia/314174-ativista-do-movimento-negro-e-professor-no-maranhao-hertz-dias-e-anunciado-como-pre-candidato-a-presidente-pelo-pstu", "date": "2026-02-24" }
+      ]
+    },
+    {
+      "topic": "Direitos sociais",
+      "stance": "Direitos trabalhistas e proteção social garantidos para motoristas e entregadores de aplicativos, com criação de plataformas públicas controladas pelos próprios trabalhadores; isenção de Imposto de Renda para quem ganha até 10 salários mínimos e bolsa mensal de um salário mínimo para desempregados.",
+      "orientation": "esquerda",
+      "sources": [
+        { "title": "Hertz Dias defende taxar bilionários para financiar fim da escala 6x1", "publisher": "G1 Pernambuco", "url": "https://g1.globo.com/pe/pernambuco/eleicoes/2026/noticia/2026/09/11/hertz-dias-defende-taxar-bilionarios-para-financiar-fim-da-escala-6x1.ghtml", "date": "2026-09-11" },
+        { "title": "Salário mínimo e aposentadoria: confira quais são as propostas dos candidatos a presidente", "publisher": "G1", "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/19/salario-minimo-e-aposentadoria-propostas-candidatos-presidente.ghtml", "date": "2026-09-19" }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "quote": "Nós vamos revogar essa jornada de trabalho semiescrava. Isso geraria mais emprego, portanto, mais consumo e demanda por mais produção. A adequação do pequeno e do médio empresário virá justamente dos bilionários, daqueles que não pagam impostos. O Brasil, por ano, deixa de arrecadar quase R$ 1 trilhão, R$ 600 bilhões de isenção fiscal e quase R$ 400 bilhões de fraude fiscal. Então, serão os bilionários que irão bancar a adequação do pequeno e do médio empresário para o fim dessa escala de trabalho de 6 por 1",
+      "date": "2026-09-11",
+      "context": "Entrevista à TV Globo durante agenda eleitoral no Grande Recife, defendendo o fim da escala 6x1 financiado por tributação de bilionários.",
+      "source": { "title": "Hertz Dias defende taxar bilionários para financiar fim da escala 6x1", "publisher": "G1 Pernambuco", "url": "https://g1.globo.com/pe/pernambuco/eleicoes/2026/noticia/2026/09/11/hertz-dias-defende-taxar-bilionarios-para-financiar-fim-da-escala-6x1.ghtml", "date": "2026-09-11" }
+    },
+    {
+      "quote": "Terceirização significa precarização, significa baixos salários, significa péssima oferta de serviços públicos. Nós vamos acabar com a terceirização. Nós vamos fazer concursos públicos. Nós vamos incorporar os terceirizados e, para isso, nós vamos suspender o pagamento da dívida pública e nós vamos taxar os bilionários para fazer essa adequação, para que a gente possa ofertar serviços públicos de qualidade para a população",
+      "date": "2026-09-11",
+      "context": "Declaração à TV Globo sobre o fim da terceirização e o financiamento das propostas por suspensão da dívida e tributação de bilionários.",
+      "source": { "title": "Hertz Dias defende taxar bilionários para financiar fim da escala 6x1", "publisher": "G1 Pernambuco", "url": "https://g1.globo.com/pe/pernambuco/eleicoes/2026/noticia/2026/09/11/hertz-dias-defende-taxar-bilionarios-para-financiar-fim-da-escala-6x1.ghtml", "date": "2026-09-11" }
+    },
+    {
+      "quote": "São milhões de trabalhadores que acabam trabalhando em condições semiescravas para empresas de aplicativos estrangeiras. Nós vamos criar plataformas públicas que serão controladas por esses próprios trabalhadores, e a verba para a gente fazer isso virá das empresas estratégicas que nós vamos estatizar, pegar o excedente dessas empresas e investir no desenvolvimento de uma infraestrutura pública para desenvolver também os nossos próprios aplicativos",
+      "date": "2026-09-11",
+      "context": "Resposta sobre trabalhadores por aplicativos, em agenda no Recife.",
+      "source": { "title": "Hertz Dias defende taxar bilionários para financiar fim da escala 6x1", "publisher": "G1 Pernambuco", "url": "https://g1.globo.com/pe/pernambuco/eleicoes/2026/noticia/2026/09/11/hertz-dias-defende-taxar-bilionarios-para-financiar-fim-da-escala-6x1.ghtml", "date": "2026-09-11" }
+    },
+    {
+      "quote": "O grande desafio nosso apresentando esse programa é tentar fazer as conexões entre todos esses casos",
+      "date": "2026-07-31",
+      "context": "Trecho do discurso de oficialização da candidatura na convenção nacional do PSTU, em São Paulo, com críticas ao capitalismo, à desigualdade social e ao racismo.",
+      "source": { "title": "PSTU oficializa candidatura de Hertz Dias a presidente", "publisher": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/eleicoes/pstu-oficializa-candidatura-de-hertz-dias-a-presidente/", "date": "2026-08-01" }
+    }
+  ],
+  "scandals": []
+}

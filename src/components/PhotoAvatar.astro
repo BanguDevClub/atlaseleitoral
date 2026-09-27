@@ -1,0 +1,36 @@
+---
+/**
+ * Static avatar for non-hydrated pages: Base UI Avatar only mounts its <img> after
+ * hydration, so SSR-only pages use this native fallback-aware version instead.
+ */
+interface Props {
+  photo: string | null;
+  alt: string;
+  initials: string;
+  size?: number;
+  class?: string;
+}
+
+const { photo, alt, initials, size = 48, class: className } = Astro.props;
+---
+
+<span
+  class:list={['relative inline-block shrink-0 overflow-hidden rounded-full border border-border bg-muted', className]}
+  style={`width:${size}px;height:${size}px`}
+>
+  <span class="absolute inset-0 flex items-center justify-center font-semibold" style={`font-size:${Math.round(size / 3)}px`}>
+    {initials}
+  </span>
+  {
+    photo && (
+      <img
+        src={photo}
+        alt={alt}
+        loading="lazy"
+        decoding="async"
+        class="absolute inset-0 size-full object-cover"
+        onerror="this.remove()"
+      />
+    )
+  }
+</span>
