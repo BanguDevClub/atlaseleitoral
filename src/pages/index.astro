@@ -61,13 +61,19 @@ const stats = [
 ];
 ---
 
-<BaseLayout title="Atlas Eleitoral — Dashboard das Eleições Presidenciais de 2026">
+<BaseLayout
+  title="Atlas Eleitoral 2026 — Dashboard e Compasso das Eleições Presidenciais"
+  description="Atlas Eleitoral 2026: observatório cívico independente das eleições presidenciais do Brasil. Compasso político em dois eixos, comparação direta de propostas, pesquisas agregadas e fontes primárias verificadas do TSE."
+  keywords="eleições 2026, presidência da república brasil, candidatos presidenciais 2026, compasso político brasil, pesquisas eleitorais 2026, comparação de propostas, tse candidatos 2026"
+  image="/og-image.jpg"
+  imageAlt="Atlas Eleitoral 2026 — O mapa das eleições presidenciais do Brasil com fontes verificadas"
+>
   <main class="relative overflow-hidden">
     <!-- Hero Section -->
     <section class="relative border-b border-border/60 bg-ambient-glow transition-colors">
-      <div class="mx-auto grid max-w-7xl gap-12 px-4 py-16 sm:px-6 lg:grid-cols-[1.2fr_1fr] lg:items-center lg:py-24">
+      <div class="mx-auto grid max-w-7xl gap-8 px-4 py-12 sm:gap-12 sm:px-6 sm:py-16 lg:grid-cols-[1.2fr_1fr] lg:items-center lg:py-24">
         <!-- Hero Left Column -->
-        <div class="flex flex-col gap-6 animate-fade-in-up">
+        <div class="flex flex-col gap-5 sm:gap-6 animate-fade-in-up">
           <div class="flex items-center gap-2">
             <span class="inline-flex items-center gap-2 rounded-full border border-ctp-mauve/30 bg-ctp-mauve/10 px-3 py-1 text-xs font-semibold tracking-wider text-ctp-mauve uppercase">
               <span class="relative flex size-2">
@@ -78,7 +84,7 @@ const stats = [
             </span>
           </div>
 
-          <h1 class="font-heading text-4xl font-bold tracking-tight text-balance sm:text-5xl lg:text-6xl text-foreground">
+          <h1 class="font-heading text-3xl font-bold tracking-tight text-balance sm:text-5xl lg:text-6xl text-foreground">
             A disputa presidencial com <span class="bg-gradient-to-r from-ctp-mauve via-ctp-blue to-ctp-teal bg-clip-text text-transparent font-extrabold">fontes verificadas</span>, posições e contexto
           </h1>
 
@@ -86,11 +92,11 @@ const stats = [
             Cada coordenada e afirmação aponta para o registro primário: TSE, programas de governo, histórico parlamentar e cobertura apurada. Explore o compasso político de dois eixos, compare candidatos lado a lado e fiscalize as propostas.
           </p>
 
-          <div class="flex flex-wrap items-center gap-3 pt-2">
+          <div class="flex flex-wrap items-center gap-2.5 sm:gap-3 pt-2">
             <LinkButton
               href="/candidatos"
               size="lg"
-              className="shadow-md shadow-primary/20 hover:shadow-lg hover:shadow-primary/30 hover:-translate-y-0.5 transition-all duration-200"
+              className="w-full sm:w-auto justify-center shadow-md shadow-primary/20 hover:shadow-lg hover:shadow-primary/30 hover:-translate-y-0.5 transition-all duration-200"
             >
               Explorar candidatos
               <svg viewBox="0 0 24 24" class="size-4 ml-1" fill="none" stroke="currentColor" stroke-width="2">
@@ -102,7 +108,7 @@ const stats = [
               href="/compasso"
               variant="outline"
               size="lg"
-              className="border-border/80 hover:border-ctp-mauve/50 hover:bg-muted/80 hover:-translate-y-0.5 transition-all duration-200"
+              className="w-full sm:w-auto justify-center border-border/80 hover:border-ctp-mauve/50 hover:bg-muted/80 hover:-translate-y-0.5 transition-all duration-200"
             >
               <svg viewBox="0 0 24 24" class="size-4 mr-1 text-ctp-mauve" fill="none" stroke="currentColor" stroke-width="2">
                 <circle cx="12" cy="12" r="10"></circle>
@@ -115,7 +121,7 @@ const stats = [
               href="/comparar"
               variant="ghost"
               size="lg"
-              className="text-muted-foreground hover:text-foreground"
+              className="w-full sm:w-auto justify-center text-muted-foreground hover:text-foreground"
             >
               Comparar lado a lado →
             </LinkButton>
@@ -123,11 +129,11 @@ const stats = [
         </div>
 
         <!-- Hero Right Column: Stats Grid -->
-        <div class="grid grid-cols-2 gap-3 sm:gap-4 animate-fade-in-up [animation-delay:150ms]">
+        <div class="grid grid-cols-2 gap-2.5 sm:gap-4 animate-fade-in-up [animation-delay:150ms]">
           {
             stats.map((stat) => (
-              <div class="interactive-card glass-panel rounded-2xl p-5 border border-border/70 hover:border-ctp-mauve/40 transition-all duration-300">
-                <div class="mb-3 flex size-8 items-center justify-center rounded-xl bg-ctp-mauve/10 text-ctp-mauve">
+              <div class="interactive-card glass-panel rounded-2xl p-4 sm:p-5 border border-border/70 hover:border-ctp-mauve/40 transition-all duration-300">
+                <div class="mb-2.5 flex size-8 items-center justify-center rounded-xl bg-ctp-mauve/10 text-ctp-mauve">
                   {stat.icon === 'user-check' && (
                     <svg viewBox="0 0 24 24" class="size-4" fill="none" stroke="currentColor" stroke-width="2">
                       <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
@@ -159,11 +165,11 @@ const stats = [
                     </svg>
                   )}
                 </div>
-                <p class="font-mono text-2xl font-bold tracking-tight text-foreground tabular-nums sm:text-3xl">
+                <p class="font-mono text-lg font-bold tracking-tight text-foreground tabular-nums sm:text-2xl lg:text-3xl truncate">
                   {stat.value}
                 </p>
-                <p class="mt-1 text-sm font-semibold text-foreground/90">{stat.label}</p>
-                <p class="text-xs text-muted-foreground">{stat.hint}</p>
+                <p class="mt-1 text-xs sm:text-sm font-semibold text-foreground/90">{stat.label}</p>
+                <p class="text-[11px] sm:text-xs text-muted-foreground truncate">{stat.hint}</p>
               </div>
             ))
           }

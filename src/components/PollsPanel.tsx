@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Bar, BarChart, Rectangle, XAxis, YAxis } from 'recharts';
 import { BarChart3, Table as TableIcon } from 'lucide-react';
 import { ChartContainer, ChartTooltip, ChartTooltipContent, type ChartConfig } from '@/components/ui/chart';
@@ -50,6 +50,16 @@ function PollBarShape({ x = 0, y = 0, width = 0, height = 0, payload }: PollBarS
 
 function PollBars({ poll, people }: { poll: Poll; people: Record<string, PollPerson> }) {
   const [displayMode, setDisplayMode] = useState<'chart' | 'table'>('chart');
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(typeof window !== 'undefined' && window.innerWidth < 640);
+    };
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   const rows = poll.candidates
     .filter((entry) => people[entry.id])
@@ -64,7 +74,7 @@ function PollBars({ poll, people }: { poll: Poll; people: Record<string, PollPer
 
   const maxValue = Math.max(...rows.map((row) => row.value), 10);
   const config: ChartConfig = Object.fromEntries(rows.map((row) => [row.id, { label: row.name, color: row.fill }]));
-  const height = Math.max(220, rows.length * 40 + 48);
+  const height = Math.max(220, rows.length * (isMobile ? 36 : 40) + 48);
 
   return (
     <div className="flex flex-col gap-4">
@@ -111,7 +121,11 @@ function PollBars({ poll, people }: { poll: Poll; people: Record<string, PollPer
       {/* Main Content: Chart or Table */}
       {displayMode === 'chart' ? (
         <ChartContainer config={config} className="aspect-auto w-full" style={{ height }}>
-          <BarChart data={rows} layout="vertical" margin={{ top: 8, right: 64, bottom: 8, left: 4 }}>
+          <BarChart
+            data={rows}
+            layout="vertical"
+            margin={{ top: 8, right: isMobile ? 48 : 64, bottom: 8, left: isMobile ? 0 : 4 }}
+          >
             <XAxis
               type="number"
               domain={[0, maxValue * 1.15]}
@@ -122,17 +136,17 @@ function PollBars({ poll, people }: { poll: Poll; people: Record<string, PollPer
             <YAxis
               type="category"
               dataKey="name"
-              width={160}
+              width={isMobile ? 110 : 160}
               tickLine={false}
               axisLine={false}
               interval={0}
-              fontSize={12}
+              fontSize={isMobile ? 11 : 12}
             />
             <ChartTooltip
               content={<ChartTooltipContent />}
               cursor={{ fill: 'var(--muted)', opacity: 0.3 }}
             />
-            <Bar dataKey="value" shape={<PollBarShape />} barSize={22} animationDuration={600} />
+            <Bar dataKey="value" shape={<PollBarShape />} barSize={isMobile ? 18 : 22} animationDuration={600} />
           </BarChart>
         </ChartContainer>
       ) : (

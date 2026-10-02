@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
-import { Sun, Moon, Palette, Check, ChevronDown } from 'lucide-react';
-import { FLAVORS, isFlavorId, type FlavorId } from '@/lib/palette';
+import { Sun, Moon, Check, ChevronDown } from 'lucide-react';
+import { FLAVORS, type FlavorId } from '@/lib/palette';
 import { applyTheme, getCurrentFlavor, isDarkMode } from '@/lib/theme';
 
 export default function ThemeSwitcher() {

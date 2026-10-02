@@ -1,0 +1,33 @@
+{
+  "name": "Atlas Eleitoral 2026",
+  "short_name": "Atlas Eleitoral",
+  "description": "Dashboard e observatório das eleições presidenciais do Brasil de 2026 com compasso político, propostas e fontes verificadas.",
+  "start_url": "/atlaseleitoral/",
+  "scope": "/atlaseleitoral/",
+  "display": "standalone",
+  "background_color": "#090d16",
+  "theme_color": "#1e1e2e",
+  "lang": "pt-BR",
+  "orientation": "any",
+  "categories": ["news", "education", "politics"],
+  "icons": [
+    {
+      "src": "/atlaseleitoral/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/atlaseleitoral/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/atlaseleitoral/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

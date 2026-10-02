@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { SearchIcon, X, LayoutGrid, List, Sparkles } from 'lucide-react';
+import { SearchIcon, X, LayoutGrid, List } from 'lucide-react';
 import { Empty, EmptyContent, EmptyDescription, EmptyHeader, EmptyMedia, EmptyTitle } from '@/components/ui/empty';
 import { Input } from '@/components/ui/input';
 import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
@@ -95,10 +95,10 @@ export default function CandidateExplorer({ candidates }: { candidates: Candidat
         </div>
 
         {/* Filter Dropdowns & View Toggle */}
-        <div className="flex flex-wrap items-center gap-2">
+        <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:items-center">
           <Select value={party} onValueChange={(value) => setParty(value ?? 'all')}>
-            <SelectTrigger className="h-10 w-full sm:w-44 rounded-xl bg-card border-border/80" aria-label="Filtrar por partido">
-              <SelectValue>{(value) => (value === 'all' ? 'Todos os partidos' : value)}</SelectValue>
+            <SelectTrigger className="h-10 w-full sm:w-44 rounded-xl bg-card border-border/80 text-xs sm:text-sm" aria-label="Filtrar por partido">
+              <SelectValue>{(value) => (value === 'all' ? 'Todos partidos' : value)}</SelectValue>
             </SelectTrigger>
             <SelectContent>
               <SelectGroup>
@@ -113,7 +113,7 @@ export default function CandidateExplorer({ candidates }: { candidates: Candidat
           </Select>
 
           <Select value={sort} onValueChange={(value) => setSort(value as SortLabel)}>
-            <SelectTrigger className="h-10 w-full sm:w-52 rounded-xl bg-card border-border/80" aria-label="Ordenar candidatos">
+            <SelectTrigger className="h-10 w-full sm:w-52 rounded-xl bg-card border-border/80 text-xs sm:text-sm" aria-label="Ordenar candidatos">
               <SelectValue />
             </SelectTrigger>
             <SelectContent>
@@ -156,13 +156,13 @@ export default function CandidateExplorer({ candidates }: { candidates: Candidat
       </div>
 
       {/* Spectrum Quick-Filter Chips */}
-      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-border/60 pb-3">
-        <div className="flex flex-wrap items-center gap-1.5 text-xs">
-          <span className="text-muted-foreground mr-1 text-[11px] font-semibold uppercase tracking-wider">Espectro:</span>
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 border-b border-border/60 pb-3">
+        <div className="-mx-4 px-4 sm:mx-0 sm:px-0 flex items-center gap-1.5 overflow-x-auto scrollbar-none text-xs pb-1 sm:pb-0">
+          <span className="text-muted-foreground mr-1 text-[11px] font-semibold uppercase tracking-wider shrink-0">Espectro:</span>
           <button
             type="button"
             onClick={() => setSpectrum('all')}
-            className={`rounded-full px-3 py-1 font-medium transition-all ${
+            className={`shrink-0 rounded-full px-3 py-1 font-medium transition-all ${
               spectrum === 'all'
                 ? 'bg-foreground text-background shadow-xs'
                 : 'bg-muted/60 text-muted-foreground hover:bg-muted hover:text-foreground'
@@ -173,7 +173,7 @@ export default function CandidateExplorer({ candidates }: { candidates: Candidat
           <button
             type="button"
             onClick={() => setSpectrum('left')}
-            className={`rounded-full px-3 py-1 font-medium transition-all ${
+            className={`shrink-0 rounded-full px-3 py-1 font-medium transition-all ${
               spectrum === 'left'
                 ? 'bg-ctp-red text-ctp-base shadow-xs'
                 : 'bg-muted/60 text-muted-foreground hover:bg-muted hover:text-foreground'
@@ -184,7 +184,7 @@ export default function CandidateExplorer({ candidates }: { candidates: Candidat
           <button
             type="button"
             onClick={() => setSpectrum('center')}
-            className={`rounded-full px-3 py-1 font-medium transition-all ${
+            className={`shrink-0 rounded-full px-3 py-1 font-medium transition-all ${
               spectrum === 'center'
                 ? 'bg-ctp-mauve text-ctp-base shadow-xs'
                 : 'bg-muted/60 text-muted-foreground hover:bg-muted hover:text-foreground'
@@ -195,7 +195,7 @@ export default function CandidateExplorer({ candidates }: { candidates: Candidat
           <button
             type="button"
             onClick={() => setSpectrum('right')}
-            className={`rounded-full px-3 py-1 font-medium transition-all ${
+            className={`shrink-0 rounded-full px-3 py-1 font-medium transition-all ${
               spectrum === 'right'
                 ? 'bg-ctp-blue text-ctp-base shadow-xs'
                 : 'bg-muted/60 text-muted-foreground hover:bg-muted hover:text-foreground'
@@ -205,7 +205,7 @@ export default function CandidateExplorer({ candidates }: { candidates: Candidat
           </button>
         </div>
 
-        <p className="text-xs font-medium text-muted-foreground" role="status">
+        <p className="text-xs font-medium text-muted-foreground shrink-0" role="status">
           <span className="font-bold text-foreground">{visible.length}</span> de {candidates.length} candidatos
         </p>
       </div>

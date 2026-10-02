@@ -1,6 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <circle cx="16" cy="16" r="14" fill="#1e1e2e"/>
-  <circle cx="16" cy="16" r="13" fill="none" stroke="#cba6f7" stroke-width="1.5"/>
-  <path d="M16 4.5 18.4 13.6 27.5 16 18.4 18.4 16 27.5 13.6 18.4 4.5 16 13.6 13.6Z" fill="#cba6f7"/>
-  <circle cx="16" cy="16" r="2.4" fill="#1e1e2e"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="atlasBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181825"/>
+      <stop offset="100%" stop-color="#0e111a"/>
+    </linearGradient>
+    <linearGradient id="atlasRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cba6f7"/>
+      <stop offset="50%" stop-color="#89b4fa"/>
+      <stop offset="100%" stop-color="#a6e3a1"/>
+    </linearGradient>
+    <linearGradient id="starV" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#cba6f7"/>
+      <stop offset="100%" stop-color="#89b4fa"/>
+    </linearGradient>
+    <linearGradient id="starH" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a6e3a1"/>
+      <stop offset="100%" stop-color="#89dceb"/>
+    </linearGradient>
+    <linearGradient id="brCenter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a6e3a1"/>
+      <stop offset="100%" stop-color="#009c3b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded App Tile Container -->
+  <rect width="64" height="64" rx="16" fill="url(#atlasBg)"/>
+  <rect width="64" height="64" rx="16" fill="none" stroke="url(#atlasRing)" stroke-width="2" stroke-opacity="0.8"/>
+
+  <!-- Orbital Compass Dotted Ring -->
+  <circle cx="32" cy="32" r="23" fill="none" stroke="#6c7086" stroke-width="1.2" stroke-dasharray="2 3" opacity="0.6"/>
+  <circle cx="32" cy="32" r="20" fill="none" stroke="url(#atlasRing)" stroke-width="1.5" stroke-opacity="0.4"/>
+
+  <!-- Compass Crosshairs -->
+  <line x1="32" y1="8" x2="32" y2="56" stroke="#6c7086" stroke-width="1" stroke-opacity="0.5"/>
+  <line x1="8" y1="32" x2="56" y2="32" stroke="#6c7086" stroke-width="1" stroke-opacity="0.5"/>
+
+  <!-- Minor 4-Point Sub-Star -->
+  <polygon points="32,15 36,28 49,32 36,36 32,49 28,36 15,32 28,28" fill="#fab387" opacity="0.35"/>
+
+  <!-- Diagonal Compass Points -->
+  <polygon points="32,32 44,20 32,27" fill="#89dceb" opacity="0.7"/>
+  <polygon points="32,32 44,44 27,32" fill="#89b4fa" opacity="0.7"/>
+  <polygon points="32,32 20,44 32,37" fill="#a6e3a1" opacity="0.7"/>
+  <polygon points="32,32 20,20 37,32" fill="#cba6f7" opacity="0.7"/>
+
+  <!-- Major 8-Point Compass Star -->
+  <!-- North Point (White/Mauve) -->
+  <polygon points="32,7 35.5,27 32,32" fill="#ffffff"/>
+  <polygon points="32,7 28.5,27 32,32" fill="#cba6f7"/>
+
+  <!-- South Point (Mauve/Blue) -->
+  <polygon points="32,57 35.5,37 32,32" fill="#89b4fa"/>
+  <polygon points="32,57 28.5,37 32,32" fill="#b4befe"/>
+
+  <!-- East Point (Teal/Green) -->
+  <polygon points="57,32 37,28.5 32,32" fill="#94e2d5"/>
+  <polygon points="57,32 37,35.5 32,32" fill="#a6e3a1"/>
+
+  <!-- West Point (Gold/Peach) -->
+  <polygon points="7,32 27,28.5 32,32" fill="#f9e2af"/>
+  <polygon points="7,32 27,35.5 32,32" fill="#fab387"/>
+
+  <!-- Central Inner Bezel -->
+  <circle cx="32" cy="32" r="7" fill="#181825" stroke="#f9e2af" stroke-width="1.6"/>
+  <!-- Central Brazil Gold & Green Badge Dot -->
+  <circle cx="32" cy="32" r="4.5" fill="url(#brCenter)"/>
+  <polygon points="32,29 35,32 32,35 29,32" fill="#f9e2af"/>
+  <circle cx="32" cy="32" r="1.5" fill="#1e66f5"/>
 </svg>

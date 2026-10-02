@@ -86,18 +86,24 @@ export default function CompassMap({ candidates }: { candidates: CompassPoint[] 
         </div>
 
         {/* Live Coordinate Crosshair HUD */}
-        <div className="flex min-h-7 items-center justify-center text-xs">
+        <div className="flex min-h-8 items-center justify-center text-xs px-2">
           {hoveredCandidate ? (
-            <div className="inline-flex items-center gap-2.5 rounded-full border border-border/80 bg-card px-3.5 py-1 text-xs font-mono font-medium animate-fade-in text-foreground shadow-xs">
+            <div className="inline-flex flex-wrap items-center justify-center gap-2 rounded-full border border-border/80 bg-card px-3.5 py-1 text-xs font-mono font-medium animate-fade-in text-foreground shadow-xs">
               <span className="font-bold text-sm text-foreground">{hoveredCandidate.ballotName}</span>
               <span className="text-muted-foreground/60">·</span>
               <span className="font-semibold text-primary">Social: {formatScore(hoveredCandidate.social)}</span>
               <span className="text-muted-foreground/60">·</span>
               <span className="font-semibold text-chart-1">Econômico: {formatScore(hoveredCandidate.economic)}</span>
+              <a
+                href={url(`/candidatos/${hoveredCandidate.slug}`)}
+                className="text-xs font-semibold text-ctp-mauve hover:text-foreground underline underline-offset-2 ml-1"
+              >
+                Abrir ficha →
+              </a>
             </div>
           ) : (
-            <span className="text-muted-foreground/80 text-[11px]">
-              Passe o cursor sobre qualquer candidato para inspecionar os eixos
+            <span className="text-muted-foreground/80 text-[11px] text-center">
+              Passe o cursor ou toque em qualquer candidato para inspecionar os eixos
             </span>
           )}
         </div>
@@ -326,6 +332,12 @@ export default function CompassMap({ candidates }: { candidates: CompassPoint[] 
                         onMouseLeave={() => setHoveredCandidate(null)}
                         onFocus={() => setHoveredCandidate(c)}
                         onBlur={() => setHoveredCandidate(null)}
+                        onClick={(e) => {
+                          if (hoveredCandidate?.id !== c.id) {
+                            e.preventDefault();
+                            setHoveredCandidate(c);
+                          }
+                        }}
                         className={`absolute z-10 flex size-8 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border-2 font-mono text-[11px] font-bold shadow-md transition-all duration-300 outline-none hover:z-30 hover:scale-125 focus-visible:z-30 focus-visible:scale-125 focus-visible:ring-2 focus-visible:ring-ring ${
                           isFiltered ? 'opacity-100' : 'opacity-20 scale-90 pointer-events-none'
                         } ${isHovered ? 'ring-4 ring-ctp-mauve/40 scale-125 z-30' : ''}`}

@@ -3,7 +3,6 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import SectionHeading from '@/components/SectionHeading.astro';
 import SourceChip from '@/components/SourceChip';
 import { Badge } from '@/components/ui/badge';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import { electionFacts } from '@/lib/candidates';
 import { ORIENTATION_COLOR } from '@/components/OrientationBadge';
@@ -61,10 +60,12 @@ const sections = [
 ---
 
 <BaseLayout
-  title="Metodologia Editorial | Atlas Eleitoral"
-  description="Critérios de pesquisa, catalogação de fontes primárias e metodologia de classificação no compasso político de dois eixos."
+  title="Metodologia Editorial e Critérios de Apuração | Atlas Eleitoral"
+  description="Conheça os critérios técnicos, catalogação de fontes primárias do TSE e fundamentação do modelo bidimensional do compasso político brasileiro."
+  keywords="metodologia eleitoral, fontes primárias tse, critérios compasso político, apuração checagem fatos eleições brasil, transparência política, dados públicos brasil"
+  image="/og-image.jpg"
 >
-  <main class="mx-auto max-w-4xl px-4 py-12 sm:px-6">
+  <main class="mx-auto max-w-4xl px-4 py-8 sm:py-12 sm:px-6">
     <div class="mb-8">
       <SectionHeading
         eyebrow="Transparência e Rigor"

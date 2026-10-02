@@ -97,7 +97,12 @@ export default function CompareTool({ candidates }: { candidates: CompareCandida
 
   const renderRow = (label: string, cells: ReactNode[], rowIndex: number) => (
     <div key={label} className="contents">
-      <div className={cn(cellClass(rowIndex), 'text-xs font-bold tracking-wider text-muted-foreground uppercase')}>
+      <div
+        className={cn(
+          cellClass(rowIndex),
+          'sticky left-0 z-10 bg-card/98 text-xs font-bold tracking-wider text-foreground uppercase border-r border-border/80 backdrop-blur-xs shadow-xs',
+        )}
+      >
         {label}
       </div>
       {cells.map((cell, i) => (
@@ -243,15 +248,27 @@ export default function CompareTool({ candidates }: { candidates: CompareCandida
           Selecione ao menos dois candidatos acima para montar o painel comparativo lado a lado.
         </div>
       ) : (
-        <div className="overflow-x-auto rounded-2xl border border-border/80 bg-card shadow-sm">
-          <div
-            className="grid min-w-[860px]"
-            style={{ gridTemplateColumns: `170px repeat(${chosen.length}, minmax(220px, 1fr))` }}
-          >
-            {/* Header Sticky Row */}
-            <div className="sticky top-0 z-20 bg-muted/60 p-4 text-xs font-bold tracking-wider text-muted-foreground uppercase backdrop-blur-md">
-              Critério
-            </div>
+        <div className="flex flex-col gap-2">
+          {/* Mobile Swipe Hint */}
+          <div className="flex items-center justify-between px-2 text-xs text-muted-foreground sm:hidden">
+            <span className="flex items-center gap-1.5 font-medium text-ctp-mauve">
+              <svg viewBox="0 0 24 24" className="size-3.5 animate-pulse" fill="none" stroke="currentColor" strokeWidth={2}>
+                <path d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+              Deslize para ver os candidatos lado a lado
+            </span>
+            <span className="font-mono text-[11px]">{chosen.length} comparados</span>
+          </div>
+
+          <div className="overflow-x-auto rounded-2xl border border-border/80 bg-card shadow-sm scrollbar-thin">
+            <div
+              className="grid min-w-[860px]"
+              style={{ gridTemplateColumns: `170px repeat(${chosen.length}, minmax(220px, 1fr))` }}
+            >
+              {/* Header Sticky Row */}
+              <div className="sticky top-0 left-0 z-30 bg-muted/95 p-4 text-xs font-bold tracking-wider text-foreground uppercase backdrop-blur-md border-r border-border/80 shadow-xs">
+                Critério
+              </div>
             {chosen.map((c) => (
               <div key={c.id} className="sticky top-0 z-20 bg-muted/60 p-4 backdrop-blur-md">
                 <div className="flex items-center gap-3">
@@ -281,7 +298,8 @@ export default function CompareTool({ candidates }: { candidates: CompareCandida
             {rows.map((row, rowIndex) => renderRow(row.label, row.cells, rowIndex + 1))}
           </div>
         </div>
-      )}
-    </div>
+      </div>
+    )}
+  </div>
   );
 }
